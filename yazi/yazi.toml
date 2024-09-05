@@ -1,0 +1,45 @@
+editor="nvim"
+[opener]
+edit = [
+	{ run = 'nvim "$@"', block = true, for = "unix" },
+]
+
+[colors]
+# 主要背景和前景色
+background = "#282828"
+foreground = "#ebdbb2"
+
+# 文件类型颜色
+directory = "#b8bb26"
+symlink = "#fb4934"
+executable = "#fabd2f"
+
+# 界面元素
+cursor = "#d65d0e"
+selection = "#504945"
+current_line = "#3c3836"
+
+# 状态栏
+status_bg = "#3c3836"
+status_fg = "#ebdbb2"
+
+# 边框
+border = "#504945"
+
+# 其他元素
+preview_bg = "#1d2021"
+preview_fg = "#ebdbb2"
+
+# 语法高亮（如果支持的话）
+syntax = [
+    "#fb4934",  # 红
+    "#b8bb26",  # 绿
+    "#fabd2f",  # 黄
+    "#83a598",  # 蓝
+    "#d3869b",  # 紫
+    "#8ec07c",  # 青
+    "#fe8019",  # 橙
+]
+
+[style]
+# 可以在这里添加额外的样式设置
