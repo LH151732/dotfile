@@ -1,7 +1,21 @@
-# 🔧nessesary pack:
+# 🔧Necessary pack:
+
+I thought you should know before I let you download it:
+
+## skhd
+
+      skhd is a simple hotkey daemon for macOS that allows you to define global and application-specific keyboard shortcuts. It is highly customizable and is often used in conjunction with window managers like yabai to enhance productivity by providing quick and efficient keyboard navigation.
+
+## yabai
+
+      yabai is a tiling window manager for macOS that makes it possible to control and manage application windows with a high degree of customization and flexibility. It allows users to arrange windows automatically in various layouts, similar to tiling window managers on Linux, and is designed to be scriptable and integrated with other tools like skhd.
+
+## sketchybar
+
+      sketchybar is a customizable status bar for macOS that provides a highly configurable and scriptable interface to display information like system stats, application notifications, and more. It’s designed to be minimal and lightweight, allowing users to tailor the bar to fit their workflow and aesthetic preferences.
 
 ```bash
-    brew install fd ripgrep eza lua yabai skhd
+    brew install lua yabai skhd
 ```
 
 ## sketchybar:
@@ -18,7 +32,7 @@
 
 iTerm 2 -- optional
 
-## fots
+## fonts
 
 ```bash
     cd dotfile
@@ -34,6 +48,8 @@ iTerm 2 -- optional
    git clone https://github.com/narugit/smctemp
    cd smctemp
    sudo make install
+   cd ..
+   sudo rm -rf smctemp
 ```
 
 # 📖MakeInstall
@@ -43,13 +59,12 @@ iTerm 2 -- optional
     make
 ```
 
-# 🎯config setiing
+# 🎯config setting
 
-folder goes to '~/.config'
-file goes to '~/'with a '.':
+cd into dotfile and run the shell script,it will ask you if you want to overwrite your local config, only for yabai & skhd & sketchybar:
 
 ```bash
-   cp skhdrc ~/.skhdrc
+   ./config.sh
 ```
 
 # ⭐Using
@@ -79,7 +94,7 @@ or you can use 'htop' 'top' 'btop' to find and kill the process
 # 🌟Additional
 
 1. lazynvim's symbol only works on nerdfonts > V3.0, same for yazi
-2. remeber to hide MacOs bar
+2. remember to hide MacOs bar
    ![Local Image](./MacBar.png "Example of how")
 3. I am using 4K Dynamic Wallpaper
    ![Local Image](./Wallpaper.png "My Wallpaper")
