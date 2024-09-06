@@ -80,9 +80,9 @@ or you can use 'htop' 'top' 'btop' to find and kill the process
 
 1. lazynvim's symbol only works on nerfonts > V3.0, same for yazi
 2. remeber to hide MacOs bar
-   ![Local Image](./MacBar.png.png "Example of how")
+   ![Local Image](./MacBar.png "Example of how")
 3. I am using 4K Dynamic Wallpaper
-   ![Local Image](./Wallpaper.png.png "My Wallpaper")
+   ![Local Image](./Wallpaper.png. "My Wallpaper")
 4. The Font I am Using is "Terminess Nerd Font Mono"
 5. I highly recommend adjusting the transparency of iTerm.
    ![Local Image](./ITerm.png "My ITerm")
