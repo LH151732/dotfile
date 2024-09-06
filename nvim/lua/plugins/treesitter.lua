@@ -15,6 +15,7 @@ return {
       "vim",
       "lua",
     },
+    ignore_install = { "printf", "xml" },
     query_linter = {
       enable = true,
       use_virtual_text = true,
