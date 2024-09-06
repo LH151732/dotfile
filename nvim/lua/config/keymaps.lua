@@ -22,6 +22,9 @@ keymap.set("n", "<s-tab>", ":tabprev<Return>")
 keymap.set("n", "tw", ":tabclose<Return>")
 
 -- Split window
+keymap.set({ "n", "i" }, "<F2>", function()
+  vim.cmd("Glow")
+end, { noremap = true, silent = true })
 keymap.set({ "n", "i" }, "<F4>", '<Cmd>exe winheight(0)/3 . "split" | term<CR>')
 keymap.set({ "n", "i" }, "<F3>", '<Cmd>exe winwidth(0)/2 . "vsplit" | term<CR>')
 keymap.set({ "n", "i" }, "<F5>", '<Cmd>exe winheight(0)/3 . "split" | term python %<CR>')
