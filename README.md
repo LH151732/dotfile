@@ -78,7 +78,7 @@ or you can use 'htop' 'top' 'btop' to find and kill the process
 
 # 🌟Additional
 
-1. lazynvim's symbol only works on nerfonts > V3.0, same for yazi
+1. lazynvim's symbol only works on nerdfonts > V3.0, same for yazi
 2. remeber to hide MacOs bar
    ![Local Image](./MacBar.png "Example of how")
 3. I am using 4K Dynamic Wallpaper
