@@ -2,6 +2,16 @@
 
 I thought you should know before I let you download it:
 
+`````````
+　 　　/ﾞﾐヽ､,,_\_\_,,／ﾞヽ
+　 　　i ノ　　 川　 ｀ヽ
+　 　　/　｀　◉　 ．◉ i､
+　 　彡,　　 ミ(_,人\_)彡ミ
+∩, 　/　ヽ､,　　 　　　ノ
+丶ニ|　　　 ````````´　ﾉ
+　　∪⌒∪￣￣￣∪
+`````````
+
 ## skhd
 
       skhd is a simple hotkey daemon for macOS that allows you to define global and application-specific keyboard shortcuts. It is highly customizable and is often used in conjunction with window managers like yabai to enhance productivity by providing quick and efficient keyboard navigation.
@@ -36,9 +46,6 @@ iTerm 2 -- optional
 
 ```bash
     cd dotfile
-```
-
-```bash
     ./font.sh
 ```
 
@@ -102,13 +109,3 @@ or you can use 'htop' 'top' 'btop' to find and kill the process
 5. I highly recommend adjusting the transparency of iTerm.
    ![Local Image](./ITerm.png "My ITerm")
 6. If you are good at CSS, I recommend to try "Arc Browser"
-
-`````````
-　 　　/ﾞﾐヽ､,,_\_\_,,／ﾞヽ
-　 　　i ノ　　 川　 ｀ヽ
-　 　　/　｀　◉　 ．◉ i､
-　 　彡,　　 ミ(_,人\_)彡ミ
-∩, 　/　ヽ､,　　 　　　ノ
-丶ニ|　　　 ````````´　ﾉ
-　　∪⌒∪￣￣￣∪
-`````````
