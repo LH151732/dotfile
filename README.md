@@ -10,7 +10,6 @@ I thought you should know before I let you download it:
 ∩, 　/　ヽ､,　　 　　　ノ
 丶ニ|　　　 ````````´　ﾉ
 　　∪⌒∪￣￣￣∪
-`````````
 
 ## skhd
 
@@ -23,6 +22,7 @@ I thought you should know before I let you download it:
 ## sketchybar
 
       sketchybar is a customizable status bar for macOS that provides a highly configurable and scriptable interface to display information like system stats, application notifications, and more. It’s designed to be minimal and lightweight, allowing users to tailor the bar to fit their workflow and aesthetic preferences.
+`````````
 
 ## Let's download it:
 
