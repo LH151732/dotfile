@@ -22,8 +22,8 @@ alt - d : yabai -m window --resize right:20:0   # 增加窗口宽度
 # 全屏
 alt - f : yabai -m window --toggle zoom-fullscreen
 
-# 移动窗口到上一个桌面
-ctrl - up : yabai -m window --space prev; yabai -m space --focus prev
+# 修改后的配置：移动正在聚焦的窗口到上一个桌面并聚焦它
+ctrl - up : yabai -m window --space prev && yabai -m window --focus
 
-# 移动窗口到下一个桌面
-ctrl - down : yabai -m window --space next; yabai -m space --focus next
+# 修改后的配置：移动正在聚焦的窗口到下一个桌面并聚焦它
+ctrl - down : yabai -m window --space next && yabai -m window --focus
