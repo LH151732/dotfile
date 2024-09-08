@@ -54,4 +54,4 @@ export EDITOR=nvim
 # 进入路径后自动ls
 cd() {
     builtin cd "$@" && ls
-
+}
