@@ -1,10 +1,17 @@
 #!bin/zsh
 neofetch
+start_if_not_running() {
+    if ! pgrep -x "$1" > /dev/null; then
+        nohup "$1" > /dev/null 2>&1 &
+    fi
+}
 
+start_if_not_running "yabai"
+start_if_not_running "skhd"
+start_if_not_running "sketchybar"
 export PATH="/opt/homebrew/bin:$PATH"
-export PATH="/usr/local/texlive/2024/bin/universal-darwin:$PATH"
-export TCL_LIBRARY="/opt/homebrew/opt/tcl-tk/lib"
-export TK_LIBRARY="/opt/homebrew/opt/tcl-tk/lib"
+export LDFLAGS="-L/opt/homebrew/lib"
+export CPPFLAGS="-I/opt/homebrew/include"
 export EDITOR=nvim
 
 precmd() {
@@ -30,6 +37,10 @@ alias la='eza -a --icons'
 alias ll='eza -al --icons'
 alias lt='eza -a --tree --level=1 --icons'
 alias p='python'
+alias python='python3'
+alias pip='pip3'
+alias libtoolize='glibtoolize'
+
 
 # Custom commands
 alias shutdown='systemctl poweroff'
@@ -43,4 +54,4 @@ export EDITOR=nvim
 # 进入路径后自动ls
 cd() {
     builtin cd "$@" && ls
-}
+
