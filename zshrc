@@ -9,6 +9,7 @@ start_if_not_running() {
 start_if_not_running "yabai"
 start_if_not_running "skhd"
 start_if_not_running "sketchybar"
+export PATH="$HOME/.local/bin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/lib"
 export CPPFLAGS="-I/opt/homebrew/include"
@@ -41,17 +42,32 @@ alias python='python3'
 alias pip='pip3'
 alias libtoolize='glibtoolize'
 
-
 # Custom commands
-alias shutdown='systemctl poweroff'
+alias poweroff='shutdown -h now'
 alias v='$EDITOR'
 alias nano='$EDITOR'
 alias n='$EDITOR'
 alias vim='$EDITOR'
 export EDITOR=nvim
 
-
-# 进入路径后自动ls
+# Auto ls after cd
 cd() {
     builtin cd "$@" && ls
 }
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# Java Home Path for JDK 22 deault
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home
+export PATH="$JAVA_HOME/bin:$PATH"
+
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# Auto command suggestion
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#FFE6F2, bold'
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsho
+
+# Syntax highlighting
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
