@@ -27,3 +27,9 @@ ctrl - up : yabai -m window --space prev && yabai -m window --focus
 
 # 修改后的配置：移动正在聚焦的窗口到下一个桌面并聚焦它
 ctrl - down : yabai -m window --space next && yabai -m window --focus
+
+# Alt + X 切换到下一个显示器
+alt - x : yabai -m display --focus next
+
+# Alt + Z 切换到上一个显示器
+alt - z : yabai -m display --focus prev
