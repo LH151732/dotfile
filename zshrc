@@ -33,17 +33,18 @@ export CLICOLOR=1
 
 # General
 alias c='clear'
+alias h='hisyory'
+alias q='exit'
+alias r='reset'
 alias ls='eza --icons'
 alias la='eza -a --icons'
 alias ll='eza -al --icons'
 alias lt='eza -a --tree --level=1 --icons'
 alias p='python'
-alias python='python3'
-alias pip='pip3'
 alias libtoolize='glibtoolize'
 
 # Custom commands
-alias poweroff='shutdown -h now'
+alias poweroff='sudo shutdown -h now'
 alias v='$EDITOR'
 alias nano='$EDITOR'
 alias n='$EDITOR'
@@ -63,11 +64,14 @@ export SDKMAN_DIR="$HOME/.sdkman"
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home
 export PATH="$JAVA_HOME/bin:$PATH"
 
+# Rust Path
 export PATH="$HOME/.cargo/bin:$PATH"
 
 # Auto command suggestion
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#FFE6F2, bold'
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsho
+source /Users/owo/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Syntax highlighting
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+ZSH_HIGHLIGHT_STYLES[path]=none
+ZSH_HIGHLIGHT_STYLES[path_prefix]=none
