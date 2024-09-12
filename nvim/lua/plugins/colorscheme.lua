@@ -19,6 +19,10 @@ return {
         functions = {},
         variables = {},
       },
+      -- 自定义高亮设置
+      on_highlights = function(hl, c)
+        hl.Comment = { fg = "#FFB7C5", italic = true } -- 樱粉色注释
+      end,
     },
     config = function(_, opts)
       require("tokyonight").setup(opts)
