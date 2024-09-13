@@ -1,26 +1,35 @@
 return {
-  -- Copilot 插件配置
   {
     "zbirenbaum/copilot.lua",
+    cmd = "Copilot",
     event = "InsertEnter",
+    build = ":Copilot auth",
     opts = {
       suggestion = {
-        enabled = true, -- 启用 Copilot 建议
-        auto_trigger = false, -- 禁用自动触发补全
-        debounce = 150, -- 设置建议更新的延迟
+        enabled = true,
+        auto_trigger = true,
+        debounce = 75,
         keymap = {
-          accept = false, -- 禁用 <Tab> 键接受建议
+          accept = "<Tab>",
+          accept_word = false,
+          accept_line = false,
+          next = "<M-]>",
+          prev = "<M-[>",
+          dismiss = "<C-]>",
         },
       },
-      panel = {
-        enabled = false, -- 禁用 Copilot 面板弹窗
+      panel = { enabled = false },
+      filetypes = {
+        markdown = true,
+        help = true,
+        -- 可以在这里添加更多文件类型
       },
     },
+    config = function(_, opts)
+      require("copilot").setup(opts)
+      -- 设置 Copilot 建议的颜色为灰色
+      vim.api.nvim_set_hl(0, "CopilotSuggestion", { fg = "#777777" })
+    end,
   },
-
-  -- 禁用 copilot-cmp 插件
-  {
-    "zbirenbaum/copilot-cmp",
-    enabled = false,
-  },
+  { "zbirenbaum/copilot-cmp", enabled = false },
 }
