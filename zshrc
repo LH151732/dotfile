@@ -43,6 +43,12 @@ alias lt='eza -a --tree --level=1 --icons'
 alias p='python'
 alias libtoolize='glibtoolize'
 
+mdpdf() {
+    input_file="$1"
+    output_file="${input_file%.*}.pdf"
+    pandoc "$input_file" -o "$output_file" --pdf-engine=xelatex --toc
+}
+
 # Custom commands
 alias poweroff='sudo shutdown -h now'
 alias v='$EDITOR'
@@ -85,3 +91,5 @@ function y() {
   rm -f -- "$tmp"
 }
 
+
+export PATH="/Library/TeX/texbin:$PATH"
