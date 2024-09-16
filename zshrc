@@ -1,5 +1,9 @@
-#!bin/zsh
+#!/bin/zsh
+
+# System Info
 neofetch
+
+# Functions
 start_if_not_running() {
     if ! pgrep -x "$1" > /dev/null; then
         nohup "$1" > /dev/null 2>&1 &
@@ -9,79 +13,74 @@ start_if_not_running() {
 start_if_not_running "yabai"
 start_if_not_running "skhd"
 start_if_not_running "sketchybar"
+
+# Environment Variables
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/Library/TeX/texbin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/lib"
 export CPPFLAGS="-I/opt/homebrew/include"
 export EDITOR=nvim
-
-precmd() {
-  print
-}
-
-# 设置自定义命令提示符
-PROMPT='
-┌───[%n:%m] - %~ 
-│  
-└─%# '
-
-# 设置窗口标题
-recmd () { print -Pn "\e]2;OWO@WORKING..: %~\a" }
-
-# 启用颜色支持
 export CLICOLOR=1
 
-# General
+# SDKMAN
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# Zsh Plugins
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#FFE6F2, bold'
+source /Users/owo/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+ZSH_HIGHLIGHT_STYLES[path]=none
+ZSH_HIGHLIGHT_STYLES[path_prefix]=none
+
+# Custom Commands and Aliases
 alias c='clear'
 alias h='hisyory'
 alias q='exit'
 alias r='reset'
-alias ls='eza --icons'
-alias la='eza -a --icons'
-alias ll='eza -al --icons'
-alias lt='eza -a --tree --level=1 --icons'
+# 修改后的 eza 别名，添加排序选项
+alias ls='eza --icons --group-directories-first --sort=extension'
+alias la='eza -a --icons --group-directories-first --sort=extension'
+alias ll='eza -al --icons --group-directories-first --sort=extension'
+alias lt='eza -a --tree --level=1 --icons --group-directories-first --sort=extension'
 alias p='python'
 alias libtoolize='glibtoolize'
+alias poweroff='sudo shutdown -h now'
+alias v='$EDITOR'
+alias nano='$EDITOR'
+alias n='$EDITOR'
+alias vim='$EDITOR'
 
+# Auto `ls` after `cd`
+cd() {
+    builtin cd "$@" && ls
+}
+
+# PDF Conversion from Markdown
 mdpdf() {
     input_file="$1"
     output_file="${input_file%.*}.pdf"
     pandoc "$input_file" -o "$output_file" --pdf-engine=xelatex --toc
 }
 
-# Custom commands
-alias poweroff='sudo shutdown -h now'
-alias v='$EDITOR'
-alias nano='$EDITOR'
-alias n='$EDITOR'
-alias vim='$EDITOR'
-export EDITOR=nvim
-
-# Auto ls after cd
-cd() {
-    builtin cd "$@" && ls
+# Prompt and Command Display Settings
+precmd() {
+  print
 }
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+PROMPT='
+┌───[%n:%m] - %~ 
+│  
+└─%# '
 
+recmd () { print -Pn "\e]2;OWO@WORKING..: %~\a" }
 
-# Rust Path
-export PATH="$HOME/.cargo/bin:$PATH"
-
-# Auto command suggestion
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#FFE6F2, bold'
-source /Users/owo/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-# Syntax highlighting
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-ZSH_HIGHLIGHT_STYLES[path]=none
-ZSH_HIGHLIGHT_STYLES[path_prefix]=none
-
-
+# Zoxide Initialization
 eval "$(zoxide init zsh)"
 
+# Custom `yazi` Command Function
 function y() {
   tmp="$(mktemp -t "yazi-cwd.XXXXX")"
   yazi "$@" --cwd-file="$tmp"
@@ -90,6 +89,3 @@ function y() {
   fi
   rm -f -- "$tmp"
 }
-
-
-export PATH="/Library/TeX/texbin:$PATH"
