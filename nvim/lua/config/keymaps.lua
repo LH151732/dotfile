@@ -42,15 +42,24 @@ keymap.set("n", "<C-a>", "gg<S-v>G")
 keymap.set("n", "<Leader>w", ":update<Return>", opts)
 keymap.set("n", "<Leader>q", ":quit<Return>", opts)
 keymap.set("n", "<Leader>Q", ":qa<Return>", opts)
+
+-- Lua function to jump backwards to the end of the previous word
+local function backward_to_word_end()
+  local current_pos = vim.fn.col(".")
+  vim.cmd("normal! ge")
+  if vim.fn.col(".") >= current_pos then
+    vim.cmd("normal! b")
+  end
+end
+
+-- Map 'q' to the custom function
+vim.api.nvim_set_keymap("n", "q", "", { noremap = true, callback = backward_to_word_end, silent = true })
+
 -- Tabs
 --keymap.set("n", "te", ":tabedit<Return>")
 --keymap.set("n", "<tab>", ":tabnext<Return>")
 --keymap.set("n", "<s-tab>", ":tabprev<Return>")
 --keymap.set("n", "tw", ":tabclose<Return>")
-
-vim.keymap.set("i", "<C-Y>", function()
-  return vim.fn["copilot#Accept"]("<CR>")
-end, { silent = true, expr = true })
 
 -- Split window
 vim.keymap.set({ "n", "i" }, "<F2>", function()
@@ -62,8 +71,15 @@ vim.keymap.set({ "n", "i" }, "<F2>", function()
   end, 50) -- 50 毫秒的延迟，可以根据需要调整
 end, opts)
 
+-- Split window
 keymap.set({ "n", "i" }, "<F3>", '<Cmd>exe winheight(0)/3 . "split" | term<CR>')
 keymap.set({ "n", "i" }, "<F4>", '<Cmd>exe winwidth(0)/2 . "vsplit" | term<CR>')
+
+-- 跳转到有字的行首 (第一个非空白字符)
+vim.api.nvim_set_keymap("n", "1", "^", { noremap = true, silent = true })
+
+-- 跳转到行尾
+vim.api.nvim_set_keymap("n", "0", "$", { noremap = true, silent = true })
 
 -- Move window
 keymap.set("n", "sh", "<C-w>h")
