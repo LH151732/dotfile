@@ -32,6 +32,9 @@ keymap.set("n", "<F6>", function()
   execute_file("vertical")
 end, opts)
 
+-- 创建 ctags 并使用 Telescope 打开标签
+vim.api.nvim_set_keymap("n", "<F1>", ":!ctags -R<CR>:Telescope tags<CR>", { noremap = true, silent = true })
+
 keymap.set("n", "x", '"_x')
 -- Increment/decrement
 keymap.set("n", "+", "<C-a>")
