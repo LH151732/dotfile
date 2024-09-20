@@ -11,7 +11,7 @@ alias la='eza --icons --group-directories-first --sort=extension -a'
 alias ls='eza --icons --group-directories-first --sort=extension'
 alias lla='eza --icons --group-directories-first --sort=extension -la'
 alias cdd='cd ..'
-alias git='cd /mnt/hdd1/Git/'
+alias Git='cd /mnt/hdd1/Git/'
 alias des='cd ~/Desktop'
 alias doc='cd ~/Documents/'
 alias dow='cd ~/Downloads/'
@@ -32,7 +32,7 @@ alias gpl='git pull'
 alias gco='git chectout'
 alias q='exit'
 alias c='clear'
-alias r='clear && bash'
+alias r='reset'
 alias h='history'
 alias p='pwd'
 alias p='python'
@@ -57,6 +57,9 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
+# ssh
+eval "$(ssh-agent -s)"
+alias HL='ssh-add ~/.ssh/id_rsa'
 
 # auto 'ls' after 'cd'
 cd() {
