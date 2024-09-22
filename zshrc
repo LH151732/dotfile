@@ -3,24 +3,10 @@
 # System Info
 neofetch
 
-# Functions
-start_if_not_running() {
-    if ! pgrep -x "$1" > /dev/null; then
-        nohup "$1" > /dev/null 2>&1 &
-    fi
-}
-
-start_if_not_running "yabai"
-start_if_not_running "skhd"
-start_if_not_running "sketchybar"
-
 # Environment Variables
 export PATH="$HOME/.local/bin:$PATH"
-export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/Library/TeX/texbin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
-export LDFLAGS="-L/opt/homebrew/lib"
-export CPPFLAGS="-I/opt/homebrew/include"
 export EDITOR=nvim
 export CLICOLOR=1
 
@@ -30,8 +16,8 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 # Zsh Plugins
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#FFE6F2, bold'
-source /Users/owo/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ZSH_HIGHLIGHT_STYLES[path]=none
 ZSH_HIGHLIGHT_STYLES[path_prefix]=none
 
@@ -70,11 +56,33 @@ precmd() {
   print
 }
 
-PROMPT='
-┌───[%n:%m] - %~ 
-│  
-└─%# '
+# 加载 git-prompt.sh 脚本
+source /usr/share/git/completion/git-prompt.sh
 
+# 启用 PROMPT_SUBST 选项，以便在 PROMPT 中自动解析变量
+setopt PROMPT_SUBST
+
+# 定义一个变量来存储 Git 分支信息
+git_branch=""
+
+# 使用 precmd 函数在每次显示提示符之前更新 Git 分支信息
+precmd() {
+  if git rev-parse --is-inside-work-tree &>/dev/null; then
+    git_branch="%F{208}  $(git branch --show-current)%f"  # 使用橙色显示 Git 分支
+  else
+    git_branch=""  # 非 Git 仓库则清空分支信息
+  fi
+}
+
+# 设置 PROMPT，使用 git_branch 变量，并调整颜色
+PROMPT='
+
+%F{81}┌───[%F{121}HL%f:%F{121}HL%f] - %F{75}%~%f${git_branch}
+%F{81}│
+%F{81}│
+%F{81}└─%# %f'
+
+# recmd 函数用来更新终端窗口标题
 recmd () { print -Pn "\e]2;OWO@WORKING..: %~\a" }
 
 # Zoxide Initialization
