@@ -81,31 +81,6 @@ git_branch=""
 # 使用 precmd 函数在每次显示提示符之前更新 Git 分支信息
 precmd() {
   if git rev-parse --is-inside-work-tree &>/dev/null; then
- # 定义一个变量来存储 Git 分支信息
-  79   │ git_branch=""
-  80   │
-  81   │ # 使用 precmd 函数在每次显示提示符之前更新 Git 分支信息
-  82   │ precmd() {
-  83   │   if git rev-parse --is-inside-work-tree &>/dev/null; then
-  84   │     git_branch="%F{208} <U+E0A0> $(git branch --show-current
-)%f"  #
-       │  使用橙色显示 Git 分支
-  85   │   else
-  86   │     git_branch=""  # 非 Git 仓库则清空分支信息
-  87   │   fi
-  88   │ }
-  89   │
-  90   │ # 设置 PROMPT，使用 git_branch 变量，并调整颜色
-  91   │ PROMPT='
-  92   │
-  93   │ %F{81}┌───[%F{121}HL%f:%F{121}HL%f] - %F{75}%~%f${git_branch
-       │ }
-  94   │ %F{81}│
-  95   │ %F{81}│
-  96   │ %F{81}└─%# %f'
-  97   │
-  98   │ # recmd 函数用来更新终端窗口标题
-  99   │ recmd () { print -Pn "\e]2;OWO@WORKING..: %~\a" }
     git_branch="%F{208}  $(git branch --show-current)%f"  # 使用橙色显示 Git 分支
   else
     git_branch=""  # 非 Git 仓库则清空分支信息
