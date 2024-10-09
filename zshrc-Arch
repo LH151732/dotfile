@@ -114,3 +114,8 @@ function y() {
   fi
   rm -f -- "$tmp"
 }
+
+# fcitx5支持
+export XMODIFIERS=@im=fcitx
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
