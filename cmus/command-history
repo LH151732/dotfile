@@ -1,0 +1,7 @@
+add ~/Music
+add ~/Music/
+config reload
+open ~/Music
+open /home/HL/Music
+:open /path/to/your/music/folder
+save-playlist EMO
