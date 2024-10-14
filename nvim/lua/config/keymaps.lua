@@ -57,6 +57,7 @@ end
 
 -- Map 'q' to the custom function
 vim.api.nvim_set_keymap("n", "q", "", { noremap = true, callback = backward_to_word_end, silent = true })
+vim.api.nvim_set_keymap("v", "q", "", { noremap = true, callback = backward_to_word_end, silent = true })
 
 -- Tabs
 --keymap.set("n", "te", ":tabedit<Return>")
