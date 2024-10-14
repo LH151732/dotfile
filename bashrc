@@ -5,6 +5,10 @@ neofetch
 source /usr/share/git/completion/git-prompt.sh
 PS1='\n\n\n\[\033[01;32m\]┌───[\[\033[01;36m\]\u\[\033[00m\]:\[\033[01;36m\]\h\[\033[00m\]] - \[\033[01;34m\]\w\[\033[00m\]\[\033[01;33m\] $(git symbolic-ref --short HEAD 2>/dev/null | sed "s/.*/ &/")\n\[\033[01;32m\]│\[\033[00m\]\n\[\033[01;32m\]│\n\[\033[01;32m\]└─% \[\033[00m\]'
 
+# CUDA
+export PATH=/opt/cuda/bin:$PATH
+export LD_LIBRARY_PATH=/opt/cuda/lib64:$LD_LIBRARY_PATH
+
 # alias
 alias ll='eza --icons --group-directories-first --sort=extension -l'
 alias la='eza --icons --group-directories-first --sort=extension -a'
