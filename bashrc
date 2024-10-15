@@ -54,6 +54,9 @@ alias f='find'
 alias m='make'
 alias t='tree'
 alias pac='sudo pacman'
+alias cheat='cd /home/HL/.local/share/navi/cheats/'
+alias navip='navi --print'
+alias bashrc='source ~/.bashrc'
 
 # export
 export PATH="$HOME/.cargo/bin:$PATH"
