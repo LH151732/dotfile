@@ -3,6 +3,7 @@ return {
   {
     "wfxr/minimap.vim",
     build = "cargo install --locked code-minimap", -- 安装 code-minimap 依赖
+    cmd = { "Minimap", "MinimapToggle" }, -- 当执行这些命令时加载插件
     config = function()
       vim.g.minimap_width = 10 -- 设置 Minimap 的宽度
       vim.g.minimap_auto_start = 1 -- 启动 Neovim 时自动开启 Minimap

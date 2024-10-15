@@ -1,4 +1,3 @@
--- 使用 LazyVim 安装 glow.nvim
 return {
   {
     "ellisonleao/glow.nvim",
@@ -11,5 +10,6 @@ return {
       })
     end,
     cmd = "Glow", -- 使用 Glow 命令来启动预览
+    ft = { "markdown" }, -- 可选: 在打开 markdown 文件时自动加载插件
   },
 }
