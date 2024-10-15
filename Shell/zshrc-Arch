@@ -59,11 +59,7 @@ alias doc='cd ~/Documents/'
 alias dow='cd ~/Downloads/'
 alias des='cd ~/Desktop/'
 
-# 修改后的 eza 别名，添加排序选项
-alias ls='eza --icons --group-directories-first --sort=extension'
-alias la='eza -a --icons --group-directories-first --sort=extension'
-alias ll='eza -al --icons --group-directories-first --sort=extension'
-alias lt='eza -a --tree --level=1 --icons --group-directories-first --sort=extension'
+# Commands
 alias music='cmus'
 alias p='python'
 alias libtoolize='glibtoolize'
