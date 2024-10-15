@@ -19,12 +19,6 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export EDITOR=nvim
 export CLICOLOR=1
 
-# Zsh Plugins
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#FFE6F2, bold'
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-ZSH_HIGHLIGHT_STYLES[path]=none
-ZSH_HIGHLIGHT_STYLES[path_prefix]=none
 
 # export
 export PATH="$HOME/.cargo/bin:$PATH"
@@ -70,6 +64,7 @@ alias n='$EDITOR'
 alias vim='$EDITOR'
 alias open='xdg-open'
 
+alias ls='eza --icons --group-directories-first --sort=extension'
 # Auto `ls` after `cd`
 cd() {
     builtin cd "$@" && ls
