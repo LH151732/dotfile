@@ -1,3 +1,10 @@
+# System Info (Moved before instant prompt)
+neofetch
+
+# SSH (Moved before instant prompt)
+eval "$(ssh-agent -s)"
+alias HL='ssh-add ~/.ssh/id_rsa'
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -5,21 +12,12 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-#!/bin/zsh
-
-# System Info (Moved before instant prompt)
-neofetch
-
 # Environment Variables
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="/Library/TeX/texbin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export EDITOR=nvim
 export CLICOLOR=1
-
-# SSH (Moved before instant prompt)
-eval "$(ssh-agent -s)"
-alias HL='ssh-add ~/.ssh/id_rsa'
 
 # Zsh Plugins
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#FFE6F2, bold'
@@ -80,7 +78,6 @@ alias open='xdg-open'
 cd() {
     builtin cd "$@" && ls
 }
-
 
 # Oh-my-zsh installation path
 ZSH=/usr/share/oh-my-zsh/
