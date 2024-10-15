@@ -1,6 +1,11 @@
-#!/bin/zsh
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
 
-# System Info
+# System Info (Moved before instant prompt)
 neofetch
 
 # Environment Variables
@@ -9,6 +14,10 @@ export PATH="/Library/TeX/texbin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export EDITOR=nvim
 export CLICOLOR=1
+
+# SSH (Moved before instant prompt)
+eval "$(ssh-agent -s)"
+alias HL='ssh-add ~/.ssh/id_rsa'
 
 # Zsh Plugins
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#FFE6F2, bold'
@@ -31,10 +40,6 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
-
-# SSH
-eval "$(ssh-agent -s)"
-alias HL='ssh-add ~/.ssh/id_rsa'
 
 # Custom Commands and Aliases
 alias c='clear'
@@ -67,49 +72,12 @@ alias v='$EDITOR'
 alias nano='$EDITOR'
 alias n='$EDITOR'
 alias vim='$EDITOR'
+alias open='xdg-open'
 
 # Auto `ls` after `cd`
 cd() {
     builtin cd "$@" && ls
 }
-
-# PDF Conversion from Markdown
-mdpdf() {
-    input_file="$1"
-    output_file="${input_file%.*}.pdf"
-    pandoc "$input_file" -o "$output_file" --pdf-engine=xelatex --toc
-}
-
-# Prompt and Command Display Settings
-precmd() {
-  print
-}
-
-# 加载 git-prompt.sh 脚本
-source /usr/share/git/completion/git-prompt.sh
-
-# 启用 PROMPT_SUBST 选项，以便在 PROMPT 中自动解析变量
-setopt PROMPT_SUBST
-
-# 定义一个变量来存储 Git 分支信息
-git_branch=""
-
-# 使用 precmd 函数在每次显示提示符之前更新 Git 分支信息
-precmd() {
-  if git rev-parse --is-inside-work-tree &>/dev/null; then
-    git_branch="%F{208}  $(git branch --show-current)%f"  # 使用橙色显示 Git 分支
-  else
-    git_branch=""  # 非 Git 仓库则清空分支信息
-  fi
-}
-
-# 设置 PROMPT，使用 git_branch 变量，并调整颜色
-PROMPT='
-
-%F{81}┌───[%F{121}HL%f:%F{121}HL%f] - %F{75}%~%f${git_branch}
-%F{81}│
-%F{81}│
-%F{81}└─%# %f'
 
 # recmd 函数用来更新终端窗口标题
 recmd () { print -Pn "\e]2;OWO@WORKING..: %~\a" }
@@ -131,3 +99,7 @@ function y() {
 export XMODIFIERS=@im=fcitx
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
