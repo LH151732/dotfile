@@ -1841,3 +1841,7 @@ typeset -g POWERLEVEL9K_CONFIG_FILE=${${(%):-%x}:a}
 (( ${#p10k_config_opts} )) && setopt ${p10k_config_opts[@]}
 'builtin' 'unset' 'p10k_config_opts'
 
+alias ls='eza --icons --group-directories-first --sort=extension'
+alias la='eza -a --icons --group-directories-first --sort=extension'
+alias ll='eza -al --icons --group-directories-first --sort=extension'
+alias lt='eza -a --tree --level=1 --icons --group-directories-first --sort=extension'
