@@ -42,6 +42,7 @@ alias h='hisyory'
 alias q='exit'
 alias r='reset'
 alias pac='sudo pacman'
+alias zshrc='source ~/.zshrc'
 
 # Dir
 alias cdd='cd ..'
