@@ -1,0 +1,7 @@
+% gurb
+
+# 编辑Grub文件（Arch Linux)
+sudo nvim /etc/default/grub
+
+# 更新Grub (Arch Linux)
+sudo grub-mkconfig -o /boot/grub/grub.cfg

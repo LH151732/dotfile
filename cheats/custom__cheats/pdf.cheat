@@ -1,0 +1,4 @@
+% pdf
+
+# 读取pdf文件中的文本内容
+pdftotext <pdf文件> <输出文件名字>.txt
