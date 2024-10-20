@@ -8,6 +8,7 @@ return {
   {
     "telescope.nvim",
     priority = 1000,
+    winblend = 100,
     dependencies = {
       {
         "nvim-telescope/telescope-fzf-native.nvim",
