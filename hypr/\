@@ -5,7 +5,6 @@
 # See https://wiki.hyprland.org/Configuring/Window-Rules/
 
 windowrulev2 = opacity 0.70 0.70,class:^(firefox)$
-windowrulev2 = opacity 0.70 0.70,class:^(wechat)$
 windowrulev2 = opacity 0.90 0.90,class:^(Brave-browser)$
 windowrulev2 = opacity 0.60 0.60,class:^(code-oss)$
 windowrulev2 = opacity 0.60 0.60,class:^([Cc]ode)$
