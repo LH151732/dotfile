@@ -1,5 +1,20 @@
-add ~/Music
+filter VAl
+filter Ff
+filter 
+filter League
+filterticking
+filter Ticking
 add ~/Music/
+q
+add ~/Music/Relax/
+add ~/Music/EMO.m3u
+bind -f browser i toggle show_hidden
+set repeat=one
+:
+set shuffle=true
+set shuffle
+set flutter
+add ~/Music
 config reload
 open ~/Music
 open /home/HL/Music
