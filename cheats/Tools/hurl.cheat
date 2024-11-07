@@ -1,0 +1,62 @@
+% hurl,
+
+
+# Hurl Cheat Sheet
+
+GET <url>
+# 发送一个 GET 请求
+
+POST <url> [header] [body]
+# 发送一个 POST 请求，包含头信息和请求体
+
+PUT <url> [header] [body]
+# 发送一个 PUT 请求，包含头信息和请求体
+
+DELETE <url>
+# 发送一个 DELETE 请求
+
+GET <url>
+HTTP/1.1 200
+# 断言返回的 HTTP 状态码为 200
+
+POST <url> name="example" age:=25
+# 发送 JSON 数据，并包含 body 内容中的键值对
+
+GET <url>
+HTTP/1.1 200
+[Asserts]
+jsonpath "$.name" == "example"
+# 对返回的 JSON 响应体中的字段做断言
+
+GET <url>
+[Asserts]
+header "Content-Type" == "application/json"
+# 断言返回的头信息中的 Content-Type 为 application/json
+
+GET <url>
+[Capture]
+X-Auth-Token: authToken
+# 捕获返回的头信息 X-Auth-Token 的值
+
+GET <url>
+[Asserts]
+jsonpath "$.data" count == 5
+# 断言返回的 JSON 数组长度为 5
+
+POST <url>
+[FormData]
+field1=value1
+field2=value2
+# 发送表单数据
+
+POST <url>
+[Multipart]
+file@./path/to/file
+# 上传文件，使用 @ 符号指定文件路径
+
+GET <url>
+[Asserts]
+jsonpath "$.price" < 100
+# 断言 JSON 响应中某字段的值小于 100
+
+
