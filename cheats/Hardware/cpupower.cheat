@@ -1,0 +1,38 @@
+% cpupower,
+
+# 查看当前 CPU 频率信息
+ cpupower frequency-info
+
+# 设置最大频率为 <x.x>GHz
+ sudo cpupower frequency-set -u <频率>GHz
+# 设置最小频率为 <x.x>GHz
+ sudo cpupower frequency-set -d <频率>GHz
+
+# 查看支持的 governor
+ cpupower frequency-info --governors
+
+# 禁用 Turbo Boost
+ echo "1" | sudo tee /sys/devices/system/cpu/intel_pstate/no_turbo
+
+# 启用 Turbo Boost
+ echo "0" | sudo tee /sys/devices/system/cpu/intel_pstate/no_turbo
+
+# 为第 0 个核心设置为 "performance"
+ sudo cpupower -c <核心> frequency-set -g performance
+
+
+# 每秒更新一次 CPU 频率信息
+ watch -n <eg.1> "cpupower frequency-info"
+
+# 设置所有核心到性能模模式
+ sudo cpupower -c all frequency-set -g performance
+
+#  将所有核心设置为 "powersave" 模式（节能模式）
+ sudo cpupower -c all frequency-set -g powersave
+
+# 查看 CPU 的休眠状态（C-state）
+ cpupower idle-info
+
+# 禁用特定 C-state
+ sudo cpupower idle-set -d 3
+

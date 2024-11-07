@@ -1,0 +1,5 @@
+% sshfs,
+
+
+# 挂载远程目录
+sshfs <user@host>:<remote_dir> <local_dir> -o allow_other
