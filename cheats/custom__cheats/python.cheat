@@ -1,4 +1,0 @@
-% python
-
-# 测试宽带
-curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
