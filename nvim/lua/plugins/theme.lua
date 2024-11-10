@@ -35,7 +35,7 @@ return {
       -- 移除背景颜色
       vim.api.nvim_set_hl(0, "TelescopeNormal", { bg = "NONE" })
       -- 设置边框为白色
-      vim.api.nvim_set_hl(0, "TelescopeBorder", { bg = "NONE", fg = "#ffffff" })
+      vim.api.nvim_set_hl(0, "TelescopeBorder", { bg = "NONE", fg = "#FFC1E3" })
 
       -- 这里是你的 Telescope 其他配置
       require("telescope").setup({
