@@ -8,7 +8,7 @@ return {
       vim.g.vimtex_view_method = "zathura"
       vim.g.vimtex_compiler_method = "latexmk" -- 使用 latexmk 进行编译
 
-      -- 设置自定义快捷键，使用 macOS 默认应用程序打开 PDF
+      -- 设置自定义快捷键，使用 默认应用程序打开 PDF
       vim.keymap.set("n", "<leader>ll", "<Cmd>VimtexCompile<CR>", { desc = "Compile LaTeX" })
       vim.keymap.set("n", "<leader>lv", function()
         local pdf_path = vim.fn.expand("%:r") .. ".pdf" -- 获取当前 tex 文件的 PDF 路径
