@@ -11,8 +11,8 @@ return {
         "tailwindcss-language-server",
         "typescript-language-server",
         "css-lsp",
-        "jdtls", -- Java 语言服务器
-        "pyright", -- Python 语言服务器
+        "jdtls",
+        "pyright",
         "rust-analyzer",
       })
     end,
@@ -26,7 +26,6 @@ return {
       ensure_installed = {
         "pyright",
         "jdtls",
-        -- 其他 LSP 服务器...
       },
       automatic_installation = true,
     },
@@ -39,6 +38,15 @@ return {
     config = function()
       local lspconfig = require("lspconfig")
       local capabilities = require("cmp_nvim_lsp").default_capabilities(vim.lsp.protocol.make_client_capabilities())
+
+      -- 设置全局诊断配置
+      vim.diagnostic.config({
+        virtual_text = not vim.g.vscode,
+        signs = not vim.g.vscode,
+        underline = not vim.g.vscode,
+        update_in_insert = false,
+        severity_sort = true,
+      })
 
       -- 定义所有 LSP 服务器的配置
       local servers = {
@@ -91,9 +99,7 @@ return {
                 callSnippet = "Both",
               },
               misc = {
-                parameters = {
-                  -- "--log-level=trace",
-                },
+                parameters = {},
               },
               hint = {
                 enable = true,
@@ -154,31 +160,58 @@ return {
           },
         },
         jdtls = {
+          -- 只在非VSCode环境下启用jdtls
+          autostart = not vim.g.vscode,
           cmd = { "jdtls" },
           root_dir = function(...)
             return require("lspconfig.util").root_pattern(".git", "mvnw", "gradlew")(...)
           end,
           settings = {
             java = {
+              -- 在 VSCode 中禁用诊断
+              diagnostics = {
+                enabled = not vim.g.vscode,
+              },
               eclipse = {
                 downloadSources = true,
               },
               configuration = {
                 updateBuildConfiguration = "interactive",
+                -- 在 VSCode 中禁用格式化
+                format = {
+                  enabled = not vim.g.vscode,
+                },
               },
               maven = {
                 downloadSources = true,
               },
               implementationsCodeLens = {
-                enabled = true,
+                enabled = not vim.g.vscode,
               },
               referencesCodeLens = {
-                enabled = true,
+                enabled = not vim.g.vscode,
               },
               references = {
                 includeDecompiledSources = true,
               },
+              format = {
+                enabled = not vim.g.vscode,
+              },
+              -- 控制建议和补全
+              completion = {
+                enabled = not vim.g.vscode,
+                postfix = {
+                  enabled = not vim.g.vscode,
+                },
+              },
+              signatureHelp = {
+                enabled = not vim.g.vscode,
+              },
             },
+          },
+          init_options = {
+            bundles = {},
+            workspaceFolders = vim.g.vscode and {} or nil,
           },
         },
         rust_analyzer = {
@@ -228,9 +261,13 @@ return {
       local lspkind = require("lspkind")
 
       cmp.setup({
+        enabled = function()
+          -- 在VSCode中禁用nvim-cmp
+          return not vim.g.vscode
+        end,
         snippet = {
           expand = function(args)
-            luasnip.lsp_expand(args.body) -- 使用 LuaSnip 作为 Snippets 引擎
+            luasnip.lsp_expand(args.body)
           end,
         },
         mapping = {
@@ -273,17 +310,17 @@ return {
         },
         formatting = {
           format = lspkind.cmp_format({
-            mode = "symbol_text", -- 既显示图标又显示文字
+            mode = "symbol_text",
             maxwidth = 50,
             ellipsis_char = "...",
           }),
         },
       })
 
-      -- 为特定文件类型设置补全源（如 gitcommit）
+      -- 为特定文件类型设置补全源
       cmp.setup.filetype("gitcommit", {
         sources = cmp.config.sources({
-          { name = "cmp_git" }, -- Git 补全源（需要安装相关插件）
+          { name = "cmp_git" },
         }, {
           { name = "buffer" },
         }),
@@ -323,7 +360,6 @@ return {
     config = function()
       require("lspkind").init({
         preset = "default",
-        -- 可以自定义图标和显示方式
       })
     end,
   },
