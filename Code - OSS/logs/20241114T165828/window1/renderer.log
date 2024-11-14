@@ -1,0 +1,880 @@
+2024-11-14 16:58:30.055 [info] Started local extension host with pid 3312.
+2024-11-14 16:58:30.278 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, contribIssueReporter, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-11-14 16:58:30.278 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-11-14 16:58:30.283 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
+2024-11-14 16:58:30.285 [error] [tht13.python]: "configuration.jsonValidation.url" 必须是绝对 URL 或者以 "./" 开头，以引用扩展中的架构。
+2024-11-14 16:58:30.296 [error] [EricSia.pythonsnippets3]: "contributes.pythonsnippets3.language" 中包含未知语言。提供的值: django-html
+2024-11-14 16:58:30.297 [error] [EricSia.pythonsnippets3]: "contributes.pythonsnippets3.language" 中包含未知语言。提供的值: django-txt
+2024-11-14 16:58:30.297 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.297 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.298 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.298 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.298 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.299 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.299 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.299 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.300 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.300 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.301 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.301 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.301 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.302 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.302 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.302 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.303 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.303 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.304 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.305 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.305 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.306 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.306 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.307 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.307 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.308 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.308 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 16:58:30.308 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.309 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.309 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.310 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.310 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.310 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.310 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.311 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.311 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.312 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.312 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.312 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.312 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.313 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.313 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.313 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.314 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.314 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.314 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.315 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.315 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.315 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.316 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.316 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.317 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.317 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.317 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 16:58:30.318 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.318 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.318 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.319 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.319 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.319 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.319 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.319 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.319 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.320 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.320 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.320 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.320 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.320 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.320 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.320 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.321 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.321 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.321 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.321 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.321 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.321 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.321 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.321 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.322 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.322 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.322 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 16:58:30.323 [error] [ms-python.debugpy]: issue/reporter 是建议的菜单标识符。它需要 “package.json#enabledApiProposals: [“contribIssueReporter”]”，并且仅在开发用完或使用以下命令行开关时可用: --enable-proposed-api ms-python.debugpy
+2024-11-14 16:58:30.323 [error] [ms-python.python]: issue/reporter 是建议的菜单标识符。它需要 “package.json#enabledApiProposals: [“contribIssueReporter”]”，并且仅在开发用完或使用以下命令行开关时可用: --enable-proposed-api ms-python.python
+2024-11-14 16:58:30.323 [error] [ms-python.python]: editor/content 是建议的菜单标识符。它需要 “package.json#enabledApiProposals: [“contribEditorContentMenu”]”，并且仅在开发用完或使用以下命令行开关时可用: --enable-proposed-api ms-python.python
+2024-11-14 16:58:30.323 [warning] [REditorSupport.r]: 无法注册“r.rpath.windows”。此属性已注册。
+2024-11-14 16:58:30.324 [warning] [REditorSupport.r]: 无法注册“r.rpath.mac”。此属性已注册。
+2024-11-14 16:58:30.324 [warning] [REditorSupport.r]: 无法注册“r.rpath.linux”。此属性已注册。
+2024-11-14 16:58:30.505 [info] Started local extension host with pid 3363.
+2024-11-14 16:58:32.842 [info] [perf] Render performance baseline is 38ms
+2024-11-14 17:00:36.215 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 43)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json
+2024-11-14 17:00:36.215 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 67)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json
+2024-11-14 17:00:36.215 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 94)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json
+2024-11-14 17:00:36.215 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 96)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json
+2024-11-14 17:00:38.170 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 43)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json
+2024-11-14 17:00:38.171 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 67)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json
+2024-11-14 17:00:38.171 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 94)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json
+2024-11-14 17:00:38.172 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 96)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json
+2024-11-14 17:00:46.198 [error] 无法读取文件'/home/HL/Documents/Javalab/Ed/Length.java' (Error: 自以下时间未修改的文件:): Error: 无法读取文件'/home/HL/Documents/Javalab/Ed/Length.java' (Error: 自以下时间未修改的文件:)
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69610)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Gnt.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3089:9119)
+    at async Gnt.readStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3089:8894)
+    at async Pde.Db (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1275:11960)
+    at async Pde.resolve (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1275:10435)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3089:5479
+2024-11-14 17:01:27.252 [info] Started local extension host with pid 6249.
+2024-11-14 17:01:27.252 [info] Started local extension host with pid 6251.
+2024-11-14 17:01:29.355 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because extension host(s) are already running. Reload window.
+2024-11-14 17:01:35.735 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 43)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json
+2024-11-14 17:01:35.736 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 67)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json
+2024-11-14 17:01:35.737 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 94)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json
+2024-11-14 17:01:35.737 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 96)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json
+2024-11-14 17:01:37.957 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 43)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json
+2024-11-14 17:01:37.958 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 67)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json
+2024-11-14 17:01:37.959 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 94)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json
+2024-11-14 17:01:37.959 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 96)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json
+2024-11-14 17:01:38.864 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 43)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json
+2024-11-14 17:01:38.865 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 67)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json
+2024-11-14 17:01:38.865 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 94)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json
+2024-11-14 17:01:38.866 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 96)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json
+2024-11-14 17:03:56.923 [error] [040] potential listener LEAK detected, having 400 listeners already. MOST frequent listener (1):: Error
+    at Iai.create (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:25:11828)
+    at IWe.q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:28:1108)
+    at new Lde (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1257:24539)
+    at new dss (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1257:20990)
+    at _6e.registerDecorationType (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1257:18788)
+    at Va.ec (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:262:18131)
+    at Va.setDecorationsByType (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:262:9781)
+    at WGi.setDecorations (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:615:13717)
+    at VFe.$trySetDecorations (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:615:17168)
+    at Pht.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3124:41686)
+2024-11-14 17:04:20.920 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 43)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json
+2024-11-14 17:04:20.920 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 67)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json
+2024-11-14 17:04:20.921 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 94)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json
+2024-11-14 17:04:20.921 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 96)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json
+2024-11-14 17:04:26.497 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 43)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json
+2024-11-14 17:04:26.497 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 67)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json
+2024-11-14 17:04:26.498 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 94)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json
+2024-11-14 17:04:26.498 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 96)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json
+2024-11-14 17:04:34.077 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 43)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json
+2024-11-14 17:04:34.077 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 67)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json
+2024-11-14 17:04:34.077 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 94)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json
+2024-11-14 17:04:34.077 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 96)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json
+2024-11-14 17:04:34.216 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 43)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json
+2024-11-14 17:04:34.217 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 67)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json
+2024-11-14 17:04:34.217 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 94)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json
+2024-11-14 17:04:34.217 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 96)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json
+2024-11-14 17:04:34.965 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 43)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json
+2024-11-14 17:04:34.965 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 67)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json
+2024-11-14 17:04:34.966 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 94)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json
+2024-11-14 17:04:34.966 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 96)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json
+2024-11-14 17:07:21.292 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 43)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json
+2024-11-14 17:07:21.292 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 67)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json
+2024-11-14 17:07:21.292 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 94)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json
+2024-11-14 17:07:21.293 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 96)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json
+2024-11-14 17:07:25.831 [error] [040] potential listener LEAK detected, having 427 listeners already. MOST frequent listener (56):: Error
+    at Iai.create (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:25:11828)
+    at IWe.q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:28:1108)
+    at new Lde (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1257:24539)
+    at new dss (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1257:20990)
+    at _6e.registerDecorationType (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1257:18788)
+    at Va.ec (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:262:18131)
+    at Va.setDecorationsByType (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:262:9781)
+    at WGi.setDecorations (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:615:13717)
+    at VFe.$trySetDecorations (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:615:17168)
+    at Pht.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3124:41686)
+2024-11-14 17:07:25.939 [error] [040] potential listener LEAK detected, having 491 listeners already. MOST frequent listener (221):: Error
+    at Iai.create (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:25:11828)
+    at IWe.q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:28:1108)
+    at new Lde (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1257:24539)
+    at new dss (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1257:20990)
+    at _6e.registerDecorationType (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1257:18788)
+    at Va.ec (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:262:18131)
+    at Va.setDecorationsByType (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:262:9781)
+    at WGi.setDecorations (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:615:13717)
+    at VFe.$trySetDecorations (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:615:17168)
+    at Pht.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3124:41686)
+2024-11-14 17:07:33.079 [error] [040] potential listener LEAK detected, having 443 listeners already. MOST frequent listener (135):: Error
+    at Iai.create (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:25:11828)
+    at IWe.q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:28:1108)
+    at new Lde (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1257:24539)
+    at new dss (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1257:20990)
+    at _6e.registerDecorationType (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1257:18788)
+    at Va.ec (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:262:18131)
+    at Va.setDecorationsByType (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:262:9781)
+    at WGi.setDecorations (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:615:13717)
+    at VFe.$trySetDecorations (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:615:17168)
+    at Pht.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3124:41686)
+2024-11-14 17:07:40.623 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 43)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json
+2024-11-14 17:07:40.624 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 67)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json
+2024-11-14 17:07:40.624 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 94)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json
+2024-11-14 17:07:40.625 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 96)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json
+2024-11-14 17:08:28.640 [info] Started local extension host with pid 13074.
+2024-11-14 17:08:28.641 [info] Started local extension host with pid 13075.
+2024-11-14 17:08:35.326 [error] 无法读取文件'/home/HL/Documents/Javalab/Ed/Length.java' (Error: 自以下时间未修改的文件:): Error: 无法读取文件'/home/HL/Documents/Javalab/Ed/Length.java' (Error: 自以下时间未修改的文件:)
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69610)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Gnt.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3089:9119)
+    at async Gnt.readStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3089:8894)
+    at async Pde.Db (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1275:11960)
+    at async Pde.resolve (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1275:10435)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3089:5479
+2024-11-14 17:08:36.180 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because extension host(s) are already running. Reload window.
+2024-11-14 17:08:44.939 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 43)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json
+2024-11-14 17:08:44.940 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 67)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json
+2024-11-14 17:08:44.940 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 94)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json
+2024-11-14 17:08:44.941 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 96)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json
+2024-11-14 17:14:45.926 [error] [ms-python.debugpy]: issue/reporter 是建议的菜单标识符。它需要 “package.json#enabledApiProposals: [“contribIssueReporter”]”，并且仅在开发用完或使用以下命令行开关时可用: --enable-proposed-api ms-python.debugpy
+2024-11-14 17:14:45.927 [error] [ms-python.python]: issue/reporter 是建议的菜单标识符。它需要 “package.json#enabledApiProposals: [“contribIssueReporter”]”，并且仅在开发用完或使用以下命令行开关时可用: --enable-proposed-api ms-python.python
+2024-11-14 17:14:45.927 [error] [ms-python.python]: editor/content 是建议的菜单标识符。它需要 “package.json#enabledApiProposals: [“contribEditorContentMenu”]”，并且仅在开发用完或使用以下命令行开关时可用: --enable-proposed-api ms-python.python
+2024-11-14 17:14:45.975 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because extension host(s) are already running. Reload window.
+2024-11-14 17:14:56.356 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 43)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json
+2024-11-14 17:14:56.356 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 67)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json
+2024-11-14 17:14:56.357 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 94)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json
+2024-11-14 17:14:56.357 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 96)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json
+2024-11-14 17:15:08.583 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 43)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json
+2024-11-14 17:15:08.584 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 67)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json
+2024-11-14 17:15:08.584 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 94)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json
+2024-11-14 17:15:08.585 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 96)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json
+2024-11-14 17:15:11.704 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 43)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json
+2024-11-14 17:15:11.705 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 67)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json
+2024-11-14 17:15:11.705 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 94)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json
+2024-11-14 17:15:11.706 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 96)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json
+2024-11-14 17:15:18.076 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 43)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json
+2024-11-14 17:15:18.077 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 67)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json
+2024-11-14 17:15:18.077 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 94)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json
+2024-11-14 17:15:18.078 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 96)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json
+2024-11-14 17:17:44.945 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 43)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json
+2024-11-14 17:17:44.946 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 67)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json
+2024-11-14 17:17:44.946 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 94)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json
+2024-11-14 17:17:44.947 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 96)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json
+2024-11-14 17:17:45.930 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 43)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/css/fi.json
+2024-11-14 17:17:45.931 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 67)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/html/fi.json
+2024-11-14 17:17:45.931 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 94)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/fi.json
+2024-11-14 17:17:45.932 [error] Error: 无法读取文件'/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json' (Error: 无法解析不存在的文件 '/home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json')
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69694)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Pnt.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:68887)
+    at async Wrt.readExtensionResource (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3114:2109)
+    at async Promise.all (index 96)
+    at async LPe.getSnippets (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:20141)
+    at async SPe.provideCompletionItems (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:494:14532)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:433:31518 file:///home/HL/.vscode-oss/extensions/idleberg.icon-fonts-2.5.4-universal/snippets/jsx/geomicon.json
+2024-11-14 17:17:59.024 [error] [040] potential listener LEAK detected, having 422 listeners already. MOST frequent listener (132):: Error
+    at Iai.create (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:25:11828)
+    at IWe.q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:28:1108)
+    at new Lde (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1257:24539)
+    at new dss (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1257:20990)
+    at _6e.registerDecorationType (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1257:18788)
+    at Va.ec (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:262:18131)
+    at Va.setDecorationsByType (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:262:9781)
+    at WGi.setDecorations (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:615:13717)
+    at VFe.$trySetDecorations (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:615:17168)
+    at Pht.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3124:41686)
+2024-11-14 17:17:59.657 [error] [040] potential listener LEAK detected, having 449 listeners already. MOST frequent listener (189):: Error
+    at Iai.create (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:25:11828)
+    at IWe.q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:28:1108)
+    at new Lde (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1257:24539)
+    at new dss (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1257:20990)
+    at _6e.registerDecorationType (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1257:18788)
+    at Va.ec (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:262:18131)
+    at Va.setDecorationsByType (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:262:9781)
+    at WGi.setDecorations (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:615:13717)
+    at VFe.$trySetDecorations (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:615:17168)
+    at Pht.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3124:41686)
+2024-11-14 17:18:07.451 [error] 无法读取文件'/home/HL/Documents/Javalab/Ed/Length.java' (Error: 自以下时间未修改的文件:): Error: 无法读取文件'/home/HL/Documents/Javalab/Ed/Length.java' (Error: 自以下时间未修改的文件:)
+    at Pnt.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69610)
+    at Pnt.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3088:69519)
+    at async Gnt.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3089:9119)
+    at async Gnt.readStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3089:8894)
+    at async Pde.Db (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1275:11960)
+    at async Pde.resolve (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1275:10435)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3089:5479

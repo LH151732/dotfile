@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/home/HL/.config/Code - OSS/User/workspaceStorage/a05dd0b79a932ce2d28adc01d6111628/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+897171896.index
+3842426239.index

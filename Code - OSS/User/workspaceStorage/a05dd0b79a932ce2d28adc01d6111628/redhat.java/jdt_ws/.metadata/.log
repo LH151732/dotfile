@@ -1,0 +1,334 @@
+!SESSION 2024-11-10 00:50:42.219 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.13
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_CN
+Framework arguments:  --pipe=/run/user/1000/lsp-c0f6ebba40f636849ba4b17bf8924471.sock
+Command-line arguments:  -data /home/HL/.config/Code - OSS/User/workspaceStorage/a05dd0b79a932ce2d28adc01d6111628/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-c0f6ebba40f636849ba4b17bf8924471.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:43.720
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:43.882
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:43.923
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:43.925
+!MESSAGE Initializing Java Language Server 1.41.0.202410310221
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:43.926
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:44.743
+!MESSAGE ProjectRegistryRefreshJob finished 816ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:44.776
+!MESSAGE Started org.eclipse.buildship.core 32ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.172
+!MESSAGE Setting /home/HL/.sdkman/candidates/java/8.0.432-amzn as 'JavaSE-1.8' environment (id:1731160244820)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.178
+!MESSAGE Setting /home/HL/.sdkman/candidates/java/23.0.1-librca as 'JavaSE-23' environment (id:1731160245174)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.180
+!MESSAGE Setting java.home /home/HL/.sdkman/candidates/java/23.0.1-librca as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.183
+!MESSAGE Default VM Install changed from  1731160244808-/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64 to 1731160245174-/home/HL/.sdkman/candidates/java/23.0.1-librca
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.188
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.196
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.197
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.197
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.197
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.197
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.197
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.197
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.198
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.198
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.198
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.212
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.218
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.231
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.287
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.950
+!MESSAGE Try to create an invisible project for the workspace /home/HL/Documents/Alg
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.950
+!MESSAGE Creating the Java project Alg_5323461b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.960
+!MESSAGE Finished creating the Java project Alg_5323461b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.964
+!MESSAGE Successfully created a workspace invisible project Alg_5323461b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:45.988
+!MESSAGE Workspace initialized in 777ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:46.032
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:46.482
+!MESSAGE >> Updating classpath for project Alg_5323461b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:46.499
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:46.499
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:46.501
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:46.544
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY java-debug 1 0 2024-11-10 00:50:46.564
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:47.223
+!MESSAGE begin problem for /CoinChange.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:47.225
+!MESSAGE 0 problems reported for /CoinChange.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:47.226
+!MESSAGE Validated 1. Took 81 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:53.889
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:54.379
+!MESSAGE begin problem for /CoinChange.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:54.380
+!MESSAGE 0 problems reported for /CoinChange.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:54.380
+!MESSAGE Validated 1. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:58.031
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:58.465
+!MESSAGE begin problem for /CoinChange.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:58.465
+!MESSAGE 0 problems reported for /CoinChange.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:50:58.465
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:51:10.556
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:51:11.055
+!MESSAGE begin problem for /CoinChange.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:51:11.055
+!MESSAGE 0 problems reported for /CoinChange.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:51:11.055
+!MESSAGE Validated 1. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:51:40.869
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:51:40.871
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:51:41.360
+!MESSAGE begin problem for /CoinChange.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:51:41.360
+!MESSAGE 0 problems reported for /CoinChange.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:51:41.361
+!MESSAGE Validated 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:54:03.297
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:54:03.299
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:54:03.325
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 00:54:03.336
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-11-10 00:54:03.368
+!MESSAGE Failed to save JDT index: Index for /Alg_5323461b/_
+!STACK 0
+java.io.FileNotFoundException: /home/HL/.config/Code - OSS/User/workspaceStorage/a05dd0b79a932ce2d28adc01d6111628/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core/1752073496.index (没有那个文件或目录)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.index.FileIndexLocation.getInputStream(FileIndexLocation.java:83)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readAllDocumentNames(DiskIndex.java:632)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:535)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:229)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndex(IndexManager.java:1133)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1176)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:820)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:508)
+	at java.base/java.lang.Thread.run(Unknown Source)
+!SESSION 2024-11-10 13:27:05.166 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.13
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_CN
+Framework arguments:  --pipe=/run/user/1000/lsp-f0560113cc68b6c9be62c1792222a97c.sock
+Command-line arguments:  -data /home/HL/.config/Code - OSS/User/workspaceStorage/a05dd0b79a932ce2d28adc01d6111628/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-f0560113cc68b6c9be62c1792222a97c.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:06.784
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:06.974
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:07.006
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:07.008
+!MESSAGE Initializing Java Language Server 1.41.0.202410310221
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:07.009
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:07.795
+!MESSAGE ProjectRegistryRefreshJob finished 786ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:07.842
+!MESSAGE Started org.eclipse.buildship.core 46ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:07.879
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:07.880
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:07.880
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:07.880
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:07.880
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:07.880
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:07.881
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:07.881
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:07.881
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:07.881
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:07.899
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:07.900
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:08.622
+!MESSAGE Workspace initialized in 724ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:08.628
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:08.943
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:09.212
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY java-debug 1 0 2024-11-10 13:27:09.306
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:09.668
+!MESSAGE >> Updating classpath for project Alg_5323461b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:09.685
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:09.685
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:09.687
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:09.905
+!MESSAGE begin problem for /CoinChange.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:09.907
+!MESSAGE 0 problems reported for /CoinChange.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:09.907
+!MESSAGE Validated 1. Took 43 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:18.437
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:18.923
+!MESSAGE begin problem for /CoinChange.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:18.923
+!MESSAGE 0 problems reported for /CoinChange.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:27:18.924
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:49:14.135
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:49:14.137
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:49:14.169
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-11-10 13:49:14.179
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

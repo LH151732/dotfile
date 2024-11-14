@@ -1,0 +1,126 @@
+2024-11-14 17:34:27.584 [info] Extension host with pid 40296 started
+2024-11-14 17:34:27.584 [info] Skipping acquiring lock for /home/HL/.config/Code - OSS/User/workspaceStorage/e92101f2f0c18452b4068824adeacd46.
+2024-11-14 17:34:27.672 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-14 17:34:27.674 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2024-11-14 17:34:27.788 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2024-11-14 17:34:27.825 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2024-11-14 17:34:27.907 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onLanguage:java'
+2024-11-14 17:34:28.017 [info] Extension host with pid 40348 started
+2024-11-14 17:34:28.017 [info] Skipping acquiring lock for /home/HL/.config/Code - OSS/User/workspaceStorage/e92101f2f0c18452b4068824adeacd46.
+2024-11-14 17:34:28.024 [info] Eager extensions activated
+2024-11-14 17:34:28.056 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 17:34:28.193 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2024-11-14 17:34:28.235 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+2024-11-14 17:34:28.294 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2024-11-14 17:34:28.661 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-14 17:34:28.679 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-14 17:34:28.680 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-14 17:34:28.821 [info] Eager extensions activated
+2024-11-14 17:34:28.846 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 17:34:28.846 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 17:34:28.847 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 17:34:30.384 [error] [redhat.java] provider FAILED
+2024-11-14 17:34:30.388 [error] Error: The request (id: 1, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 17:34:30.399 [error] [redhat.java] provider FAILED
+2024-11-14 17:34:30.399 [error] Error: The request (id: 2, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 17:34:30.407 [error] [redhat.java] provider FAILED
+2024-11-14 17:34:30.408 [error] Error: selectionRange must be contained in fullRange
+	at Hd.validate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33675)
+	at new Hd (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33883)
+	at G (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1246711)
+	at c (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1285227)
+	at t.map (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1285313)
+	at Object.asDocumentSymbols (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1254767)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:949198
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:948254)
+2024-11-14 17:36:24.051 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-14 17:36:24.052 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-14 17:36:24.053 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-14 17:36:34.077 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-11-14 17:36:34.078 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-11-14 17:39:08.431 [error] [redhat.java] provider FAILED
+2024-11-14 17:39:08.431 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 17:39:08.461 [error] [redhat.java] provider FAILED
+2024-11-14 17:39:08.461 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 17:39:08.669 [error] [redhat.java] provider FAILED
+2024-11-14 17:39:08.670 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 17:39:08.682 [error] [redhat.java] provider FAILED
+2024-11-14 17:39:08.682 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+2024-11-14 17:40:17.090 [error] [redhat.java] provider FAILED
+2024-11-14 17:40:17.091 [error] Error: The request (id: 425, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 17:41:34.613 [info] ExtensionService#_doActivateExtension firefox-devtools.vscode-firefox-debug, startup: false, activationEvent: 'onDebug'
+2024-11-14 17:41:34.635 [info] ExtensionService#_doActivateExtension RDebugger.r-debugger, startup: false, activationEvent: 'onDebug'
+2024-11-14 17:41:34.685 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-11-14 17:42:11.296 [error] [redhat.java] provider FAILED
+2024-11-14 17:42:11.296 [error] Error: The request (id: 787, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 17:42:19.189 [error] [redhat.java] provider FAILED
+2024-11-14 17:42:19.189 [error] Error: The request (id: 823, method: 'textDocument/hover') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 17:43:12.949 [error] Error: Illegal value for `line`
+	at uM.t (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:121:1005)
+	at Object.lineAt (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:121:72)
+	at b (/home/HL/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.14-universal/dist/extension.js:2:187970)
+	at $.<anonymous> (/home/HL/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.14-universal/dist/extension.js:2:353336)
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.14-universal/dist/extension.js:2:351614)
+2024-11-14 17:47:00.955 [error] Error: Illegal value for `line`
+	at uM.t (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:121:1005)
+	at Object.lineAt (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:121:72)
+	at b (/home/HL/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.14-universal/dist/extension.js:2:187970)
+	at $.<anonymous> (/home/HL/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.14-universal/dist/extension.js:2:353336)
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.14-universal/dist/extension.js:2:351614)
+2024-11-14 17:50:11.491 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-14 17:50:11.524 [error] Canceled: Canceled
+	at Dc (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:110189
+	at Array.forEach (<anonymous>)
+	at py.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:110129)
+	at z_.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:10082)
+	at EC.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:15063)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:11611)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) neovim:eval {"value":"asvetliakov.vscode-neovim","_lower":"asvetliakov.vscode-neovim"}
+2024-11-14 17:50:11.524 [info] Extension host with pid 40348 exiting with code 0
+2024-11-14 17:50:11.627 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-14 17:50:11.661 [info] Extension host with pid 40296 exiting with code 0

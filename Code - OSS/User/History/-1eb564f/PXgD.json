@@ -1,0 +1,12 @@
+{
+	{
+		"Print to console": {
+			"prefix": "sysf",
+			"body": [
+				"System.out.printf(${1:\"%s\"}, ${2:args});"
+			],
+			"description": "System.out.printf 模板"
+		}
+	}
+	
+}

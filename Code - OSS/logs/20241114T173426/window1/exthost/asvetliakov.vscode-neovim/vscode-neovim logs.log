@@ -1,0 +1,18 @@
+2024-11-14 17:34:28.185 [info] MainController: Starting nvim: /usr/bin/nvim -N --embed --cmd source /home/HL/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.14-universal/runtime/vscode-neovim.vim -u ~/.config/nvim/init.lua
+2024-11-14 17:34:28.241 [info] MainController: Nvim info: {
+  nvimVersion: {
+    minor: 10,
+    build: 'v0.10.2',
+    prerelease: false,
+    major: 0,
+    api_prerelease: false,
+    patch: 2,
+    api_compatible: 0,
+    api_level: 12
+  },
+  logFile: '/home/HL/.local/state/nvim/log',
+  configDir: '/home/HL/.config/nvim'
+}
+2024-11-14 17:34:38.061 [info] MessagesManager: '3 fewer lines\n'
+2024-11-14 17:43:27.679 [info] MessagesManager: '--缓冲区无内容--\n'
+2024-11-14 17:47:45.019 [info] MessagesManager: '7 lines yanked\n'

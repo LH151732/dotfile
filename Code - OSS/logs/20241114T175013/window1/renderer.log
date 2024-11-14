@@ -1,0 +1,96 @@
+2024-11-14 17:50:14.272 [info] Started local extension host with pid 47639.
+2024-11-14 17:50:14.487 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, contribIssueReporter, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-11-14 17:50:14.488 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-11-14 17:50:14.492 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
+2024-11-14 17:50:14.498 [error] [tht13.python]: "configuration.jsonValidation.url" 必须是绝对 URL 或者以 "./" 开头，以引用扩展中的架构。
+2024-11-14 17:50:14.518 [error] [ms-python.debugpy]: issue/reporter 是建议的菜单标识符。它需要 “package.json#enabledApiProposals: [“contribIssueReporter”]”，并且仅在开发用完或使用以下命令行开关时可用: --enable-proposed-api ms-python.debugpy
+2024-11-14 17:50:14.519 [error] [ms-python.python]: issue/reporter 是建议的菜单标识符。它需要 “package.json#enabledApiProposals: [“contribIssueReporter”]”，并且仅在开发用完或使用以下命令行开关时可用: --enable-proposed-api ms-python.python
+2024-11-14 17:50:14.519 [error] [ms-python.python]: editor/content 是建议的菜单标识符。它需要 “package.json#enabledApiProposals: [“contribEditorContentMenu”]”，并且仅在开发用完或使用以下命令行开关时可用: --enable-proposed-api ms-python.python
+2024-11-14 17:50:14.524 [warning] [REditorSupport.r]: 无法注册“r.rpath.windows”。此属性已注册。
+2024-11-14 17:50:14.524 [warning] [REditorSupport.r]: 无法注册“r.rpath.mac”。此属性已注册。
+2024-11-14 17:50:14.524 [warning] [REditorSupport.r]: 无法注册“r.rpath.linux”。此属性已注册。
+2024-11-14 17:50:14.650 [info] Started local extension host with pid 47695.
+2024-11-14 17:50:15.695 [error] [EricSia.pythonsnippets3]: "contributes.pythonsnippets3.language" 中包含未知语言。提供的值: django-html
+2024-11-14 17:50:15.696 [error] [EricSia.pythonsnippets3]: "contributes.pythonsnippets3.language" 中包含未知语言。提供的值: django-txt
+2024-11-14 17:50:15.696 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.697 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.697 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.697 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.698 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.698 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.698 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.698 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.699 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.699 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.699 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.700 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.700 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.700 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.701 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.701 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.701 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.701 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.702 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.702 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.702 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.703 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.703 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.703 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.703 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.704 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.704 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: blade
+2024-11-14 17:50:15.704 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.705 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.705 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.705 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.706 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.706 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.706 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.707 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.707 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.707 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.708 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.708 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.708 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.708 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.709 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.709 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.709 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.710 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.710 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.710 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.710 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.711 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.711 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.711 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.711 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.711 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.712 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: vue-html
+2024-11-14 17:50:15.712 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.712 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.712 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.713 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.713 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.713 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.713 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.713 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.714 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.714 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.714 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.714 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.714 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.714 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.715 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.715 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.715 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.715 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.715 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.716 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.716 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.716 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.716 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.717 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.717 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.717 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:15.717 [error] [idleberg.icon-fonts]: "contributes.icon-fonts.language" 中包含未知语言。提供的值: svelte
+2024-11-14 17:50:17.044 [info] [perf] Render performance baseline is 38ms

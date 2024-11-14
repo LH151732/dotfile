@@ -1,0 +1,4 @@
+2024-11-14 11:20:42.288 [info] Extension host with pid 3614 started
+2024-11-14 11:20:42.516 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-14 11:20:42.633 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-14 11:20:42.634 [info] Extension host with pid 3614 exiting with code 0

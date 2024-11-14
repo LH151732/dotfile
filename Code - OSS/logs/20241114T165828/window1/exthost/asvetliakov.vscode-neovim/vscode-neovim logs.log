@@ -1,0 +1,76 @@
+2024-11-14 16:58:31.090 [info] MainController: Starting nvim: /usr/bin/nvim -N --embed --cmd source /home/HL/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.14-universal/runtime/vscode-neovim.vim
+2024-11-14 16:58:31.217 [info] MainController: Nvim info: {
+  nvimVersion: {
+    build: 'v0.10.2',
+    api_compatible: 0,
+    api_prerelease: false,
+    prerelease: false,
+    patch: 2,
+    major: 0,
+    minor: 10,
+    api_level: 12
+  },
+  logFile: '/home/HL/.local/state/nvim/log',
+  configDir: '/home/HL/.config/nvim',
+  configFile: '/home/HL/.config/nvim/init.lua'
+}
+2024-11-14 16:58:31.254 [error] BufferManager: Error syncing layout: [Error: nvim_execute_lua: Error executing lua: [string "<nvim>"]:1: module 'vscode.internal' not found:
+	no field package.preload['vscode.internal']
+cache_loader: module vscode.internal not found
+cache_loader_lib: module vscode.internal not found
+	no file './vscode/internal.lua'
+	no file '/usr/share/luajit-2.1/vscode/internal.lua'
+	no file '/usr/local/share/lua/5.1/vscode/internal.lua'
+	no file '/usr/local/share/lua/5.1/vscode/internal/init.lua'
+	no file '/usr/share/lua/5.1/vscode/internal.lua'
+	no file '/usr/share/lua/5.1/vscode/internal/init.lua'
+	no file './vscode/internal.so'
+	no file '/usr/local/lib/lua/5.1/vscode/internal.so'
+	no file '/usr/lib/lua/5.1/vscode/internal.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file './vscode.so'
+	no file '/usr/local/lib/lua/5.1/vscode.so'
+	no file '/usr/lib/lua/5.1/vscode.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	[string "<nvim>"]:1: in main chunk
+	[C]: in function 'get_config'
+	...eovim-1.18.14-universal/runtime/lua/vscode/highlight.lua:33: in function 'setup_globals'
+	...eovim-1.18.14-universal/runtime/lua/vscode/highlight.lua:165: in function <...eovim-1.18.14-universal/runtime/lua/vscode/highlight.lua:162>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua: in function 'cmd'
+	/home/HL/.config/nvim/lua/plugins/theme.lua:55: in function 'config'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:376: in function <...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:374>
+	[C]: in function 'xpcall'
+	.../.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/util.lua:135: in function 'try'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:391: in function 'config'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:358: in function '_load'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:197: in function 'load'
+	...local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:127: in function 'startup'
+	/home/HL/.local/share/nvim/lazy/lazy.nvim/lua/lazy/init.lua:112: in function 'setup'
+	/home/HL/.config/nvim/lua/config/lazy.lua:17: in main chunk
+	[C]: in function 'require'
+	/home/HL/.config/nvim/init.lua:5: in main chunk
+	at /home/HL/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.14-universal/dist/extension.js:2:129308
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+2024-11-14 17:00:26.683 [info] MessagesManager: 'clipboard: error: Nothing is copied\n'
+2024-11-14 17:00:29.438 [info] MessagesManager: '1 行被去掉；before #2  3 秒前\n'
+2024-11-14 17:00:31.357 [info] MessagesManager: '1 行被去掉；before #4  1 秒前\n'
+2024-11-14 17:00:31.990 [info] MessagesManager: '1 行被去掉；before #3  1 秒前\n'
+2024-11-14 17:03:57.752 [warning] DocumentChangeManager: Changes were not applied for vscode-neovim://4/
+2024-11-14 17:03:57.753 [warning] DocumentChangeManager: Edit was canceled for doc: vscode-neovim://4/
+2024-11-14 17:03:57.753 [warning] DocumentChangeManager: Edit was canceled for doc: vscode-neovim://4/
+2024-11-14 17:07:25.915 [warning] DocumentChangeManager: Changes were not applied for vscode-neovim://12/
+2024-11-14 17:07:25.915 [warning] DocumentChangeManager: Edit was canceled for doc: vscode-neovim://12/
+2024-11-14 17:07:26.596 [warning] DocumentChangeManager: Changes were not applied for vscode-neovim://12/
+2024-11-14 17:07:26.596 [warning] DocumentChangeManager: Edit was canceled for doc: vscode-neovim://12/
+2024-11-14 17:07:32.640 [warning] DocumentChangeManager: Changes were not applied for vscode-neovim://13/
+2024-11-14 17:07:32.641 [warning] DocumentChangeManager: Edit was canceled for doc: vscode-neovim://13/
+2024-11-14 17:07:33.355 [warning] DocumentChangeManager: Changes were not applied for vscode-neovim://13/
+2024-11-14 17:07:33.355 [warning] DocumentChangeManager: Edit was canceled for doc: vscode-neovim://13/
+2024-11-14 17:17:49.796 [info] MessagesManager: 'E492: 不是编辑器的命令: lAZY\n'
+2024-11-14 17:17:59.276 [warning] DocumentChangeManager: Changes were not applied for vscode-neovim://9/
+2024-11-14 17:17:59.276 [warning] DocumentChangeManager: Edit was canceled for doc: vscode-neovim://9/
+2024-11-14 17:17:59.458 [warning] DocumentChangeManager: Changes were not applied for vscode-neovim://9/
+2024-11-14 17:17:59.458 [warning] DocumentChangeManager: Edit was canceled for doc: vscode-neovim://9/

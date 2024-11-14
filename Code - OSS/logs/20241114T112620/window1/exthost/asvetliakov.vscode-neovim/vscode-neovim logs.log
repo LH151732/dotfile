@@ -1,0 +1,28 @@
+2024-11-14 11:26:22.941 [info] MainController: Starting nvim: /usr/bin/nvim -N --embed --cmd source /home/HL/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.14-universal/runtime/vscode-neovim.vim
+2024-11-14 11:26:23.019 [info] MainController: Nvim info: {
+  configFile: '/home/HL/.config/nvim/init.lua',
+  nvimVersion: {
+    api_prerelease: false,
+    api_compatible: 0,
+    major: 0,
+    minor: 10,
+    patch: 2,
+    build: 'v0.10.2',
+    prerelease: false,
+    api_level: 12
+  },
+  logFile: '/home/HL/.local/state/nvim/log',
+  configDir: '/home/HL/.config/nvim'
+}
+2024-11-14 11:45:53.283 [info] MessagesManager: '3 fewer lines\n'
+2024-11-14 11:47:16.219 [info] MessagesManager: '3 more lines\n'
+2024-11-14 11:47:16.427 [info] MessagesManager: '3 行被去掉；before #4  0 秒前\n'
+2024-11-14 11:55:04.205 [info] MessagesManager: '29 lines yanked\n'
+2024-11-14 12:03:07.714 [info] MessagesManager: '--缓冲区无内容--\n'
+2024-11-14 12:07:23.547 [info] MessagesManager: '16 lines yanked\n'
+2024-11-14 12:14:10.363 [info] MessagesManager: '--缓冲区无内容--\n'
+2024-11-14 12:25:20.501 [info] MessagesManager: '38 lines yanked\n'
+2024-11-14 12:26:15.090 [info] MessagesManager: '--缓冲区无内容--\n'
+2024-11-14 12:26:18.355 [info] MessagesManager: '(mini.ai) Input must be single character: alphanumeric, punctuation, space, or tab.\n'
+2024-11-14 12:26:50.919 [info] MessagesManager: '4 fewer lines\n'
+2024-11-14 12:31:17.202 [info] MessagesManager: '3 fewer lines\n'

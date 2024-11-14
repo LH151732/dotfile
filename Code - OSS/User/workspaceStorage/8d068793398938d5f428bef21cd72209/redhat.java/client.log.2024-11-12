@@ -1,0 +1,896 @@
+{
+  message: "Use the JDK from 'JAVA_HOME,PATH,SDKMAN' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-11-12 22:38:37.918'
+}
+{
+  message: 'Starting Java server with: /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/lombok/lombok-1.18.35.jar -jar /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/HL/.config/Code - OSS/User/globalStorage/redhat.java/1.36.0/config_ss_linux -data /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-11-12 22:38:37.952'
+}
+{
+  message: 'Starting Java server with: /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/lombok/lombok-1.18.35.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/HL/.config/Code - OSS/User/globalStorage/redhat.java/1.36.0/config_linux -data /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-11-12 22:38:38.069'
+}
+{
+  message: '11月 12, 2024 10:38:38 下午 org.apache.aries.spifly.BaseActivator log\n' +
+    '信息: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:38:38.733'
+}
+{
+  message: '11月 12, 2024 10:38:38 下午 org.apache.aries.spifly.BaseActivator log\n' +
+    '信息: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:38:38.736'
+}
+{
+  message: '[Error - 22:38:40] 2024年11月12日 下午10:38:40 Failed to create linked resource from file:///home/HL/Documents/Javalab/CommandLineArgs.java to jdt.ls-java-project\n' +
+    "Resource '/jdt.ls-java-project/src/CommandLineArgs.java' already exists.\n" +
+    "org.eclipse.core.internal.resources.ResourceException(/jdt.ls-java-project/src/CommandLineArgs.java)[367]: java.lang.Exception: Resource '/jdt.ls-java-project/src/CommandLineArgs.java' already exists.\n" +
+    '\tat org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)\n' +
+    '\tat org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.createResource(Workspace.java:1459)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.createResource(Workspace.java:1394)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.createLink(Resource.java:678)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:309)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:201)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:484)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:443)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:108)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$5(SyntaxLanguageServer.java:339)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:38:40.631'
+}
+{
+  message: '[Error - 22:38:41] 2024年11月12日 下午10:38:41 [Working copy] CommandLineArgs.java [in <default> [in src [in jdt.ls-java-project]]] does not exist\n' +
+    '[Working copy] CommandLineArgs.java [in <default> [in src [in jdt.ls-java-project]]] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): [Working copy] CommandLineArgs.java [in <default> [in src [in jdt.ls-java-project]]] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:338)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:1110)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:151)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:120)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:816)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1446)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:332)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:295)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:777)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:38:41.805'
+}
+{ level: 'error', timestamp: '2024-11-12 22:38:42.619' }
+{
+  message: '11月 12, 2024 10:38:42 下午 com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    '信息: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:38:42.886'
+}
+{
+  message: '11月 12, 2024 10:39:52 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 273\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:39:52.653'
+}
+{
+  message: '11月 12, 2024 10:39:52 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 274\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:39:52.873'
+}
+{
+  message: '11月 12, 2024 10:39:53 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 287\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:39:53.902'
+}
+{
+  message: '11月 12, 2024 10:39:54 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 288\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:39:54.048'
+}
+{
+  message: '11月 12, 2024 10:39:54 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 289\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:39:54.049'
+}
+{
+  message: '11月 12, 2024 10:39:54 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 290\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:39:54.181'
+}
+{
+  message: '11月 12, 2024 10:39:54 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 291\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:39:54.183'
+}
+{
+  message: '11月 12, 2024 10:39:54 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 293\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:39:54.323'
+}
+{
+  message: '11月 12, 2024 10:39:54 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 294\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:39:54.326'
+}
+{
+  message: '11月 12, 2024 10:39:54 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 295\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:39:54.483'
+}
+{
+  message: '11月 12, 2024 10:39:54 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 296\n' +
+    '11月 12, 2024 10:39:54 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 298\n' +
+    '11月 12, 2024 10:39:54 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 297\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:39:54.635'
+}
+{
+  message: '11月 12, 2024 10:40:09 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 464\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:40:09.983'
+}
+{
+  message: '11月 12, 2024 10:40:11 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 493\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:40:11.463'
+}
+{
+  message: '11月 12, 2024 10:40:11 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 495\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:40:11.561'
+}
+{
+  message: '11月 12, 2024 10:47:36 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 762\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:47:36.738'
+}
+{
+  message: "Use the JDK from 'JAVA_HOME,PATH,SDKMAN' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-11-12 22:48:02.786'
+}
+{
+  message: 'Starting Java server with: /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/lombok/lombok-1.18.35.jar -jar /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/HL/.config/Code - OSS/User/globalStorage/redhat.java/1.36.0/config_ss_linux -data /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-11-12 22:48:02.837'
+}
+{
+  message: 'Starting Java server with: /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/lombok/lombok-1.18.35.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/HL/.config/Code - OSS/User/globalStorage/redhat.java/1.36.0/config_linux -data /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-11-12 22:48:02.944'
+}
+{
+  message: '11月 12, 2024 10:48:03 下午 org.apache.aries.spifly.BaseActivator log\n' +
+    '信息: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:48:03.652'
+}
+{
+  message: '11月 12, 2024 10:48:03 下午 org.apache.aries.spifly.BaseActivator log\n' +
+    '信息: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:48:03.655'
+}
+{
+  message: '11月 12, 2024 10:48:07 下午 com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    '信息: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:48:07.106'
+}
+{ level: 'error', timestamp: '2024-11-12 22:48:07.500' }
+{
+  message: "Use the JDK from 'JAVA_HOME,PATH,SDKMAN' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-11-12 22:49:37.937'
+}
+{
+  message: 'Starting Java server with: /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/lombok/lombok-1.18.35.jar -jar /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/HL/.config/Code - OSS/User/globalStorage/redhat.java/1.36.0/config_ss_linux -data /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-11-12 22:49:37.990'
+}
+{
+  message: 'Starting Java server with: /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/lombok/lombok-1.18.35.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/HL/.config/Code - OSS/User/globalStorage/redhat.java/1.36.0/config_linux -data /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-11-12 22:49:38.120'
+}
+{
+  message: '11月 12, 2024 10:49:38 下午 org.apache.aries.spifly.BaseActivator log\n' +
+    '信息: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:49:38.801'
+}
+{
+  message: '11月 12, 2024 10:49:38 下午 org.apache.aries.spifly.BaseActivator log\n' +
+    '信息: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:49:38.803'
+}
+{
+  message: '11月 12, 2024 10:49:41 下午 com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    '信息: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:49:41.623'
+}
+{ level: 'error', timestamp: '2024-11-12 22:49:41.870' }
+{
+  message: "Use the JDK from 'JAVA_HOME,PATH,SDKMAN' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-11-12 22:59:18.959'
+}
+{
+  message: 'Starting Java server with: /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/lombok/lombok-1.18.35.jar -jar /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/HL/.config/Code - OSS/User/globalStorage/redhat.java/1.36.0/config_ss_linux -data /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-11-12 22:59:18.986'
+}
+{
+  message: 'Starting Java server with: /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/lombok/lombok-1.18.35.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/HL/.config/Code - OSS/User/globalStorage/redhat.java/1.36.0/config_linux -data /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-11-12 22:59:19.073'
+}
+{
+  message: '11月 12, 2024 10:59:19 下午 org.apache.aries.spifly.BaseActivator log\n' +
+    '信息: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:59:19.823'
+}
+{
+  message: '11月 12, 2024 10:59:19 下午 org.apache.aries.spifly.BaseActivator log\n' +
+    '信息: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:59:19.825'
+}
+{ level: 'error', timestamp: '2024-11-12 22:59:22.929' }
+{
+  message: '11月 12, 2024 10:59:23 下午 com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    '信息: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:59:23.186'
+}
+{
+  message: '11月 12, 2024 10:59:24 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 40\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:59:24.931'
+}
+{
+  message: '11月 12, 2024 10:59:24 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 41\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:59:24.999'
+}
+{
+  message: '11月 12, 2024 10:59:25 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 42\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:59:25.003'
+}
+{
+  message: '11月 12, 2024 10:59:25 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 43\n',
+  level: 'info',
+  timestamp: '2024-11-12 22:59:25.004'
+}
+{
+  message: "Use the JDK from 'JAVA_HOME,PATH,SDKMAN' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-11-12 23:24:03.576'
+}
+{
+  message: 'Starting Java server with: /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/lombok/lombok-1.18.35.jar -jar /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/HL/.config/Code - OSS/User/globalStorage/redhat.java/1.36.0/config_ss_linux -data /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-11-12 23:24:03.604'
+}
+{
+  message: 'Starting Java server with: /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/lombok/lombok-1.18.35.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/HL/.config/Code - OSS/User/globalStorage/redhat.java/1.36.0/config_linux -data /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-11-12 23:24:03.689'
+}
+{
+  message: '11月 12, 2024 11:24:04 下午 org.apache.aries.spifly.BaseActivator log\n' +
+    '信息: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:24:04.350'
+}
+{
+  message: '11月 12, 2024 11:24:04 下午 org.apache.aries.spifly.BaseActivator log\n' +
+    '信息: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:24:04.352'
+}
+{ level: 'error', timestamp: '2024-11-12 23:24:07.534' }
+{
+  message: '11月 12, 2024 11:24:07 下午 com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    '信息: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:24:07.799'
+}
+{
+  message: '11月 12, 2024 11:26:16 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 39\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:26:16.966'
+}
+{
+  message: '11月 12, 2024 11:26:35 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 194\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:26:35.425'
+}
+{
+  message: '11月 12, 2024 11:26:35 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 195\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:26:35.647'
+}
+{
+  message: '11月 12, 2024 11:26:35 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 196\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:26:35.668'
+}
+{
+  message: '11月 12, 2024 11:26:35 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 198\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:26:35.669'
+}
+{
+  message: '11月 12, 2024 11:26:36 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 212\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:26:36.356'
+}
+{
+  message: '11月 12, 2024 11:26:38 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 235\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:26:38.074'
+}
+{
+  message: '11月 12, 2024 11:26:38 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 236\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:26:38.212'
+}
+{
+  message: '11月 12, 2024 11:26:38 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 237\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:26:38.215'
+}
+{
+  message: '11月 12, 2024 11:26:38 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 238\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:26:38.356'
+}
+{
+  message: '11月 12, 2024 11:26:38 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 239\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:26:38.359'
+}
+{
+  message: '11月 12, 2024 11:26:38 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 241\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:26:38.487'
+}
+{
+  message: '11月 12, 2024 11:26:38 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 242\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:26:38.489'
+}
+{
+  message: '11月 12, 2024 11:26:38 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 243\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:26:38.625'
+}
+{
+  message: '11月 12, 2024 11:26:38 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 248\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:26:38.633'
+}
+{
+  message: '11月 12, 2024 11:26:51 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 419\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:26:51.011'
+}
+{
+  message: '11月 12, 2024 11:28:22 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 1171\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:28:22.780'
+}
+{
+  message: '11月 12, 2024 11:29:04 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 1496\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:29:04.667'
+}
+{
+  message: '11月 12, 2024 11:29:21 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 1724\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:29:21.834'
+}
+{
+  message: '11月 12, 2024 11:29:21 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 1726\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:29:21.915'
+}
+{
+  message: '11月 12, 2024 11:29:40 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 1923\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:29:40.524'
+}
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-11-12 23:30:09.912'
+}
+{
+  message: 'Starting Java server with: /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/lombok/lombok-1.18.35.jar -jar /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/HL/.config/Code - OSS/User/globalStorage/redhat.java/1.36.0/config_ss_linux -data /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-11-12 23:30:09.945'
+}
+{
+  message: 'Starting Java server with: /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/lombok/lombok-1.18.35.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/HL/.config/Code - OSS/User/globalStorage/redhat.java/1.36.0/config_linux -data /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-11-12 23:30:10.031'
+}
+{
+  message: '11月 12, 2024 11:30:10 下午 org.apache.aries.spifly.BaseActivator log\n' +
+    '信息: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:30:10.770'
+}
+{
+  message: '11月 12, 2024 11:30:10 下午 org.apache.aries.spifly.BaseActivator log\n' +
+    '信息: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:30:10.773'
+}
+{ level: 'error', timestamp: '2024-11-12 23:30:13.884' }
+{
+  message: '11月 12, 2024 11:30:14 下午 com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    '信息: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:30:14.147'
+}
+{
+  message: '11月 12, 2024 11:30:24 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 153\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:30:24.941'
+}
+{
+  message: '11月 12, 2024 11:30:25 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 156\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:30:25.405'
+}
+{
+  message: '11月 12, 2024 11:30:25 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 155\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:30:25.440'
+}
+{
+  message: '11月 12, 2024 11:30:52 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 472\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:30:52.554'
+}
+{
+  message: '11月 12, 2024 11:30:53 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 473\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:30:53.055'
+}
+{
+  message: '11月 12, 2024 11:30:53 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 475\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:30:53.057'
+}
+{
+  message: '11月 12, 2024 11:30:53 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 476\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:30:53.158'
+}
+{
+  message: '11月 12, 2024 11:30:53 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 477\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:30:53.161'
+}
+{
+  message: '11月 12, 2024 11:30:53 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 478\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:30:53.370'
+}
+{
+  message: '11月 12, 2024 11:30:53 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 479\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:30:53.372'
+}
+{
+  message: '11月 12, 2024 11:30:53 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 482\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:30:53.380'
+}
+{
+  message: '11月 12, 2024 11:31:09 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 650\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:31:09.935'
+}
+{
+  message: '11月 12, 2024 11:31:47 下午 com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    '信息: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:31:47.093'
+}
+{
+  message: '11月 12, 2024 11:31:48 下午 com.microsoft.java.debug.core.UsageDataSession recordResponse\n' +
+    '警告: abnormal response\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:31:48.508'
+}
+{
+  message: '11月 12, 2024 11:31:57 下午 com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    '信息: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:31:57.701'
+}
+{
+  message: '[Error - 23:32:16] 2024年11月12日 下午11:32:16 Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2024-11-12 23:32:16.363'
+}
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-11-12 23:32:30.836'
+}
+{
+  message: 'Starting Java server with: /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/lombok/lombok-1.18.35.jar -jar /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/HL/.config/Code - OSS/User/globalStorage/redhat.java/1.36.0/config_ss_linux -data /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-11-12 23:32:30.867'
+}
+{
+  message: 'Starting Java server with: /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/lombok/lombok-1.18.35.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/HL/.config/Code - OSS/User/globalStorage/redhat.java/1.36.0/config_linux -data /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-11-12 23:32:30.955'
+}
+{
+  message: '11月 12, 2024 11:32:31 下午 org.apache.aries.spifly.BaseActivator log\n' +
+    '信息: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:32:31.627'
+}
+{
+  message: '11月 12, 2024 11:32:31 下午 org.apache.aries.spifly.BaseActivator log\n' +
+    '信息: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:32:31.629'
+}
+{ level: 'error', timestamp: '2024-11-12 23:32:35.095' }
+{
+  message: '11月 12, 2024 11:32:35 下午 com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    '信息: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:32:35.378'
+}
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-11-12 23:32:52.756'
+}
+{
+  message: 'Starting Java server with: /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/lombok/lombok-1.18.35.jar -jar /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/HL/.config/Code - OSS/User/globalStorage/redhat.java/1.36.0/config_ss_linux -data /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-11-12 23:32:52.784'
+}
+{
+  message: 'Starting Java server with: /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/lombok/lombok-1.18.35.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/HL/.config/Code - OSS/User/globalStorage/redhat.java/1.36.0/config_linux -data /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-11-12 23:32:52.869'
+}
+{
+  message: '11月 12, 2024 11:32:53 下午 org.apache.aries.spifly.BaseActivator log\n' +
+    '信息: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:32:53.550'
+}
+{
+  message: '11月 12, 2024 11:32:53 下午 org.apache.aries.spifly.BaseActivator log\n' +
+    '信息: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:32:53.553'
+}
+{ level: 'error', timestamp: '2024-11-12 23:32:56.667' }
+{
+  message: '11月 12, 2024 11:32:59 下午 com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    '信息: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:32:59.760'
+}
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-11-12 23:33:10.308'
+}
+{
+  message: 'Starting Java server with: /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/lombok/lombok-1.18.35.jar -jar /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/HL/.config/Code - OSS/User/globalStorage/redhat.java/1.36.0/config_ss_linux -data /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-11-12 23:33:10.338'
+}
+{
+  message: 'Starting Java server with: /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/lombok/lombok-1.18.35.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/HL/.config/Code - OSS/User/globalStorage/redhat.java/1.36.0/config_linux -data /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-11-12 23:33:10.440'
+}
+{
+  message: '11月 12, 2024 11:33:11 下午 org.apache.aries.spifly.BaseActivator log\n' +
+    '信息: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:33:11.167'
+}
+{
+  message: '11月 12, 2024 11:33:11 下午 org.apache.aries.spifly.BaseActivator log\n' +
+    '信息: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:33:11.170'
+}
+{ level: 'error', timestamp: '2024-11-12 23:33:14.115' }
+{
+  message: '11月 12, 2024 11:33:14 下午 com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    '信息: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:33:14.377'
+}
+{
+  message: "Use the JDK from 'JAVA_HOME,PATH,SDKMAN' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-11-12 23:36:01.800'
+}
+{
+  message: 'Starting Java server with: /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/lombok/lombok-1.18.35.jar -jar /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/HL/.config/Code - OSS/User/globalStorage/redhat.java/1.36.0/config_ss_linux -data /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-11-12 23:36:01.828'
+}
+{
+  message: 'Starting Java server with: /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/jre/17.0.13-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/lombok/lombok-1.18.35.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/HL/.config/Code - OSS/User/globalStorage/redhat.java/1.36.0/config_linux -data /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-11-12 23:36:01.920'
+}
+{
+  message: '11月 12, 2024 11:36:02 下午 org.apache.aries.spifly.BaseActivator log\n' +
+    '信息: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:36:02.700'
+}
+{
+  message: '11月 12, 2024 11:36:02 下午 org.apache.aries.spifly.BaseActivator log\n' +
+    '信息: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:36:02.702'
+}
+{ level: 'error', timestamp: '2024-11-12 23:36:05.743' }
+{
+  message: '11月 12, 2024 11:36:26 下午 com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    '信息: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:36:26.550'
+}
+{
+  message: '11月 12, 2024 11:37:21 下午 com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    '信息: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:37:21.143'
+}
+{
+  message: '11月 12, 2024 11:37:22 下午 com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    '信息: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:37:22.456'
+}
+{
+  message: '11月 12, 2024 11:37:44 下午 com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    '信息: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:37:44.882'
+}
+{
+  message: '11月 12, 2024 11:37:47 下午 com.microsoft.java.debug.core.UsageDataSession recordResponse\n' +
+    '警告: abnormal response\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:37:47.220'
+}
+{
+  message: '11月 12, 2024 11:37:51 下午 com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    '信息: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:37:51.593'
+}
+{
+  message: '11月 12, 2024 11:41:57 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 244\n' +
+    '11月 12, 2024 11:41:57 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 245\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:41:57.791'
+}
+{
+  message: '11月 12, 2024 11:42:23 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 425\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:42:23.712'
+}
+{
+  message: '11月 12, 2024 11:42:54 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 711\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:42:54.396'
+}
+{
+  message: '11月 12, 2024 11:42:56 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 746\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:42:56.335'
+}
+{
+  message: '11月 12, 2024 11:43:18 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 862\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:43:18.746'
+}
+{
+  message: '11月 12, 2024 11:43:55 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 1271\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:43:55.870'
+}
+{
+  message: '11月 12, 2024 11:44:25 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 1621\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:44:25.936'
+}
+{
+  message: '11月 12, 2024 11:45:01 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 1765\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:45:01.535'
+}
+{
+  message: '11月 12, 2024 11:45:23 下午 com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    '信息: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:45:23.905'
+}
+{
+  message: '11月 12, 2024 11:45:31 下午 com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    '信息: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:45:31.138'
+}
+{
+  message: '11月 12, 2024 11:45:32 下午 com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    '信息: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:45:32.197'
+}
+{
+  message: '11月 12, 2024 11:45:34 下午 com.microsoft.java.debug.core.UsageDataSession recordResponse\n' +
+    '警告: abnormal response\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:45:34.564'
+}
+{
+  message: '11月 12, 2024 11:45:38 下午 com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    '信息: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:45:38.935'
+}
+{
+  message: '11月 12, 2024 11:45:45 下午 com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    '信息: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:45:45.851'
+}
+{
+  message: '11月 12, 2024 11:45:46 下午 com.microsoft.java.debug.core.UsageDataSession recordResponse\n' +
+    '警告: abnormal response\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:45:46.965'
+}
+{
+  message: '11月 12, 2024 11:46:03 下午 com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    '信息: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:46:03.404'
+}
+{
+  message: '11月 12, 2024 11:46:08 下午 com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    '信息: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:46:08.971'
+}
+{
+  message: '11月 12, 2024 11:46:11 下午 com.microsoft.java.debug.core.UsageDataSession recordResponse\n' +
+    '警告: abnormal response\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:46:11.426'
+}
+{
+  message: '11月 12, 2024 11:46:16 下午 com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    '信息: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:46:16.330'
+}
+{
+  message: '11月 12, 2024 11:46:18 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 1956\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:46:18.964'
+}
+{
+  message: '11月 12, 2024 11:56:54 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 2107\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:56:54.671'
+}
+{
+  message: '11月 12, 2024 11:56:56 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    '警告: Unmatched cancel notification for request id 2129\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:56:56.183'
+}
+{
+  message: '11月 12, 2024 11:59:58 下午 com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    '信息: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-11-12 23:59:58.243'
+}

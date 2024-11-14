@@ -1,0 +1,14 @@
+2024-11-14 17:50:14.204 [info] Added views:outline in workbench.view.explorer
+2024-11-14 17:50:14.204 [info] Added views:workbench.view.search in workbench.view.search
+2024-11-14 17:50:14.204 [info] Added views:workbench.scm in workbench.view.scm
+2024-11-14 17:50:14.204 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2024-11-14 17:50:14.204 [info] Added views:workbench.panel.output in workbench.panel.output
+2024-11-14 17:50:14.204 [info] Added views:terminal in terminal
+2024-11-14 17:50:14.204 [info] Added views:timeline in workbench.view.explorer
+2024-11-14 17:50:14.204 [info] Added views:workbench.explorer.openEditorsView,workbench.explorer.fileView in workbench.view.explorer
+2024-11-14 17:50:14.344 [info] Added views:workbench.debug.welcome in workbench.view.debug
+2024-11-14 17:50:14.549 [info] Added views:workspaceViewer in workbench.view.extension.workspaceViewer
+2024-11-14 17:50:14.549 [info] Added views:claude-dev.SidebarProvider in workbench.view.extension.claude-dev-ActivityBar
+2024-11-14 17:50:14.554 [info] Added views:snippetsView in workbench.view.explorer
+2024-11-14 17:50:14.901 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
+2024-11-14 17:50:14.966 [info] Added views:~remote.forwardedPorts in ~remote.forwardedPortsContainer

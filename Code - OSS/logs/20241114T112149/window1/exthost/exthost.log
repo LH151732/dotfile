@@ -1,0 +1,27 @@
+2024-11-14 11:21:50.168 [info] Extension host with pid 6696 started
+2024-11-14 11:21:50.168 [info] Skipping acquiring lock for /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209.
+2024-11-14 11:21:50.370 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-14 11:21:50.371 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2024-11-14 11:21:50.483 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2024-11-14 11:21:50.520 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2024-11-14 11:21:50.595 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onLanguage:java'
+2024-11-14 11:21:50.674 [info] Extension host with pid 6765 started
+2024-11-14 11:21:50.674 [info] Skipping acquiring lock for /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209.
+2024-11-14 11:21:50.680 [info] Eager extensions activated
+2024-11-14 11:21:50.692 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 11:21:50.815 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2024-11-14 11:21:50.858 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+2024-11-14 11:21:51.006 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2024-11-14 11:21:51.274 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-14 11:21:51.280 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-14 11:21:51.281 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-14 11:21:51.392 [info] Eager extensions activated
+2024-11-14 11:21:51.408 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 11:21:51.408 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 11:21:51.408 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 11:23:41.357 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-14 11:23:41.371 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-11-14 11:23:41.373 [warning] Canceled
+2024-11-14 11:23:41.374 [info] Extension host with pid 6765 exiting with code 0
+2024-11-14 11:23:41.483 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-14 11:23:41.493 [info] Extension host with pid 6696 exiting with code 0

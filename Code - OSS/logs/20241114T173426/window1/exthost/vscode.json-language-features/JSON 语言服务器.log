@@ -1,0 +1,34 @@
+2024-11-14 17:36:24.391 [info] l10n: Configured to file:///home/HL/.vscode-oss/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.95.0-universal/translations/extensions/vscode.json-language-features.i18n.json
+2024-11-14 17:36:24.444 [info] read schema from vscode: vscode://schemas/settings/user
+2024-11-14 17:36:24.444 [info] cancelled
+2024-11-14 17:36:24.520 [info] schema change detected vscode://schemas/settings/user
+2024-11-14 17:36:24.577 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2024-11-14 17:36:24.585 [info] read schema from vscode: vscode://schemas/launch
+2024-11-14 17:36:24.589 [info] read schema from vscode: vscode://schemas/token-styling
+2024-11-14 17:36:24.590 [info] read schema from vscode: vscode://schemas/textmate-colors
+2024-11-14 17:36:24.596 [info] read schema from vscode: vscode://schemas/workbench-colors
+2024-11-14 17:36:24.701 [info] cancelled
+2024-11-14 17:36:24.703 [info] read schema from vscode: vscode://schemas/settings/user
+2024-11-14 17:36:29.255 [info] schema change detected vscode://schemas/launch
+2024-11-14 17:36:29.258 [info] read schema from vscode: vscode://schemas/settings/user
+2024-11-14 17:36:29.375 [info] read schema from vscode: vscode://schemas/launch
+2024-11-14 17:36:31.113 [info] schema change detected vscode://schemas/settings/user
+2024-11-14 17:36:34.025 [info] read schema from vscode: vscode://schemas/settings/default
+2024-11-14 17:36:34.266 [info] schema change detected vscode://schemas/settings/default
+2024-11-14 17:36:34.266 [info] schema change detected vscode://schemas/settings/user
+2024-11-14 17:36:34.267 [info] read schema from vscode: vscode://schemas/settings/default
+2024-11-14 17:36:39.328 [info] schema change detected vscode://schemas/launch
+2024-11-14 17:36:41.699 [info] read schema from vscode: vscode://schemas/settings/user
+2024-11-14 17:36:41.788 [info] schema change detected vscode://schemas/settings/default
+2024-11-14 17:36:41.788 [info] schema change detected vscode://schemas/settings/user
+2024-11-14 17:36:41.834 [info] read schema from vscode: vscode://schemas/launch
+2024-11-14 17:36:41.915 [info] read schema from vscode: vscode://schemas/settings/user
+2024-11-14 17:36:43.438 [info] schema change detected vscode://schemas/settings/default
+2024-11-14 17:36:43.439 [info] schema change detected vscode://schemas/settings/user
+2024-11-14 17:43:04.395 [info] read schema from vscode: vscode://schemas/snippets
+2024-11-14 17:49:08.909 [info] read schema from vscode: vscode://schemas/settings/user
+2024-11-14 17:49:09.003 [info] schema change detected vscode://schemas/settings/default
+2024-11-14 17:49:09.004 [info] schema change detected vscode://schemas/settings/user
+2024-11-14 17:49:09.123 [info] read schema from vscode: vscode://schemas/settings/user
+2024-11-14 17:49:10.769 [info] schema change detected vscode://schemas/settings/default
+2024-11-14 17:49:10.770 [info] schema change detected vscode://schemas/settings/user

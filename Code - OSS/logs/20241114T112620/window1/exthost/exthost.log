@@ -1,0 +1,1422 @@
+2024-11-14 11:26:22.109 [info] Extension host with pid 2920 started
+2024-11-14 11:26:22.109 [info] Skipping acquiring lock for /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209.
+2024-11-14 11:26:22.282 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-14 11:26:22.285 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2024-11-14 11:26:22.418 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2024-11-14 11:26:22.456 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2024-11-14 11:26:22.535 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onLanguage:java'
+2024-11-14 11:26:22.736 [info] Extension host with pid 2989 started
+2024-11-14 11:26:22.736 [info] Skipping acquiring lock for /home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209.
+2024-11-14 11:26:22.772 [info] Eager extensions activated
+2024-11-14 11:26:22.802 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 11:26:22.968 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2024-11-14 11:26:23.033 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+2024-11-14 11:26:23.105 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2024-11-14 11:26:23.314 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-14 11:26:23.364 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-14 11:26:23.365 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-14 11:26:23.572 [info] Eager extensions activated
+2024-11-14 11:26:23.621 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 11:26:23.622 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 11:26:23.623 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 11:27:59.154 [error] [redhat.java] provider FAILED
+2024-11-14 11:27:59.160 [error] Error: The request (id: 84, method: 'textDocument/hover') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:47:20.441 [error] [redhat.java] provider FAILED
+2024-11-14 11:47:20.441 [error] Error: The request (id: 291, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:47:38.145 [error] [redhat.java] provider FAILED
+2024-11-14 11:47:38.145 [error] Error: The request (id: 463, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:47:50.452 [error] [redhat.java] provider FAILED
+2024-11-14 11:47:50.453 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 11:47:50.689 [error] [redhat.java] provider FAILED
+2024-11-14 11:47:50.689 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 11:47:51.010 [error] [redhat.java] provider FAILED
+2024-11-14 11:47:51.010 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 11:47:56.698 [error] [redhat.java] provider FAILED
+2024-11-14 11:47:56.698 [error] Error: The request (id: 725, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:48:48.285 [error] [redhat.java] provider FAILED
+2024-11-14 11:48:48.285 [error] Error: The request (id: 1369, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:48:56.206 [error] [redhat.java] provider FAILED
+2024-11-14 11:48:56.206 [error] Error: The request (id: 1486, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:49:04.916 [error] [redhat.java] provider FAILED
+2024-11-14 11:49:04.916 [error] Error: The request (id: 1569, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:49:05.571 [error] [redhat.java] provider FAILED
+2024-11-14 11:49:05.572 [error] Error: The request (id: 1586, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:49:18.037 [error] [redhat.java] provider FAILED
+2024-11-14 11:49:18.038 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 11:49:21.688 [error] [redhat.java] provider FAILED
+2024-11-14 11:49:21.688 [error] Error: The request (id: 1779, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:49:23.385 [error] [redhat.java] provider FAILED
+2024-11-14 11:49:23.385 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 11:49:24.111 [error] [redhat.java] provider FAILED
+2024-11-14 11:49:24.111 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+2024-11-14 11:49:24.112 [error] [redhat.java] provider FAILED
+2024-11-14 11:49:24.112 [error] Error: The request (id: 1817, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:49:26.262 [error] [redhat.java] provider FAILED
+2024-11-14 11:49:26.262 [error] Error: The request (id: 1872, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:49:26.728 [error] [redhat.java] provider FAILED
+2024-11-14 11:49:26.728 [error] Error: The request (id: 1884, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:51:09.989 [error] [redhat.java] provider FAILED
+2024-11-14 11:51:09.990 [error] Error: The request (id: 2097, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:52:03.739 [error] [redhat.java] provider FAILED
+2024-11-14 11:52:03.739 [error] Error: The request (id: 2584, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:52:27.507 [error] [redhat.java] provider FAILED
+2024-11-14 11:52:27.507 [error] Error: The request (id: 2757, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:52:30.279 [error] [redhat.java] provider FAILED
+2024-11-14 11:52:30.279 [error] Error: The request (id: 2798, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:52:38.148 [error] [redhat.java] provider FAILED
+2024-11-14 11:52:38.148 [error] Error: The request (id: 2870, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:52:38.566 [error] [redhat.java] provider FAILED
+2024-11-14 11:52:38.566 [error] Error: The request (id: 2877, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:52:41.893 [error] [redhat.java] provider FAILED
+2024-11-14 11:52:41.893 [error] Error: The request (id: 2907, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:53:10.275 [error] [redhat.java] provider FAILED
+2024-11-14 11:53:10.275 [error] Error: The request (id: 3145, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:54:15.233 [error] [redhat.java] provider FAILED
+2024-11-14 11:54:15.234 [error] Error: The request (id: 3286, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:54:15.736 [error] [redhat.java] provider FAILED
+2024-11-14 11:54:15.736 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+2024-11-14 11:54:16.310 [error] [redhat.java] provider FAILED
+2024-11-14 11:54:16.310 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+2024-11-14 11:54:16.313 [error] [redhat.java] provider FAILED
+2024-11-14 11:54:16.313 [error] Error: The request (id: 3294, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:54:16.813 [error] [redhat.java] provider FAILED
+2024-11-14 11:54:16.813 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 11:54:16.821 [error] [redhat.java] provider FAILED
+2024-11-14 11:54:16.821 [error] Error: selectionRange must be contained in fullRange
+	at Hd.validate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33675)
+	at new Hd (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33883)
+	at G (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1246711)
+	at c (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1285227)
+	at t.map (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1285313)
+	at Object.asDocumentSymbols (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1254767)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:949198
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:948254)
+2024-11-14 11:54:16.822 [error] [redhat.java] provider FAILED
+2024-11-14 11:54:16.822 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+2024-11-14 11:54:16.824 [error] [redhat.java] provider FAILED
+2024-11-14 11:54:16.824 [error] Error: The request (id: 3305, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:54:16.858 [error] [redhat.java] provider FAILED
+2024-11-14 11:54:16.858 [error] Error: selectionRange must be contained in fullRange
+	at Hd.validate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33675)
+	at new Hd (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33883)
+	at G (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1246711)
+	at c (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1285227)
+	at t.map (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1285313)
+	at Object.asDocumentSymbols (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1254767)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:949198
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:948254)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+2024-11-14 11:54:16.859 [error] [redhat.java] provider FAILED
+2024-11-14 11:54:16.860 [error] Error: selectionRange must be contained in fullRange
+	at Hd.validate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33675)
+	at new Hd (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33883)
+	at G (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1246711)
+	at c (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1285227)
+	at t.map (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1285313)
+	at Object.asDocumentSymbols (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1254767)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:949198
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:948254)
+2024-11-14 11:54:17.822 [error] [redhat.java] provider FAILED
+2024-11-14 11:54:17.822 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 11:54:20.874 [error] [redhat.java] provider FAILED
+2024-11-14 11:54:20.874 [error] Error: The request (id: 3392, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:54:21.693 [error] [redhat.java] provider FAILED
+2024-11-14 11:54:21.693 [error] Error: The request (id: 3409, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:54:23.259 [error] [redhat.java] provider FAILED
+2024-11-14 11:54:23.259 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 11:54:55.220 [error] [redhat.java] provider FAILED
+2024-11-14 11:54:55.220 [error] Error: The request (id: 3747, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 11:57:06.320 [info] ExtensionService#_doActivateExtension firefox-devtools.vscode-firefox-debug, startup: false, activationEvent: 'onDebug'
+2024-11-14 11:57:06.358 [info] ExtensionService#_doActivateExtension RDebugger.r-debugger, startup: false, activationEvent: 'onDebug'
+2024-11-14 11:57:06.409 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-11-14 12:03:37.613 [error] [redhat.java] provider FAILED
+2024-11-14 12:03:37.613 [error] Error: The request (id: 4627, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:04:01.333 [error] [redhat.java] provider FAILED
+2024-11-14 12:04:01.333 [error] Error: The request (id: 4850, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:04:05.417 [error] [redhat.java] provider FAILED
+2024-11-14 12:04:05.417 [error] Error: The request (id: 4911, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:04:18.376 [error] [redhat.java] provider FAILED
+2024-11-14 12:04:18.376 [error] Error: The request (id: 5039, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:04:23.993 [error] [redhat.java] provider FAILED
+2024-11-14 12:04:23.993 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:04:24.186 [error] [redhat.java] provider FAILED
+2024-11-14 12:04:24.186 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:04:24.191 [error] [redhat.java] provider FAILED
+2024-11-14 12:04:24.191 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+2024-11-14 12:04:29.557 [error] [redhat.java] provider FAILED
+2024-11-14 12:04:29.557 [error] Error: The request (id: 5160, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:04:31.562 [error] [redhat.java] provider FAILED
+2024-11-14 12:04:31.562 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+2024-11-14 12:04:32.039 [error] [redhat.java] provider FAILED
+2024-11-14 12:04:32.039 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:04:32.041 [error] [redhat.java] provider FAILED
+2024-11-14 12:04:32.042 [error] Error: The request (id: 5196, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:06:26.731 [error] [redhat.java] provider FAILED
+2024-11-14 12:06:26.731 [error] Error: The request (id: 5455, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:06:41.598 [error] [redhat.java] provider FAILED
+2024-11-14 12:06:41.599 [error] Error: The request (id: 5601, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:06:48.862 [error] [redhat.java] provider FAILED
+2024-11-14 12:06:48.862 [error] Error: The request (id: 5662, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:06:49.210 [error] [redhat.java] provider FAILED
+2024-11-14 12:06:49.210 [error] Error: The request (id: 5669, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:07:03.864 [error] [redhat.java] provider FAILED
+2024-11-14 12:07:03.864 [error] Error: The request (id: 5795, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:07:06.797 [error] [redhat.java] provider FAILED
+2024-11-14 12:07:06.797 [error] Error: The request (id: 5828, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:08:07.321 [error] [redhat.java] provider FAILED
+2024-11-14 12:08:07.322 [error] Error: The request (id: 5954, method: 'textDocument/hover') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:08:12.681 [error] [redhat.java] provider FAILED
+2024-11-14 12:08:12.681 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:08:13.186 [error] [redhat.java] provider FAILED
+2024-11-14 12:08:13.186 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:08:13.660 [error] [redhat.java] provider FAILED
+2024-11-14 12:08:13.661 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+2024-11-14 12:08:13.668 [error] [redhat.java] provider FAILED
+2024-11-14 12:08:13.668 [error] Error: Internal error.
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:08:21.326 [error] [redhat.java] provider FAILED
+2024-11-14 12:08:21.327 [error] Error: The request (id: 6099, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:08:47.283 [error] [redhat.java] provider FAILED
+2024-11-14 12:08:47.283 [error] Error: The request (id: 6297, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:08:47.924 [error] [redhat.java] provider FAILED
+2024-11-14 12:08:47.924 [error] Error: The request (id: 6312, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:08:50.901 [error] [redhat.java] provider FAILED
+2024-11-14 12:08:50.901 [error] Error: The request (id: 6354, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:08:55.028 [error] [redhat.java] provider FAILED
+2024-11-14 12:08:55.028 [error] Error: The request (id: 6385, method: 'textDocument/hover') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:09:18.106 [error] [redhat.java] provider FAILED
+2024-11-14 12:09:18.106 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:09:30.002 [error] [redhat.java] provider FAILED
+2024-11-14 12:09:30.002 [error] Error: The request (id: 6624, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:09:30.813 [error] [redhat.java] provider FAILED
+2024-11-14 12:09:30.814 [error] Error: The request (id: 6637, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:09:49.964 [error] [redhat.java] provider FAILED
+2024-11-14 12:09:49.964 [error] Error: The request (id: 6787, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:09:55.450 [error] [redhat.java] provider FAILED
+2024-11-14 12:09:55.451 [error] Error: The request (id: 6878, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:09:56.085 [error] [redhat.java] provider FAILED
+2024-11-14 12:09:56.085 [error] Error: The request (id: 6891, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:10:12.534 [error] [redhat.java] provider FAILED
+2024-11-14 12:10:12.534 [error] Error: The request (id: 7064, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:10:14.546 [error] [redhat.java] provider FAILED
+2024-11-14 12:10:14.546 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:10:14.550 [error] [redhat.java] provider FAILED
+2024-11-14 12:10:14.550 [error] Error: The request (id: 7092, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:10:14.551 [error] [redhat.java] provider FAILED
+2024-11-14 12:10:14.551 [error] Error: selectionRange must be contained in fullRange
+	at Hd.validate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33675)
+	at new Hd (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33883)
+	at G (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1246711)
+	at c (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1285227)
+	at t.map (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1285313)
+	at Object.asDocumentSymbols (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1254767)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:949198
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:948254)
+2024-11-14 12:10:22.905 [error] [redhat.java] provider FAILED
+2024-11-14 12:10:22.905 [error] Error: The request (id: 7143, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:10:24.467 [error] [redhat.java] provider FAILED
+2024-11-14 12:10:24.467 [error] Error: The request (id: 7167, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:11:29.708 [error] [redhat.java] provider FAILED
+2024-11-14 12:11:29.708 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:11:30.189 [error] [redhat.java] provider FAILED
+2024-11-14 12:11:30.189 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:11:30.672 [error] [redhat.java] provider FAILED
+2024-11-14 12:11:30.672 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:11:30.686 [error] [redhat.java] provider FAILED
+2024-11-14 12:11:30.686 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:11:30.696 [error] [redhat.java] provider FAILED
+2024-11-14 12:11:30.696 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+2024-11-14 12:11:34.246 [error] [redhat.java] provider FAILED
+2024-11-14 12:11:34.246 [error] Error: The request (id: 7413, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:11:36.363 [error] [redhat.java] provider FAILED
+2024-11-14 12:11:36.363 [error] Error: The request (id: 7450, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:12:42.209 [error] [redhat.java] provider FAILED
+2024-11-14 12:12:42.209 [error] Error: The request (id: 7660, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:12:42.721 [error] [redhat.java] provider FAILED
+2024-11-14 12:12:42.721 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:12:42.850 [error] [redhat.java] provider FAILED
+2024-11-14 12:12:42.850 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:12:42.855 [error] [redhat.java] provider FAILED
+2024-11-14 12:12:42.855 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+2024-11-14 12:12:42.856 [error] [redhat.java] provider FAILED
+2024-11-14 12:12:42.856 [error] Error: The request (id: 7670, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:12:42.858 [error] [redhat.java] provider FAILED
+2024-11-14 12:12:42.858 [error] Error: selectionRange must be contained in fullRange
+	at Hd.validate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33675)
+	at new Hd (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33883)
+	at G (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1246711)
+	at c (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1285227)
+	at t.map (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1285313)
+	at Object.asDocumentSymbols (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1254767)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:949198
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:948254)
+2024-11-14 12:12:43.175 [error] [redhat.java] provider FAILED
+2024-11-14 12:12:43.175 [error] Error: The request (id: 7679, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:12:44.244 [error] [redhat.java] provider FAILED
+2024-11-14 12:12:44.245 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:12:44.459 [error] [redhat.java] provider FAILED
+2024-11-14 12:12:44.459 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:12:44.963 [error] [redhat.java] provider FAILED
+2024-11-14 12:12:44.963 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:12:45.098 [error] [redhat.java] provider FAILED
+2024-11-14 12:12:45.099 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:12:45.109 [error] [redhat.java] provider FAILED
+2024-11-14 12:12:45.109 [error] Error: The request (id: 7717, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:12:45.128 [error] Error: Cannot get completion responses.
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21) java.completion.onDidSelect {"value":"redhat.java","_lower":"redhat.java"}
+2024-11-14 12:12:45.128 [error] Error: Cannot get completion responses.
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21) java.completion.onDidSelect undefined
+2024-11-14 12:12:52.458 [error] [redhat.java] provider FAILED
+2024-11-14 12:12:52.458 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:12:52.965 [error] [redhat.java] provider FAILED
+2024-11-14 12:12:52.965 [error] Error: The request (id: 7815, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:12:56.228 [error] [redhat.java] provider FAILED
+2024-11-14 12:12:56.228 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:12:56.528 [error] [redhat.java] provider FAILED
+2024-11-14 12:12:56.528 [error] Error: The request (id: 7872, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:13:20.707 [error] [redhat.java] provider FAILED
+2024-11-14 12:13:20.707 [error] Error: The request (id: 8059, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:13:21.586 [error] [redhat.java] provider FAILED
+2024-11-14 12:13:21.586 [error] Error: The request (id: 8075, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:13:22.243 [error] [redhat.java] provider FAILED
+2024-11-14 12:13:22.243 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+2024-11-14 12:13:22.290 [error] [redhat.java] provider FAILED
+2024-11-14 12:13:22.290 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:13:22.298 [error] [redhat.java] provider FAILED
+2024-11-14 12:13:22.298 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:13:40.540 [error] [redhat.java] provider FAILED
+2024-11-14 12:13:40.540 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:13:43.401 [error] [redhat.java] provider FAILED
+2024-11-14 12:13:43.401 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:13:43.903 [error] [redhat.java] provider FAILED
+2024-11-14 12:13:43.903 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:13:44.090 [error] [redhat.java] provider FAILED
+2024-11-14 12:13:44.090 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:13:44.094 [error] [redhat.java] provider FAILED
+2024-11-14 12:13:44.094 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+2024-11-14 12:13:44.098 [error] [redhat.java] provider FAILED
+2024-11-14 12:13:44.099 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+2024-11-14 12:13:46.312 [error] [redhat.java] provider FAILED
+2024-11-14 12:13:46.312 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:13:48.375 [error] [redhat.java] provider FAILED
+2024-11-14 12:13:48.375 [error] Error: The request (id: 8328, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:13:51.779 [error] [redhat.java] provider FAILED
+2024-11-14 12:13:51.779 [error] Error: The request (id: 8384, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:13:52.088 [error] [redhat.java] provider FAILED
+2024-11-14 12:13:52.089 [error] Error: The request (id: 8391, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:13:52.703 [error] [redhat.java] provider FAILED
+2024-11-14 12:13:52.703 [error] Error: The request (id: 8401, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:14:55.806 [error] [redhat.java] provider FAILED
+2024-11-14 12:14:55.806 [error] Error: The request (id: 8529, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:14:58.758 [error] [redhat.java] provider FAILED
+2024-11-14 12:14:58.758 [error] Error: The request (id: 8562, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:15:11.845 [error] [redhat.java] provider FAILED
+2024-11-14 12:15:11.845 [error] Error: The request (id: 8755, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:15:15.363 [error] [redhat.java] provider FAILED
+2024-11-14 12:15:15.363 [error] Error: The request (id: 8799, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:15:25.945 [error] [redhat.java] provider FAILED
+2024-11-14 12:15:25.945 [error] Error: The request (id: 8966, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:15:47.166 [error] [redhat.java] provider FAILED
+2024-11-14 12:15:47.166 [error] Error: The request (id: 9177, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:15:55.024 [error] [redhat.java] provider FAILED
+2024-11-14 12:15:55.025 [error] Error: The request (id: 9293, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:16:09.163 [error] [redhat.java] provider FAILED
+2024-11-14 12:16:09.163 [error] Error: The request (id: 9480, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:16:13.753 [error] [redhat.java] provider FAILED
+2024-11-14 12:16:13.753 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:17:00.192 [error] [redhat.java] provider FAILED
+2024-11-14 12:17:00.192 [error] Error: The request (id: 9561, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:17:20.570 [error] [redhat.java] provider FAILED
+2024-11-14 12:17:20.570 [error] Error: The request (id: 9716, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:17:55.277 [error] [redhat.java] provider FAILED
+2024-11-14 12:17:55.277 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:18:02.529 [error] [redhat.java] provider FAILED
+2024-11-14 12:18:02.529 [error] Error: The request (id: 9905, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:20:03.824 [error] [redhat.java] provider FAILED
+2024-11-14 12:20:03.824 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:20:03.829 [error] [redhat.java] provider FAILED
+2024-11-14 12:20:03.829 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+2024-11-14 12:20:09.731 [error] [redhat.java] provider FAILED
+2024-11-14 12:20:09.731 [error] Error: The request (id: 10721, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:20:11.917 [error] [redhat.java] provider FAILED
+2024-11-14 12:20:11.917 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:20:11.922 [error] [redhat.java] provider FAILED
+2024-11-14 12:20:11.922 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:20:34.067 [error] [redhat.java] provider FAILED
+2024-11-14 12:20:34.067 [error] Error: The request (id: 11067, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:20:50.698 [error] [redhat.java] provider FAILED
+2024-11-14 12:20:50.698 [error] Error: The request (id: 11193, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:20:54.778 [error] [redhat.java] provider FAILED
+2024-11-14 12:20:54.778 [error] Error: The request (id: 11222, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:20:57.948 [error] [redhat.java] provider FAILED
+2024-11-14 12:20:57.948 [error] Error: The request (id: 11262, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:21:05.963 [error] [redhat.java] provider FAILED
+2024-11-14 12:21:05.963 [error] Error: The request (id: 11372, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:21:08.203 [error] [redhat.java] provider FAILED
+2024-11-14 12:21:08.203 [error] Error: The request (id: 11416, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:21:29.681 [error] [redhat.java] provider FAILED
+2024-11-14 12:21:29.681 [error] Error: The request (id: 11591, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:21:49.268 [error] [redhat.java] provider FAILED
+2024-11-14 12:21:49.268 [error] Error: The request (id: 11773, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:22:10.043 [error] [redhat.java] provider FAILED
+2024-11-14 12:22:10.043 [error] Error: The request (id: 11930, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:22:15.144 [error] [redhat.java] provider FAILED
+2024-11-14 12:22:15.144 [error] Error: The request (id: 11998, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:22:26.545 [error] [redhat.java] provider FAILED
+2024-11-14 12:22:26.545 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:22:30.813 [error] [redhat.java] provider FAILED
+2024-11-14 12:22:30.814 [error] Error: The request (id: 12140, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:22:32.298 [error] [redhat.java] provider FAILED
+2024-11-14 12:22:32.299 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:22:36.935 [error] [redhat.java] provider FAILED
+2024-11-14 12:22:36.935 [error] Error: The request (id: 12237, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:22:49.769 [error] [redhat.java] provider FAILED
+2024-11-14 12:22:49.769 [error] Error: The request (id: 12363, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:23:32.220 [error] [redhat.java] provider FAILED
+2024-11-14 12:23:32.220 [error] Error: The request (id: 12690, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:23:41.775 [error] [redhat.java] provider FAILED
+2024-11-14 12:23:41.775 [error] Error: The request (id: 12818, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:24:09.646 [error] [redhat.java] provider FAILED
+2024-11-14 12:24:09.647 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:24:10.152 [error] [redhat.java] provider FAILED
+2024-11-14 12:24:10.152 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:24:24.710 [error] [redhat.java] provider FAILED
+2024-11-14 12:24:24.710 [error] Error: The request (id: 13080, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:25:52.500 [error] [redhat.java] provider FAILED
+2024-11-14 12:25:52.500 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+2024-11-14 12:31:18.900 [error] [redhat.java] provider FAILED
+2024-11-14 12:31:18.900 [error] Error: The request (id: 13866, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:31:43.617 [error] [redhat.java] provider FAILED
+2024-11-14 12:31:43.617 [error] Error: The request (id: 14155, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:32:19.644 [error] [redhat.java] provider FAILED
+2024-11-14 12:32:19.644 [error] Error: The request (id: 14529, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:32:24.897 [error] [redhat.java] provider FAILED
+2024-11-14 12:32:24.897 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:32:31.947 [error] [redhat.java] provider FAILED
+2024-11-14 12:32:31.947 [error] Error: The request (id: 14644, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:32:32.280 [error] [redhat.java] provider FAILED
+2024-11-14 12:32:32.280 [error] Error: The request (id: 14650, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:32:32.608 [error] [redhat.java] provider FAILED
+2024-11-14 12:32:32.608 [error] Error: The request (id: 14659, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:32:39.284 [error] [redhat.java] provider FAILED
+2024-11-14 12:32:39.284 [error] Error: The request (id: 14783, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:32:41.166 [error] [redhat.java] provider FAILED
+2024-11-14 12:32:41.166 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:32:41.673 [error] [redhat.java] provider FAILED
+2024-11-14 12:32:41.673 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:32:42.179 [error] [redhat.java] provider FAILED
+2024-11-14 12:32:42.180 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:32:42.688 [error] [redhat.java] provider FAILED
+2024-11-14 12:32:42.688 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:32:42.694 [error] [redhat.java] provider FAILED
+2024-11-14 12:32:42.694 [error] Error: selectionRange must be contained in fullRange
+	at Hd.validate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33675)
+	at new Hd (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33883)
+	at G (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1246711)
+	at c (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1285227)
+	at t.map (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1285313)
+	at Object.asDocumentSymbols (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1254767)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:949198
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:948254)
+2024-11-14 12:32:42.696 [error] [redhat.java] provider FAILED
+2024-11-14 12:32:42.696 [error] Error: selectionRange must be contained in fullRange
+	at Hd.validate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33675)
+	at new Hd (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:33883)
+	at G (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1246711)
+	at c (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1285227)
+	at t.map (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1285313)
+	at Object.asDocumentSymbols (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1254767)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:949198
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:948254)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+2024-11-14 12:32:45.179 [error] [redhat.java] provider FAILED
+2024-11-14 12:32:45.179 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:32:46.998 [error] [redhat.java] provider FAILED
+2024-11-14 12:32:46.998 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:32:52.864 [error] [redhat.java] provider FAILED
+2024-11-14 12:32:52.864 [error] Error: The request (id: 14960, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:35:07.797 [error] [redhat.java] provider FAILED
+2024-11-14 12:35:07.797 [error] Error: The request (id: 15022, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:35:08.427 [error] [redhat.java] provider FAILED
+2024-11-14 12:35:08.427 [error] Error: The request (id: 15029, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:35:13.486 [error] [redhat.java] provider FAILED
+2024-11-14 12:35:13.486 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:35:13.892 [error] [redhat.java] provider FAILED
+2024-11-14 12:35:13.892 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:35:16.873 [error] [redhat.java] provider FAILED
+2024-11-14 12:35:16.873 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:35:18.306 [error] [redhat.java] provider FAILED
+2024-11-14 12:35:18.306 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:35:51.271 [error] [redhat.java] provider FAILED
+2024-11-14 12:35:51.271 [error] Error: The request (id: 15449, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:36:11.869 [error] [redhat.java] provider FAILED
+2024-11-14 12:36:11.869 [error] Error: The request (id: 15688, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:36:38.317 [error] [redhat.java] provider FAILED
+2024-11-14 12:36:38.318 [error] Error: The request (id: 15904, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:36:38.762 [error] [redhat.java] provider FAILED
+2024-11-14 12:36:38.763 [error] Error: The request (id: 15912, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:36:39.355 [error] [redhat.java] provider FAILED
+2024-11-14 12:36:39.355 [error] Error: The request (id: 15925, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:37:00.749 [error] [redhat.java] provider FAILED
+2024-11-14 12:37:00.749 [error] Error: The request (id: 16150, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:37:09.447 [error] [redhat.java] provider FAILED
+2024-11-14 12:37:09.447 [error] Error: The request (id: 16178, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:37:21.899 [error] [redhat.java] provider FAILED
+2024-11-14 12:37:21.900 [error] Error: The request (id: 16300, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:37:37.160 [error] [redhat.java] provider FAILED
+2024-11-14 12:37:37.160 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:37:37.995 [error] [redhat.java] provider FAILED
+2024-11-14 12:37:37.995 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:37:38.076 [error] [redhat.java] provider FAILED
+2024-11-14 12:37:38.076 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:37:38.078 [error] [redhat.java] provider FAILED
+2024-11-14 12:37:38.078 [error] Error: The request (id: 16466, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:37:38.080 [error] [redhat.java] provider FAILED
+2024-11-14 12:37:38.080 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+2024-11-14 12:37:41.921 [error] [redhat.java] provider FAILED
+2024-11-14 12:37:41.921 [error] Error: The request (id: 16531, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:37:42.851 [error] [redhat.java] provider FAILED
+2024-11-14 12:37:42.851 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:37:42.853 [error] [redhat.java] provider FAILED
+2024-11-14 12:37:42.854 [error] TypeError: Cannot read properties of null (reading 'documentation')
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:887398
+	at Generator.next (<anonymous>)
+	at s (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:872776)
+2024-11-14 12:39:06.961 [error] [redhat.java] provider FAILED
+2024-11-14 12:39:06.961 [error] Error: The request (id: 17067, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:39:07.858 [error] [redhat.java] provider FAILED
+2024-11-14 12:39:07.858 [error] Error: The request (id: 17085, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:39:13.020 [error] [redhat.java] provider FAILED
+2024-11-14 12:39:13.020 [error] Error: The request (id: 17170, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:39:26.034 [error] [redhat.java] provider FAILED
+2024-11-14 12:39:26.034 [error] Error: The request (id: 17273, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:39:35.058 [error] [redhat.java] provider FAILED
+2024-11-14 12:39:35.058 [error] Error: The request (id: 17377, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:39:39.746 [error] [redhat.java] provider FAILED
+2024-11-14 12:39:39.746 [error] Error: The request (id: 17423, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:40:05.276 [error] [redhat.java] provider FAILED
+2024-11-14 12:40:05.277 [error] Error: The request (id: 17664, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:40:10.118 [error] [redhat.java] provider FAILED
+2024-11-14 12:40:10.118 [error] Error: The request (id: 17734, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:40:19.012 [error] [redhat.java] provider FAILED
+2024-11-14 12:40:19.012 [error] Error: The request (id: 17825, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 12:41:08.683 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-11-14 16:53:14.556 [error] [redhat.java] provider FAILED
+2024-11-14 16:53:14.556 [error] Error: The request (id: 18562, method: 'textDocument/hover') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 16:53:15.373 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model5)
+2024-11-14 16:53:15.373 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model5)
+2024-11-14 16:53:15.373 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model5)
+2024-11-14 16:53:15.373 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model5)
+2024-11-14 16:53:15.374 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model5)
+2024-11-14 16:53:25.605 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-14 16:53:25.638 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-11-14 16:53:25.640 [warning] Canceled
+2024-11-14 16:53:25.640 [error] Canceled: Canceled
+	at Dc (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:110189
+	at Array.forEach (<anonymous>)
+	at py.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:110129)
+	at z_.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:10082)
+	at EC.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:15063)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:11611)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) neovim:eval {"value":"asvetliakov.vscode-neovim","_lower":"asvetliakov.vscode-neovim"}
+2024-11-14 16:53:25.641 [info] Extension host with pid 2989 exiting with code 0
+2024-11-14 16:53:25.749 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-14 16:53:25.783 [info] Extension host with pid 2920 exiting with code 0

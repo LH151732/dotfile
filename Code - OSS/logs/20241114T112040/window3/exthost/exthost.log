@@ -1,0 +1,7 @@
+2024-11-14 11:20:42.267 [info] Extension host with pid 3621 started
+2024-11-14 11:20:42.509 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-14 11:20:42.742 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-14 11:20:42.743 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-14 11:20:42.828 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-14 11:20:42.829 [error] Failed to load translations for vscode.github from file:///home/HL/.vscode-oss/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.95.0-universal/translations/extensions/vscode.github.i18n.json: Canceled
+2024-11-14 11:20:42.850 [info] Extension host with pid 3621 exiting with code 0

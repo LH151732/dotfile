@@ -1,0 +1,9 @@
+{
+    "Print to console": {
+        "prefix": "sysf",
+        "body": [
+            "System.out.printf("),i(1),t(")"),
+        ],
+        "description": "System.out.printf"
+    }
+}

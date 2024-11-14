@@ -1,0 +1,90 @@
+2024-11-14 17:18:42.716 [info] Extension host with pid 24225 started
+2024-11-14 17:18:42.716 [info] Skipping acquiring lock for /home/HL/.config/Code - OSS/User/workspaceStorage/e92101f2f0c18452b4068824adeacd46.
+2024-11-14 17:18:42.829 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-14 17:18:42.831 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-14 17:18:43.095 [info] Extension host with pid 24279 started
+2024-11-14 17:18:43.095 [info] Skipping acquiring lock for /home/HL/.config/Code - OSS/User/workspaceStorage/e92101f2f0c18452b4068824adeacd46.
+2024-11-14 17:18:43.133 [info] Eager extensions activated
+2024-11-14 17:18:43.140 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 17:18:43.184 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-14 17:18:43.185 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-14 17:18:43.353 [info] Eager extensions activated
+2024-11-14 17:18:43.381 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 17:18:43.381 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 17:18:43.381 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 17:18:43.643 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2024-11-14 17:18:43.786 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2024-11-14 17:18:43.826 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2024-11-14 17:18:43.901 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onLanguage:java'
+2024-11-14 17:18:44.155 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2024-11-14 17:18:44.195 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+2024-11-14 17:18:44.251 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2024-11-14 17:18:46.262 [error] [redhat.java] provider FAILED
+2024-11-14 17:18:46.265 [error] Error: The request (id: 1, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 17:18:46.266 [error] [redhat.java] provider FAILED
+2024-11-14 17:18:46.266 [error] Error: The request (id: 2, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 17:18:46.274 [error] [redhat.java] provider FAILED
+2024-11-14 17:18:46.274 [error] Error: The request (id: 3, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 17:18:47.158 [error] [redhat.java] provider FAILED
+2024-11-14 17:18:47.158 [error] Error: The request (id: 8, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 17:18:47.503 [error] [redhat.java] provider FAILED
+2024-11-14 17:18:47.503 [error] Error: The request (id: 13, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072098
+	at re (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1072392)
+	at /home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067176
+	at Immediate.<anonymous> (/home/HL/.vscode-oss/extensions/redhat.java-1.36.0-linux-x64/dist/extension.js:2:1067196)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-11-14 17:26:08.997 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:2,$model2)
+2024-11-14 17:26:08.998 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:2,$model2)
+2024-11-14 17:26:08.998 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:2,$model2)
+2024-11-14 17:26:08.998 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:2,$model2)
+2024-11-14 17:28:39.374 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-14 17:28:39.405 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-11-14 17:28:39.407 [warning] Canceled
+2024-11-14 17:28:39.407 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-11-14 17:28:39.407 [warning] Canceled
+2024-11-14 17:28:39.408 [error] Canceled: Canceled
+	at Dc (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:110189
+	at Array.forEach (<anonymous>)
+	at py.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:110129)
+	at z_.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:10082)
+	at EC.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:15063)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:11611)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) neovim:eval {"value":"asvetliakov.vscode-neovim","_lower":"asvetliakov.vscode-neovim"}
+2024-11-14 17:28:39.408 [info] Extension host with pid 24279 exiting with code 0
+2024-11-14 17:28:39.522 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-14 17:28:39.547 [error] Canceled: Canceled
+	at Dc (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:110189
+	at Array.forEach (<anonymous>)
+	at py.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:110129)
+	at z_.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:10082)
+	at EC.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:15063)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:11611)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-11-14 17:28:39.550 [info] Extension host with pid 24225 exiting with code 0

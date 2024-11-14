@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/.b664999a1aee0ad1212b1a004414c12f094af911-audit.json",
+    "files": [
+        {
+            "date": 1731411517765,
+            "name": "/home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/client.log.2024-11-12",
+            "hash": "1b8ac3d3b8e7d83226176d33fd98a091b42f32807186cb89a12f3b6cfbd189b2"
+        },
+        {
+            "date": 1731416409231,
+            "name": "/home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/client.log.2024-11-13",
+            "hash": "ef5e8fe5bca2ed3ca8d3d37daadce4a47616ff7a8de452b8142dca3f452cfb29"
+        },
+        {
+            "date": 1731542090650,
+            "name": "/home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/client.log.2024-11-14",
+            "hash": "470fdab59c31ea5d83ca696826e1468aec74ba56362f36446431255c51f68337"
+        },
+        {
+            "date": 1731542354710,
+            "name": "/home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/client.log.2024-11-14.1",
+            "hash": "93a0f7caa20edfc1a92683ac1d45090dcd689351b0e9917c1ba03d9e35f9b27a"
+        },
+        {
+            "date": 1731542354885,
+            "name": "/home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/client.log.2024-11-14.2",
+            "hash": "3b183ba93d75194787cf55a519a771b9217a5e2ca3ee08ac72c1d802f7ab9f03"
+        },
+        {
+            "date": 1731546764463,
+            "name": "/home/HL/.config/Code - OSS/User/workspaceStorage/8d068793398938d5f428bef21cd72209/redhat.java/client.log.2024-11-14.3",
+            "hash": "e667e079cc5e27db4cbeceb40f06daef2902d67ee67a40bf246f41d813a5ad3b"
+        }
+    ],
+    "hashType": "sha256"
+}
