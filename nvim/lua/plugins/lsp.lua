@@ -345,12 +345,28 @@ return {
     end,
   },
 
-  -- Snippets 插件
+  -- Snippets 插件 (L3MON4D3/LuaSnip)
   {
-    "L3MON4D3/LuaSnip",
-    dependencies = { "rafamadriz/friendly-snippets" },
+    "L3MON4D3/LuaSnip", -- LuaSnip 主插件
+    dependencies = {
+      "rafamadriz/friendly-snippets", -- 载入 friendly-snippets 作为插件
+    },
     config = function()
+      -- **1. 加载 VSCode 风格片段** (例如 friendly-snippets 中的内容)
       require("luasnip.loaders.from_vscode").lazy_load()
+
+      -- **2. 加载自定义 snippets 文件夹**
+      local ls = require("luasnip")
+      local snippet_path = vim.fn.stdpath("config") .. "/lua/snippets/"
+
+      -- 遍历文件夹中的所有 Lua 文件并加载这些片段
+      for _, file in ipairs(vim.fn.readdir(snippet_path)) do
+        local lang = file:match("(.+)%.lua$")
+        if lang then
+          -- 加载指定语言对应的片段文件
+          ls.add_snippets(lang, dofile(snippet_path .. file))
+        end
+      end
     end,
   },
 

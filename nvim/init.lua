@@ -17,13 +17,8 @@ vim.cmd("highlight FloatBorder guibg=NONE ctermbg=NONE")
 vim.cmd("highlight TelescopeNormal guibg=NONE")
 vim.cmd("highlight TelescopeBorder guibg=NONE")
 
-local ls = require("luasnip")
+-- 引入 LuaSnip 插件
+local luasnip = require("luasnip")
 
--- 加载 `snippets` 文件夹中的所有 Lua 文件
-local snippet_path = vim.fn.stdpath("config") .. "/lua/snippets/"
-for _, file in ipairs(vim.fn.readdir(snippet_path)) do
-  local lang = file:match("(.+)%.lua$")
-  if lang then
-    ls.add_snippets(lang, dofile(snippet_path .. file))
-  end
-end
+-- 加载自定义 Snippets 文件
+require("luasnip.loaders.from_lua").load({ paths = "~/.config/nvim/lua/my_snippets/" })
