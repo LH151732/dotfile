@@ -1,9 +1,0 @@
-2024-11-14 16:58:29.094 [info] update#setState disabled
-2024-11-14 16:58:29.095 [info] update#ctor - updates are disabled as there is no update URL
-2024-11-14 17:01:27.014 [info] Extension host with pid 3363 exited with code: 0, signal: unknown.
-2024-11-14 17:01:27.162 [info] Extension host with pid 3312 exited with code: 0, signal: unknown.
-2024-11-14 17:01:28.015 [error] Extension host with pid 3363 still exists, forcefully killing it...
-2024-11-14 17:08:28.377 [info] Extension host with pid 6251 exited with code: 0, signal: unknown.
-2024-11-14 17:08:28.438 [info] Extension host with pid 6249 exited with code: 0, signal: unknown.
-2024-11-14 17:18:07.649 [info] Extension host with pid 13075 exited with code: 0, signal: unknown.
-2024-11-14 17:18:07.692 [info] Extension host with pid 13074 exited with code: 0, signal: unknown.
