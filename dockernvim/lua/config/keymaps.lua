@@ -1,4 +1,29 @@
---- 设置 F5 快捷键（水平分割）
+local keymap = vim.keymap
+local opts = { noremap = true, silent = true }
+
+local function execute_file(split_type)
+  local file_extension = vim.fn.expand("%:e")
+  local commands = {
+    java = "java",
+    sh = "bash",
+    py = "python",
+  }
+  local cmd = commands[file_extension]
+  if cmd then
+    local filename = vim.fn.expand("%:t")
+    local split_cmd
+    if split_type == "horizontal" then
+      split_cmd = string.format("exe 'belowright ' . winheight(0)/3 . ' split'")
+    else
+      split_cmd = string.format("exe 'belowright ' . winwidth(0)/2 . ' vsplit'")
+    end
+    vim.cmd(string.format("%s | terminal %s %s", split_cmd, cmd, filename))
+  else
+    print("Unsupported file type")
+  end
+end
+
+-- 设置 F5 快捷键（水平分割）
 keymap.set("n", "<F5>", function()
   execute_file("horizontal")
 end, opts)
@@ -76,4 +101,3 @@ keymap.set("n", "<C-S-j>", "<C-w>-")
 keymap.set("n", "<C-j>", function()
   vim.diagnostic.goto_next()
 end, opts)
-- Keymaps are automatically loaded on the VeryLazy event
