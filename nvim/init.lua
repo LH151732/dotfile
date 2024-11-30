@@ -16,9 +16,3 @@ vim.cmd("highlight Normal guibg=NONE ctermbg=NONE")
 vim.cmd("highlight FloatBorder guibg=NONE ctermbg=NONE")
 vim.cmd("highlight TelescopeNormal guibg=NONE")
 vim.cmd("highlight TelescopeBorder guibg=NONE")
-
--- 引入 LuaSnip 插件
-local luasnip = require("luasnip")
-
--- 加载自定义 Snippets 文件
-require("luasnip.loaders.from_lua").load({ paths = "~/.config/nvim/lua/my_snippets/" })
