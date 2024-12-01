@@ -1,4 +1,4 @@
-  return {
+return {
   -- 使用 Mini Hipatterns，高亮颜色示例
   {
     "echasnovski/mini.hipatterns",
@@ -8,7 +8,7 @@
   {
     "catppuccin/nvim", -- 插件路径
     name = "catppuccin",
-    lazy = false,
+    lazy = true,
     priority = 1000, -- 保证 Catppuccin 优先加载
     opts = {
       flavour = "mocha", -- 可选主题风格: latte, frappe, macchiato, mocha
