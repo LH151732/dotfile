@@ -2,8 +2,12 @@
 neofetch
 
 # SSH (Moved before instant prompt)
-eval "$(ssh-agent -s)"
-alias HL='ssh-add ~/.ssh/id_rsa'
+alias HL="eval '$(ssh-agent -s)' && ssh-add ~/.ssh/id_rsa"
+alias socks="ssh -D 1080 -C -N -i -p 20037 ~/.ssh/Rap.pem root@47.238.143.189"
+alias proxy="export ALL_PROXY=socks5://127.0.0.1:1080"
+alias unproxy="unset all_proxy"
+alias pi='sshpass -p "Lh0901200" ssh -p 20037 HL@1.tcp.au.ngrok.io'
+alias pubip="curl -s https://ipinfo.io"
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -56,6 +60,7 @@ alias des='cd ~/Desktop/'
 
 # Commands
 alias music='cmus'
+alias trace='nexttrace'
 alias p='python'
 alias libtoolize='glibtoolize'
 alias poweroff='sudo shutdown -h now'
