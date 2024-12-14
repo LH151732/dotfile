@@ -11,8 +11,3 @@ vim.o.mouse = "a"
 vim.o.wrap = true
 vim.o.linebreak = true
 vim.o.showbreak = ">"
-
-vim.cmd("highlight Normal guibg=NONE ctermbg=NONE")
-vim.cmd("highlight FloatBorder guibg=NONE ctermbg=NONE")
-vim.cmd("highlight TelescopeNormal guibg=NONE")
-vim.cmd("highlight TelescopeBorder guibg=NONE")
