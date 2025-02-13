@@ -22,7 +22,7 @@
 
 
 # 每秒更新一次 CPU 频率信息
- watch -n <eg.1> "cpupower frequency-info"
+ watch -n <1> "cpupower frequency-info"
 
 # 设置所有核心到性能模模式
  sudo cpupower -c all frequency-set -g performance
