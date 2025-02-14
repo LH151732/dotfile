@@ -8,7 +8,7 @@ return {
   {
     "catppuccin/nvim", -- 插件路径
     name = "catppuccin",
-    lazy = true,
+    lazy = false,
     priority = 1000, -- 保证 Catppuccin 优先加载
     opts = {
       flavour = "mocha", -- 可选主题风格: latte, frappe, macchiato, mocha
