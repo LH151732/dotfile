@@ -1,5 +1,4 @@
 return {
-  -- 先加载 LuaSnip 和 friendly-snippets
   {
     "L3MON4D3/LuaSnip",
     version = "v2.*",
@@ -31,9 +30,13 @@ return {
       end, { silent = true, noremap = true, expr = true })
     end,
   },
-  -- blink
+
   {
     "saghen/blink.cmp",
+    -- optional: provides snippets for the snippet source
+
+    dependencies = "rafamadriz/friendly-snippets",
+
     -- use a release tag to download pre-built binaries
     version = "*",
     -- AND/OR build from source, requires nightly: https://rust-lang.github.io/rustup/concepts/channels.html#working-with-nightly-rust
@@ -49,41 +52,24 @@ return {
       -- 'enter' for mappings similar to 'super-tab' but with 'enter' to accept
       -- See the full "keymap" documentation for information on defining your own keymap.
       keymap = {
-        -- set to 'none' to disable the 'default' preset
-        preset = "default",
+        ["<C-space>"] = { "show", "show_documentation", "hide_documentation" },
+        ["<C-e>"] = { "hide" },
+        ["<C-y>"] = { "select_and_accept" },
 
         ["<Up>"] = { "select_prev", "fallback" },
         ["<Down>"] = { "select_next", "fallback" },
+        ["<C-p>"] = { "select_prev", "fallback" },
+        ["<C-n>"] = { "select_next", "fallback" },
 
-        -- disable a keymap from the preset
-        ["<C-e>"] = {},
+        ["<C-b>"] = { "scroll_documentation_up", "fallback" },
+        ["<C-f>"] = { "scroll_documentation_down", "fallback" },
 
-        ["<Tab>"] = {
-          function(cmp)
-            cmp.accept()
-          end,
-        },
+        ["<Tab>"] = { "snippet_forward", "fallback" },
+        ["<S-Tab>"] = { "snippet_backward", "fallback" },
 
-        -- show with a list of providers
-        ["<C-space>"] = {
-          function(cmp)
-            cmp.show({ providers = { "snippets" } })
-          end,
-        },
-
-        -- control whether the next command will be run when using a function
-        ["<C-n>"] = {
-          function(cmp)
-            if some_condition then
-              return
-            end -- runs the next command
-            return true -- doesn't run the next command
-          end,
-          "select_next",
-        },
-        -- optionally, separate cmdline keymaps
-        -- cmdline = {}
+        ["<C-k>"] = { "show_signature", "hide_signature", "fallback" },
       },
+
       appearance = {
         -- Sets the fallback highlight groups to nvim-cmp's highlight groups
         -- Useful for when your theme doesn't support blink.cmp
@@ -98,8 +84,10 @@ return {
       -- elsewhere in your config, without redefining it, due to `opts_extend`
       sources = {
         default = { "lsp", "path", "snippets", "buffer" },
+        cmdline = {},
       },
     },
+
     opts_extend = { "sources.default" },
   },
 }
