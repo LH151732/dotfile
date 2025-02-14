@@ -33,8 +33,26 @@ keymap.set("n", "<F6>", function()
 end, opts)
 
 -- 创建 ctags 并使用 Telescope 打开标签
+-- 定义快捷键，创建 ctags 并使用 Telescope 打开标签
+
+local builtin = require("telescope.builtin")
+
 vim.api.nvim_set_keymap("n", "<F1>", ":!ctags -R<CR>:Telescope tags<CR>", { noremap = true, silent = true })
 
+-- 定义一个函数用于删除 tags 文件
+local function delete_tags_file()
+  local tags_path = vim.fn.getcwd() .. "/tags"
+  if vim.fn.filereadable(tags_path) == 1 then
+    vim.fn.delete(tags_path)
+    print("Deleted tags file: " .. tags_path)
+  end
+end
+-- 使用 autocmd 在退出 Neovim 时删除 tags 文件
+vim.api.nvim_create_autocmd("VimLeave", {
+  callback = function()
+    delete_tags_file()
+  end,
+})
 keymap.set("n", "x", '"_x')
 -- Increment/decrement
 keymap.set("n", "+", "<C-a>")
