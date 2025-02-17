@@ -12,5 +12,4 @@ return {
       vim.g.minimap_base_cmd = "code-minimap --horizontal-scale 2.0 --vertical-scale 1.5 --padding 2"
     end,
   },
-  -- 其他插件配置
 }

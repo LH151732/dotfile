@@ -157,7 +157,11 @@ return {
     "nvim-lualine/lualine.nvim",
     event = "VeryLazy",
     opts = function(_, opts)
-      table.insert(opts.sections.lualine_x, "😄")
+      table.insert(opts.sections.lualine_x, {
+        function()
+          return "😄"
+        end,
+      })
     end,
   },
 
@@ -187,6 +191,26 @@ return {
         "shellcheck",
         "shfmt",
         "flake8",
+        "pyright",
+        "jdtls",
+      },
+    },
+    {
+      "neovim/nvim-lspconfig", -- 配置 LSP
+      opts = {
+        servers = {
+          jdtls = {
+            cmd = { "jdtls" }, -- 使用 jdtls 作为 Java LSP
+            root_dir = require("lspconfig.util").root_pattern(".git", "pom.xml", "build.gradle"), -- 项目根目录
+            settings = {
+              java = {
+                format = {
+                  enabled = true, -- Java 代码格式化
+                },
+              },
+            },
+          },
+        },
       },
     },
   },
