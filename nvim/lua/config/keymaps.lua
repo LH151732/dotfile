@@ -102,9 +102,11 @@ keymap.set({ "n", "i" }, "<F4>", '<Cmd>exe winwidth(0)/2 . "vsplit" | term<CR>')
 
 -- 跳转到有字的行首 (第一个非空白字符)
 vim.api.nvim_set_keymap("n", "1", "^", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("v", "1", "^", { noremap = true, silent = true })
 
 -- 跳转到行尾
 vim.api.nvim_set_keymap("n", "0", "$", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("v", "0", "$", { noremap = true, silent = true })
 
 -- Move window
 keymap.set("n", "sh", "<C-w>h")
