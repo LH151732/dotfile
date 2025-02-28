@@ -52,7 +52,7 @@ return {
     },
     config = function(_, opts)
       require("rose-pine").setup(opts)
-      vim.cmd([[colorscheme rose-pine]])
+      -- 不再直接设置 colorscheme，由主题管理器负责
 
       -- 设置终端颜色
       vim.g.terminal_color_0 = "#232136"

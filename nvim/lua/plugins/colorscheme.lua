@@ -1,34 +1,30 @@
 return {
-  -- 使用 Mini Hipatterns，高亮颜色示例
+  -- 主题插件集合
   {
-    "echasnovski/mini.hipatterns",
-    event = "BufReadPre",
-    opts = {},
-  },
-  {
-    "catppuccin/nvim", -- 插件路径
-    name = "catppuccin",
+    "folke/tokyonight.nvim",
     lazy = false,
-    priority = 1000, -- 保证 Catppuccin 优先加载
+    priority = 1000,
     opts = {
-      flavour = "mocha", -- 可选主题风格: latte, frappe, macchiato, mocha
-      transparent_background = true, -- 背景透明
-      term_colors = true, -- 终端的颜色与当前主题匹配
-      integrations = {
-        treesitter = true, -- 支持treesitter的语法高亮
-        nvimtree = true, -- 集成nvim-tree
-        cmp = true, -- 集成 nvim-cmp 的补全
-        gitsigns = true, -- 集成gitsigns
+      style = "night",
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
       },
     },
-    config = function(_, opts)
-      require("catppuccin").setup(opts) -- 加载带 opts 的设置
-      vim.cmd([[colorscheme catppuccin]]) -- 应用 colorscheme
-    end,
   },
-  -- Your existing Telescope configuration
+  
+  -- 默认主题设置
   {
-    "telescope.nvim",
-    -- ... (rest of your Telescope configuration)
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = function()
+        -- 使用已经设置的主题，避免覆盖
+        local theme = vim.g.colors_name
+        if theme then
+          vim.cmd("colorscheme " .. theme)
+        end
+      end,
+    },
   },
 }
