@@ -23,7 +23,7 @@ return {
     },
     config = function(_, opts)
       require("catppuccin").setup(opts) -- 加载带 opts 的设置
-      vim.cmd([[colorscheme catppuccin]]) -- 应用 colorscheme
+      -- 不再直接设置 colorscheme，由主题管理器负责
     end,
   },
   -- Your existing Telescope configuration
