@@ -1,5 +1,29 @@
 # System Info (Moved before instant prompt)
-neofetch
+if [[ $- == *i* ]]; then
+  fastfetch
+fi
+
+# cache compinit
+autoload -Uz compinit
+export ZSH_COMPDUMP="${ZDOTDIR:-$HOME}/.zcompdump"
+if [[ -f $ZSH_COMPDUMP && -z "$(find $ZSH_COMPDUMP -mtime -1 2>/dev/null)" ]]; then
+  compinit -C
+else
+  compinit
+fi
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+fpath+=~/.zfunc; autoload -Uz compinit; compinit
+
+zstyle ':completion:*' menu select
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /home/HL/.dart-cli-completion/zsh-config.zsh ]] && . /home/HL/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+
 
 # SSH (Moved before instant prompt)
 alias HL="eval '$(ssh-agent -s)' && ssh-add ~/.ssh/id_rsa"
@@ -22,13 +46,9 @@ fi
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="/Library/TeX/texbin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$PATH:/home/HL/.lmstudio/bin"
 export EDITOR=nvim
 export CLICOLOR=1
-
-
-# export
-export PATH="$HOME/.cargo/bin:$PATH"
-export EDITOR="nvim"
 export VISUAL="nvim"
 
 # sdk
@@ -45,7 +65,7 @@ alias pv='pyenv virtualenv'
 
 # Custom Commands and Aliases
 alias c='clear'
-alias h='hisyory'
+alias h='history'
 alias q='exit'
 alias r='reset'
 alias btop='sudo btop'
@@ -66,11 +86,14 @@ alias des='cd ~/Desktop/'
 alias cheats='cd ~/.local/share/navi/cheats'
 
 # Commands
+alias ssh='TERM=xterm-256color ssh'
 alias music='cmus'
+alias rustscan='rustscan --ulimit 5000'
 alias trace='nexttrace'
 alias p='python'
 alias libtoolize='glibtoolize'
 alias poweroff='sudo shutdown -h now'
+alias lazydcoker='sudo lazydocker'
 alias v='$EDITOR'
 alias nano='$EDITOR'
 alias n='$EDITOR'
@@ -93,9 +116,6 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 plugins=( git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting )
 source $ZSH/oh-my-zsh.sh
 
-# recmd 函数用来更新终端窗口标题
-recmd () { print -Pn "\e]2;OWO@WORKING..: %~\a" }
-
 # Zoxide Initialization
 eval "$(zoxide init zsh)"
 
@@ -108,22 +128,4 @@ function y() {
   fi
   rm -f -- "$tmp"
 }
-
-# fcitx5支持
-export XMODIFIERS=@im=fcitx
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-
-fpath+=~/.zfunc; autoload -Uz compinit; compinit
-
-zstyle ':completion:*' menu select
-
-## [Completion]
-## Completion scripts setup. Remove the following line to uninstall
-[[ -f /home/HL/.dart-cli-completion/zsh-config.zsh ]] && . /home/HL/.dart-cli-completion/zsh-config.zsh || true
-## [/Completion]
 

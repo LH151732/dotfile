@@ -1812,6 +1812,11 @@
   #               typed after changing current working directory.
   typeset -g POWERLEVEL9K_TRANSIENT_PROMPT=off
 
+  alias ls='eza --icons --group-directories-first --sort=extension'
+  alias la='eza -a --icons --group-directories-first --sort=extension'
+  alias ll='eza -al --icons --group-directories-first --sort=extension'
+  alias lt='eza -a --tree --level=1 --icons --group-directories-first --sort=extension'
+
   # Instant prompt mode.
   #
   #   - off:     Disable instant prompt. Choose this if you've tried instant prompt and found
@@ -1835,13 +1840,10 @@
   (( ! $+functions[p10k] )) || p10k reload
 }
 
+
 # Tell `p10k configure` which file it should overwrite.
 typeset -g POWERLEVEL9K_CONFIG_FILE=${${(%):-%x}:a}
 
 (( ${#p10k_config_opts} )) && setopt ${p10k_config_opts[@]}
 'builtin' 'unset' 'p10k_config_opts'
 
-alias ls='eza --icons --group-directories-first --sort=extension'
-alias la='eza -a --icons --group-directories-first --sort=extension'
-alias ll='eza -al --icons --group-directories-first --sort=extension'
-alias lt='eza -a --tree --level=1 --icons --group-directories-first --sort=extension'
