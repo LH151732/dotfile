@@ -60,8 +60,10 @@ keymap.set("n", "x", '"_x')
 -- Increment/decrement
 keymap.set("n", "+", "<C-a>")
 keymap.set("n", "-", "<C-x>")
--- Select all
+-- Select all (保留原有的全选功能)
 keymap.set("n", "<C-a>", "gg<S-v>G")
+-- 插入模式下，将光标移到行首
+keymap.set("i", "<C-a>", "<C-o>^", opts)
 -- Save file and quit
 keymap.set("n", "<Leader>w", ":update<Return>", opts)
 keymap.set("n", "<Leader>q", ":quit<Return>", opts)
@@ -120,7 +122,58 @@ keymap.set("n", "<C-S-l>", "<C-w>>")
 keymap.set("n", "<C-S-k>", "<C-w>+")
 keymap.set("n", "<C-S-j>", "<C-w>-")
 
+-- 光标移动控制键
+-- Move to end of line with Ctrl+E (移动到行尾)
+keymap.set("n", "<C-e>", "$", opts)
+keymap.set("v", "<C-e>", "$", opts)
+keymap.set("i", "<C-e>", "<C-o>$", opts)
+
+-- 其他常用控制键
+-- Ctrl+F (向前查找)
+keymap.set("n", "<C-f>", "/", opts)
+keymap.set("i", "<C-f>", "<C-o>/", opts)
+
+-- Ctrl+B (向后查找)
+keymap.set("n", "<C-b>", "?", opts)
+keymap.set("i", "<C-b>", "<C-o>?", opts)
+
+-- Ctrl+D (向下滚动半页)
+keymap.set("n", "<C-d>", "<C-d>", opts)
+keymap.set("i", "<C-d>", "<C-o><C-d>", opts)
+
+-- Ctrl+U (向上滚动半页)
+keymap.set("n", "<C-u>", "<C-u>", opts)
+keymap.set("i", "<C-u>", "<C-o><C-u>", opts)
+
+-- Ctrl+K (删除从光标到行尾)
+keymap.set("n", "<C-k>", "D", opts)
+keymap.set("i", "<C-k>", "<C-o>D", opts)
+
+-- Ctrl+N (下一个搜索结果)
+keymap.set("n", "<C-n>", "n", opts)
+keymap.set("i", "<C-n>", "<C-o>n", opts)
+
+-- Ctrl+P (上一个搜索结果)
+keymap.set("n", "<C-p>", "N", opts)
+keymap.set("i", "<C-p>", "<C-o>N", opts)
+
 -- Diagnostics
 keymap.set("n", "<C-j>", function()
   vim.diagnostic.goto_next()
 end, opts)
+
+-- 插入模式下的快捷键
+-- Ctrl-w: 删除光标前的一个单词
+keymap.set("i", "<C-w>", "<C-\\><C-o>db", opts)
+
+-- Ctrl-u: 删除光标前的整行内容（到行首）
+keymap.set("i", "<C-u>", "<C-\\><C-o>d0", opts)
+
+-- Ctrl-h: 删除光标前的一个字符（相当于退格键）
+keymap.set("i", "<C-h>", "<BS>", opts)
+
+-- Ctrl-t: 增加当前光标所在位置的Tab缩进
+keymap.set("i", "<C-t>", "<C-\\><C-o>>>", opts)
+
+-- Ctrl-d: 减少当前光标所在位置的Tab缩进
+keymap.set("i", "<C-d>", "<C-\\><C-o><<", opts)
