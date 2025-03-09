@@ -82,12 +82,6 @@ end
 vim.api.nvim_set_keymap("n", "q", "", { noremap = true, callback = backward_to_word_end, silent = true })
 vim.api.nvim_set_keymap("v", "q", "", { noremap = true, callback = backward_to_word_end, silent = true })
 
--- Tabs
-keymap.set("n", "te", ":tabedit<Return>")
-keymap.set("n", "<tab>", ":tabnext<Return>")
-keymap.set("n", "<s-tab>", ":tabprev<Return>")
-keymap.set("n", "tw", ":tabclose<Return>")
-
 -- Split window
 vim.keymap.set({ "n", "i" }, "<F2>", function()
   -- 打开 Glow 视图
