@@ -157,6 +157,9 @@ keymap.set("n", "<C-j>", function()
 end, opts)
 
 -- 插入模式下的快捷键
+-- Ctrl-l: 在当前行下方插入新行（相当于n模式下的o命令）
+keymap.set("i", "<C-l>", "<C-o>o", opts)
+
 -- Ctrl-w: 删除光标前的一个单词
 keymap.set("i", "<C-w>", "<C-\\><C-o>db", opts)
 
