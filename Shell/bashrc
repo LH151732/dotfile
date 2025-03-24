@@ -1,5 +1,5 @@
 #!/bin/bash
-neofetch
+fastfetch
 
 # prompt
 source /usr/share/git/completion/git-prompt.sh
@@ -27,7 +27,6 @@ alias n='nvim'
 alias nano='nvim'
 alias vim='nvim'
 alias grep='grep --color=auto'
-alias cat='bat'
 alias music='cmus'
 alias setch='xdg-open "https://www.google.com/search?q="'
 alias getmusic='spotdl'
@@ -71,8 +70,7 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 # ssh
-eval "$(ssh-agent -s)"
-alias HL='ssh-add ~/.ssh/id_rsa'
+alias HL='eval $(ssh-agent -s) && ssh-add ~/.ssh/id_rsa'
 
 # auto 'ls' after 'cd'
 cd() {
@@ -93,3 +91,6 @@ function y() {
 export XMODIFIERS=@im=fcitx
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
+
+# if not git clone --recursive --depth 1 --shallow-submodules https://github.com/akinomyoga/ble.sh.git && make -C ble.sh
+source ble.sh/out/ble.sh
