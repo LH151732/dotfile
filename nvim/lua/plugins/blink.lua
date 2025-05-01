@@ -1,44 +1,61 @@
 return {
+  -- 禁用原生 nvim-cmp
+  {
+    "hrsh7th/nvim-cmp",
+    optional = true,
+    enabled = false,
+  },
+
+  -- blink.cmp 配置
   {
     "saghen/blink.cmp",
-    opts = {
-      keymap = {
-        preset = "default",
-        ["<C-space>"] = { "show", "show_documentation", "hide_documentation" },
-        ["<C-e>"] = { "hide", "fallback" },
-        ["<Tab>"] = {
-          function(cmp)
-            if cmp.snippet_active() then
-              cmp.snippet_forward()
-              return true
-            else
-              cmp.select_next()
-              return true
-            end
-          end,
-          "fallback",
-        },
-        ["<S-Tab>"] = {
-          function(cmp)
-            if cmp.snippet_active() then
-              cmp.snippet_backward()
-              return true
-            else
-              cmp.select_prev()
-              return true
-            end
-          end,
-          "fallback",
-        },
-        ["<Up>"] = { "select_prev", "fallback" },
-        ["<Down>"] = { "select_next", "fallback" },
-        ["<C-p>"] = { "select_prev", "fallback" },
-        ["<C-n>"] = { "select_next", "fallback" },
-        ["<C-b>"] = { "scroll_documentation_up", "fallback" },
-        ["<C-f>"] = { "scroll_documentation_down", "fallback" },
-        ["<C-k>"] = { "show_signature", "hide_signature", "fallback" },
-        ["<CR>"] = { "accept", "fallback" },
-      },
+    version = "*", -- 使用最新稳定版
+    event = "InsertEnter",
+    dependencies = {
+      "rafamadriz/friendly-snippets", -- 代码片段（如需直接用，要配 LuaSnip）
     },
+    opts = {
+      -- ① 键位
+      keymap = { preset = "enter" },
+
+      -- ② 外观
+      appearance = {
+        nerd_font_variant = "mono",
+      },
+
+      -- ③ 补全行为
+      completion = {
+        documentation = { auto_show = true },
+        ghost_text = { enabled = true },
+      },
+
+      -- ④ 🚫 删除 snippets.expand，让 blink.cmp 默认处理
+      --[[
+      snippets = {
+        expand = function(snippet, _)
+          vim.snippet.expand(snippet.body)
+          return true
+        end,
+      },
+      ]]
+
+      -- ⑤ 补全源
+      sources = {
+        default = { "lsp", "path", "snippets", "buffer" },
+      },
+
+      -- ⑥ 模糊匹配
+      fuzzy = { implementation = "lua" },
+    },
+  },
+
+  -- Catppuccin 主题集成
+  {
+    "catppuccin/nvim",
+    optional = true,
+    opts = function(_, opts)
+      opts.integrations = opts.integrations or {}
+      opts.integrations.blink_cmp = true
+    end,
   },
 }
