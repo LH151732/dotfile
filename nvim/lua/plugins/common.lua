@@ -2,8 +2,9 @@ return {
   -- 注释插件配置
   {
     "numToStr/Comment.nvim",
+    -- 使用基本的treesitter支持，不依赖外部插件
     dependencies = {
-      "JoosepAlviste/nvim-ts-context-commentstring",
+      "nvim-treesitter/nvim-treesitter",
     },
     opts = {
       -- 启用额外的键映射
@@ -13,54 +14,28 @@ return {
         -- 块注释
         extra = true,
       },
-      -- 启用上下文感知的注释（如在JSX中）
+      -- 自定义注释逻辑，无需依赖ts_context_commentstring集成
       pre_hook = function(ctx)
         local U = require("Comment.utils")
-
+        
         -- 检测是否有treesitter支持
         local location = nil
         if vim.treesitter.get_node then
           location = vim.treesitter.get_node()
         end
-
-        -- 如果有treesitter支持，使用上下文感知的注释
-        if location and vim.bo.filetype == "typescriptreact" or vim.bo.filetype == "javascriptreact" then
-          local ts_context = require("ts_context_commentstring.utils").get_cursor_context(ctx.ctype)
-          if ts_context == "jsx_element" or ts_context == "jsx_attribute" or ts_context == "jsx_fragment" then
-            return require("ts_context_commentstring.internal").calculate_commentstring()
+        
+        -- 如果有treesitter支持，对特定文件类型使用上下文感知的注释
+        if location and (vim.bo.filetype == "typescriptreact" or vim.bo.filetype == "javascriptreact") then
+          local node_type = location:type()
+          if node_type == "jsx_element" or node_type == "jsx_fragment" or node_type:match("jsx_") then
+            return "{/*%s*/}"
+          elseif node_type == "jsx_attribute" then
+            return "// %s"
           end
         end
       end,
     },
   },
-  -- 在SSH会话中复制到系统剪贴板
-  {
-    "ojroques/nvim-osc52",
-    config = function()
-      require("osc52").setup({
-        max_length = 0, -- 0为无限制
-        silent = true,
-        trim = false,
-      })
-
-      local function copy(lines, _)
-        require("osc52").copy(table.concat(lines, "\n"))
-      end
-
-      local function paste()
-        return { vim.fn.split(vim.fn.getreg(""), "\n"), vim.fn.getregtype("") }
-      end
-
-      vim.keymap.set("n", "<leader>c", copy, { desc = "OSC52 Copy" })
-
-      vim.g.clipboard = {
-        name = "osc52",
-        copy = { ["+"] = copy, ["*"] = copy },
-        paste = { ["+"] = paste, ["*"] = paste },
-      }
-    end,
-  },
-
   -- 自动保存文件
   {
     "Pocco81/auto-save.nvim",
@@ -73,12 +48,25 @@ return {
       trigger_events = { "InsertLeave", "TextChanged" },
       condition = function(buf)
         local fn = vim.fn
-        -- 不自动保存大文件
-        if fn.getfsize(fn.expand("%:p")) > 100000 then
+        local utils = require("auto-save.utils.data")
+        
+        -- 检查缓冲区是否可修改
+        if fn.getbufvar(buf, "&modifiable") ~= 1 then
           return false
         end
+        
+        -- 检查文件是否存在且是否为大文件
+        local filepath = fn.expand("%:p")
+        if filepath ~= "" then
+          if fn.filereadable(filepath) == 1 and fn.getfsize(filepath) > 100000 then
+            return false
+          end
+        end
+        
         return true
       end,
+      write_all_buffers = false, -- 只保存当前缓冲区
+      debounce_delay = 135, -- 延迟保存，避免频繁IO
     },
   },
 
@@ -98,6 +86,31 @@ return {
     opts = {
       open_cmd = "noswapfile vnew",
       live_update = true,
+      find_engine = {
+        -- 可根据需要选择rg或fd
+        ['rg'] = {
+          cmd = "rg",
+          args = {
+            '--color=never',
+            '--no-heading',
+            '--with-filename',
+            '--line-number',
+            '--column',
+          },
+          options = {
+            ['ignore-case'] = {
+              value = "--ignore-case",
+              icon = "[I]",
+              desc = "ignore case",
+            },
+            ['hidden'] = {
+              value = "--hidden",
+              desc = "hidden file",
+              icon = "[H]",
+            },
+          },
+        },
+      },
       mapping = {
         ["toggle_line"] = {
           map = "t",
@@ -119,7 +132,23 @@ return {
           cmd = "<cmd>lua require('spectre.actions').run_replace()<CR>",
           desc = "replace all",
         },
+        ["show_option_menu"] = {
+          map = "o",
+          cmd = "<cmd>lua require('spectre').show_options()<CR>",
+          desc = "show options",
+        },
       },
+      default = {
+        find = {
+          cmd = "rg",
+          options = {"ignore-case"}
+        },
+        replace = {
+          cmd = "sed"
+        },
+      },
+      replace_vim_cmd = "cdo",
+      is_insert_mode = false,
     },
   },
 
@@ -153,6 +182,9 @@ return {
         gitsigns = { enabled = false }, -- 禁用git标记
         tmux = { enabled = false }, -- 如果用tmux，可以考虑启用
         twilight = { enabled = true }, -- 启用暗淡非活动代码
+        alacritty = { enabled = false }, -- Alacritty终端适配
+        kitty = { enabled = false }, -- Kitty终端适配
+        wezterm = { enabled = false }, -- Wezterm终端适配
       },
       -- 进入zen模式时的钩子
       on_open = function()
@@ -217,9 +249,14 @@ return {
       vim.o.foldlevelstart = 99
       vim.o.foldenable = true
 
-      -- 使用Treesitter作为主要折叠提供者，LSP作为备用
+      -- 使用Treesitter作为主要折叠提供者，indent作为备用
       require("ufo").setup({
         provider_selector = function(bufnr, filetype, buftype)
+          -- 根据文件类型选择合适的折叠提供者
+          if filetype == "" or buftype == "nofile" then
+            return "indent" -- 对于无类型文件使用缩进折叠
+          end
+          -- 默认使用treesitter，如果不可用则使用indent
           return { "treesitter", "indent" }
         end,
         -- 自定义折叠文本显示
