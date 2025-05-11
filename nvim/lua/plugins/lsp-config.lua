@@ -122,97 +122,13 @@ return {
     },
   },
 
-  -- 特殊Java配置
+  -- 特殊Java配置已移至java.lua
+  -- 此处禁用冗余配置，避免冲突
   {
     "mfussenegger/nvim-jdtls",
     ft = "java",
-    config = function()
-      -- 在Java文件开启时启动jdtls
-      vim.api.nvim_create_autocmd("FileType", {
-        pattern = "java",
-        callback = function()
-          local jdtls = require("jdtls")
-          local root_markers = { ".git", "mvnw", "gradlew", "pom.xml", "build.gradle" }
-          local root_dir = require("jdtls.setup").find_root(root_markers)
-          local home = os.getenv("HOME")
-
-          -- 获取Mason安装的jdtls路径
-          local mason_registry = require("mason-registry")
-          local jdtls_pkg = mason_registry.get_package("jdtls")
-          local jdtls_path = jdtls_pkg:get_install_path()
-
-          -- 设置jdtls的命令和参数
-          local os_config = "linux"
-          if vim.fn.has("mac") == 1 then
-            os_config = "mac"
-          elseif vim.fn.has("win32") == 1 then
-            os_config = "win"
-          end
-
-          local cmd = {
-            "java",
-            "-Declipse.application=org.eclipse.jdt.ls.core.id1",
-            "-Dosgi.bundles.defaultStartLevel=4",
-            "-Declipse.product=org.eclipse.jdt.ls.core.product",
-            "-Dlog.protocol=true",
-            "-Dlog.level=ALL",
-            "-Xmx1g",
-            "--add-modules=ALL-SYSTEM",
-            "--add-opens",
-            "java.base/java.util=ALL-UNNAMED",
-            "--add-opens",
-            "java.base/java.lang=ALL-UNNAMED",
-            "-jar",
-            vim.fn.glob(jdtls_path .. "/plugins/org.eclipse.equinox.launcher_*.jar"),
-            "-configuration",
-            jdtls_path .. "/config_" .. os_config,
-            "-data",
-            home .. "/.cache/jdtls-workspace/" .. vim.fn.fnamemodify(root_dir, ":p:h:t"),
-          }
-
-          -- 获取blink.cmp的LSP能力配置
-          local capabilities = require("blink.cmp").get_lsp_capabilities()
-
-          -- 启动jdtls
-          jdtls.start_or_attach({
-            cmd = cmd,
-            root_dir = root_dir,
-            capabilities = capabilities,
-            settings = {
-              java = {
-                signatureHelp = { enabled = true },
-                contentProvider = { preferred = "fernflower" },
-                completion = {
-                  favoriteStaticMembers = {
-                    "org.hamcrest.MatcherAssert.assertThat",
-                    "org.hamcrest.Matchers.*",
-                    "org.junit.Assert.*",
-                    "java.util.Objects.requireNonNull",
-                    "java.util.Objects.requireNonNullElse",
-                  },
-                },
-                sources = {
-                  organizeImports = {
-                    starThreshold = 9999,
-                    staticStarThreshold = 9999,
-                  },
-                },
-                codeGeneration = {
-                  toString = {
-                    template = "${object.className}{${member.name()}=${member.value}, ${otherMembers}}",
-                  },
-                  useBlocks = true,
-                },
-                format = { enabled = true },
-              },
-            },
-            init_options = {
-              bundles = {},
-            },
-          })
-        end,
-      })
-    end,
+    -- 使用java.lua中的配置
+    enabled = false,
   },
 
   -- LSP自动命令
