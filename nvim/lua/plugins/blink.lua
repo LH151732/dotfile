@@ -12,7 +12,9 @@ return {
     version = "*", -- 使用最新稳定版
     event = "InsertEnter",
     dependencies = {
-      "rafamadriz/friendly-snippets", -- 代码片段（如需直接用，要配 LuaSnip）
+      -- "rafamadriz/friendly", -- 代码片段（如需直接用，要配 LuaSnip）
+      "L3MON4D3/LuaSnip",
+      version = "v2.*",
     },
     opts = {
       -- ① 键位
@@ -29,16 +31,9 @@ return {
         ghost_text = { enabled = true },
       },
 
-      -- ④ 🚫 删除 snippets.expand，让 blink.cmp 默认处理
-      --[[
-      snippets = {
-        expand = function(snippet, _)
-          vim.snippet.expand(snippet.body)
-          return true
-        end,
+      snipppets = {
+        preset = "luasnip",
       },
-      ]]
-
       -- ⑤ 补全源
       sources = {
         default = { "lsp", "path", "snippets", "buffer" },

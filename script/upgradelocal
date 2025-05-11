@@ -1,9 +1,0 @@
-#!/bin/bash
-
-cp -rv /mnt/Dev/Git/dotfile/nvim/ ~/.config
-cp -rv /mnt/Dev/Git/dotfile/tmux/ ~/.config/
-cp -v /mnt/Dev/Git/dotfile/zshrc-Arch ~/.zshrc
-cp -v /mnt/Dev/Git/dotfile/bashrc ~/.bashrc
-cp -rv /mnt/Dev/Git/dotfile/zettelkasten/ ~/
-
-

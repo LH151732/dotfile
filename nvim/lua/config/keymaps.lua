@@ -26,12 +26,12 @@ local function execute_file(split_type)
   end
 end
 
--- 设置 F5 快捷键（水平分割）
-keymap.set("n", "<F5>", function()
+-- 设置 F2 快捷键
+keymap.set("n", "<F2>", function()
   execute_file("horizontal")
 end, opts)
--- 设置 F6 快捷键（垂直分割）
-keymap.set("n", "<F6>", function()
+-- 设置 F2 快捷键
+keymap.set("n", "<S-F2>", function()
   execute_file("vertical")
 end, opts)
 
@@ -81,16 +81,6 @@ end
 -- Map 'q' to the custom function
 vim.api.nvim_set_keymap("n", "q", "", { noremap = true, callback = backward_to_word_end, silent = true })
 vim.api.nvim_set_keymap("v", "q", "", { noremap = true, callback = backward_to_word_end, silent = true })
-
--- Split window
-vim.keymap.set({ "n", "i" }, "<F2>", function()
-  -- 打开 Glow 视图
-  vim.cmd("Glow")
-  -- 延迟切换焦点到 Glow 窗口，确保 Glow 视图完全加载
-  vim.defer_fn(function()
-    vim.cmd("wincmd p") -- 切换到上一个窗口（即 Glow 窗口）
-  end, 50) -- 50 毫秒的延迟，可以根据需要调整
-end, opts)
 
 -- Split window
 keymap.set({ "n", "i" }, "<F3>", '<Cmd>exe winheight(0)/3 . "split" | term<CR>')
