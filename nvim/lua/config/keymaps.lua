@@ -35,6 +35,10 @@ keymap.set("n", "<S-F2>", function()
   execute_file("vertical")
 end, opts)
 
+-- Split window
+keymap.set({ "n", "i" }, "<F3>", '<Cmd>exe winheight(0)/3 . "split" | term<CR>')
+keymap.set({ "n", "i" }, "<S-F3>", '<Cmd>exe winwidth(0)/2 . "vsplit" | term<CR>')
+
 -- 创建 ctags 并使用 Telescope 打开标签
 -- 定义快捷键，创建 ctags 并使用 Telescope 打开标签
 
@@ -81,10 +85,6 @@ end
 -- Map 'q' to the custom function
 vim.api.nvim_set_keymap("n", "q", "", { noremap = true, callback = backward_to_word_end, silent = true })
 vim.api.nvim_set_keymap("v", "q", "", { noremap = true, callback = backward_to_word_end, silent = true })
-
--- Split window
-keymap.set({ "n", "i" }, "<F3>", '<Cmd>exe winheight(0)/3 . "split" | term<CR>')
-keymap.set({ "n", "i" }, "<F4>", '<Cmd>exe winwidth(0)/2 . "vsplit" | term<CR>')
 
 -- 跳转到有字的行首 (第一个非空白字符)
 vim.api.nvim_set_keymap("n", "1", "^", { noremap = true, silent = true })
@@ -164,3 +164,26 @@ keymap.set("i", "<C-t>", "<C-\\><C-o>>>", opts)
 
 -- Ctrl-d: 减少当前光标所在位置的Tab缩进
 keymap.set("i", "<C-d>", "<C-\\><C-o><<", opts)
+
+-- F4: 水平打开 claude 进程
+keymap.set("n", "<F4>", function()
+  -- 计算窗口高度的1/3作为新窗口的高度
+  local height = vim.fn.winheight(0) / 3
+  -- 在下方创建一个新的水平分割窗口并运行 claude
+  vim.cmd(string.format("belowright %d split | terminal claude", height))
+  -- 设置当终端进程退出时自动关闭窗口
+  vim.opt_local.bufhidden = "wipe"
+  -- 使用 TermClose 事件在终端关闭时自动关闭窗口
+  vim.api.nvim_create_autocmd("TermClose", {
+    buffer = 0,
+    callback = function()
+      vim.schedule(function()
+        if vim.api.nvim_buf_is_valid(0) then
+          vim.cmd("close")
+        end
+      end)
+    end,
+  })
+  -- 进入插入模式，让用户可以直接与 claude 交互
+  vim.cmd("startinsert")
+end, { desc = "Open claude in horizontal split" })
