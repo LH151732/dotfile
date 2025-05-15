@@ -3,6 +3,7 @@ if [[ $- == *i* ]]; then
   fastfetch
 fi
 
+
 # cache compinit
 autoload -Uz compinit
 export ZSH_COMPDUMP="${ZDOTDIR:-$HOME}/.zcompdump"
@@ -27,13 +28,12 @@ zstyle ':completion:*' menu select
 
 # SSH (Moved before instant prompt)
 alias HL="eval '$(ssh-agent -s)' && ssh-add ~/.ssh/id_rsa"
-alias socks="ssh -D 1080 -C -N -i -p 20037 ~/.ssh/Rap.pem root@47.238.143.189"
 alias proxy="export ALL_PROXY=socks5://127.0.0.1:1080"
 alias unproxy="unset ALL_PROXY"
-alias pi='sshpass -p "Lh0901200" ssh -p 20037 HL@1.tcp.au.ngrok.io'
 alias pubip="curl -s https://ipinfo.io"
 alias alipip='export PIP_INDEX_URL=https://mirrors.aliyun.com/pypi/simple/'
 alias huggcn='export HF_ENDPOINT=https://hf-mirror.com'
+alias claude-desktop='nohup claude-desktop --no-sandbox > /dev/null 2>&1 & disown'
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -43,6 +43,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # Environment Variables
+export PATH="$PATH:/home/HL/.local/bin"
+export DOCKER_HOST=unix:///var/run/docker.sock
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="/Library/TeX/texbin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
@@ -61,7 +63,7 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
 eval "$(pyenv virtualenv-init -)"
 eval "$(pyenv init -)"
-alias pv='pyenv virtualenv'
+alias pvs='pyenv virtualenvs'
 
 # Custom Commands and Aliases
 alias c='clear'
@@ -88,20 +90,28 @@ alias cheats='cd ~/.local/share/navi/cheats'
 # Commands
 alias ssh='TERM=xterm-256color ssh'
 alias music='cmus'
+alias zstd='zstd -T36'
+alias pigz='pigz -p $(nproc)'
+alias fzf="fzf --multi \
+  --preview 'bat --style=numbers --color=always {}' \
+  --bind 'ctrl-o:execute(nvim {}),ctrl-b:change-preview(bat --style=numbers,header --color=always {})'"
+alias tailping="tailscale status | grep -Eo '100\.[0-9]+\.[0-9]+\.[0-9]+' | xargs gping"
+alias pingnode="tailscale status | grep 'exit node' | grep -Eo '100\.[0-9]+\.[0-9]+\.[0-9]+' | xargs gping"
 alias rustscan='rustscan --ulimit 5000'
 alias trace='nexttrace'
 alias p='python'
+alias rsync='rsyncy'
+alias icat='kitten icat '
+alias duf='dysk'
 alias libtoolize='glibtoolize'
 alias poweroff='sudo shutdown -h now'
-alias lazydcoker='sudo lazydocker'
 alias v='$EDITOR'
 alias nano='$EDITOR'
 alias n='$EDITOR'
 alias vim='$EDITOR'
-alias open='xdg-open'
 
-alias ls='eza --icons --group-directories-first --sort=extension'
 # Auto `ls` after `cd`
+alias ls='eza --icons --group-directories-first --sort=extension'
 cd() {
     builtin cd "$@" && ls
 }
@@ -129,3 +139,50 @@ function y() {
   rm -f -- "$tmp"
 }
 
+# pipx-show
+pipx-show() {
+    if [ -z "$1" ]; then
+        echo "Usage: pipx-show PACKAGE_NAME"
+        return 1
+    fi
+    
+    # 检查包是否已安装
+    if pipx list | grep -q "$1"; then
+        pipx runpip "$1" show "$1"
+    else
+        echo "Package $1 is not installed with pipx"
+        return 1
+    fi
+}
+
+gtkwave() {
+  command gtkwave "$@" &
+}
+
+typora() {
+  nohup typora "$@" > /dev/null 2>&1 & disown
+}
+
+ob() {
+  mv "$@" ~/Obsidian/
+}
+
+open() {
+  command xdg-open "$@" > /dev/null 2>&1   & disown
+}
+
+# ls
+alias ls='eza --icons --group-directories-first --sort=extension'
+alias la='eza -a --icons --group-directories-first --sort=extension'
+alias ll='eza -al --icons --group-directories-first --sort=extension'
+alias lt='eza -a --tree --level=1 --icons --group-directories-first --sort=extension'
+
+export QSYS_ROOTDIR="/home/HL/.cache/yay/quartus-free/pkg/quartus-free-quartus/opt/intelFPGA/24.1/quartus/sopc_builder/bin"
+
+# cuda
+export PATH="/opt/cuda/bin:$PATH"
+export "LD_LIBRARY_PATH=/opt/cuda/lib64:$LD_LIBRARY_PATH"
+
+# flutter
+export PATH="$HOME/development/flutter/bin:$PATH"
+export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
