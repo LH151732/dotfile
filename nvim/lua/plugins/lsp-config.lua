@@ -122,13 +122,105 @@ return {
     },
   },
 
-  -- 特殊Java配置已移至java.lua
-  -- 此处禁用冗余配置，避免冲突
+  -- Java LSP 配置
   {
     "mfussenegger/nvim-jdtls",
     ft = "java",
-    -- 使用java.lua中的配置
-    enabled = false,
+    enabled = true,
+    dependencies = {
+      "mason.nvim",
+      "williamboman/mason-lspconfig.nvim",
+    },
+    config = function()
+      -- 为 Java 文件设置 JDTLS
+      vim.api.nvim_create_autocmd("FileType", {
+        pattern = "java",
+        callback = function()
+          local jdtls = require("jdtls")
+          
+          -- 查找项目根目录
+          local root_markers = { ".git", "mvnw", "gradlew", "pom.xml", "build.gradle" }
+          local root_dir = require("jdtls.setup").find_root(root_markers)
+          
+          -- 如果没有找到项目根目录，使用当前目录
+          if not root_dir then
+            root_dir = vim.fn.getcwd()
+          end
+          
+          -- 工作空间目录
+          local project_name = vim.fn.fnamemodify(root_dir, ":p:h:t")
+          local workspace_dir = vim.fn.stdpath("data") .. "/jdtls-workspace/" .. project_name
+          
+          -- 获取 Mason 安装的 jdtls 路径
+          local mason_path = vim.fn.glob(vim.fn.stdpath("data") .. "/mason/packages/jdtls")
+          local launcher_jar = vim.fn.glob(mason_path .. "/plugins/org.eclipse.equinox.launcher_*.jar")
+          
+          -- 配置
+          local config = {
+            cmd = {
+              "java",
+              "-Declipse.application=org.eclipse.jdt.ls.core.id1",
+              "-Dosgi.bundles.defaultStartLevel=4",
+              "-Declipse.product=org.eclipse.jdt.ls.core.product",
+              "-Dlog.protocol=true",
+              "-Dlog.level=ALL",
+              "-Xmx1g",
+              "--add-modules=ALL-SYSTEM",
+              "--add-opens", "java.base/java.util=ALL-UNNAMED",
+              "--add-opens", "java.base/java.lang=ALL-UNNAMED",
+              "-jar", launcher_jar,
+              "-configuration", mason_path .. "/config_linux",
+              "-data", workspace_dir,
+            },
+            
+            root_dir = root_dir,
+            
+            -- 配置设置
+            settings = {
+              java = {
+                eclipse = {
+                  downloadSources = true,
+                },
+                configuration = {
+                  updateBuildConfiguration = "interactive",
+                },
+                maven = {
+                  downloadSources = true,
+                },
+                implementationsCodeLens = {
+                  enabled = true,
+                },
+                referencesCodeLens = {
+                  enabled = true,
+                },
+                references = {
+                  includeDecompiledSources = true,
+                },
+                format = {
+                  enabled = true,
+                },
+              },
+              signatureHelp = { enabled = true },
+              completion = {
+                favoriteStaticMembers = {
+                  "org.hamcrest.MatcherAssert.assertThat",
+                  "org.hamcrest.Matchers.*",
+                  "org.hamcrest.CoreMatchers.*",
+                  "org.junit.jupiter.api.Assertions.*",
+                  "org.mockito.Mockito.*"
+                },
+              },
+            },
+            
+            -- 语言服务器能力
+            capabilities = require("blink.cmp").get_lsp_capabilities(),
+          }
+          
+          -- 启动或附加到 jdtls
+          jdtls.start_or_attach(config)
+        end,
+      })
+    end,
   },
 
   -- LSP自动命令
