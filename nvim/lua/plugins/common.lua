@@ -17,13 +17,13 @@ return {
       -- 自定义注释逻辑，无需依赖ts_context_commentstring集成
       pre_hook = function(ctx)
         local U = require("Comment.utils")
-        
+
         -- 检测是否有treesitter支持
         local location = nil
         if vim.treesitter.get_node then
           location = vim.treesitter.get_node()
         end
-        
+
         -- 如果有treesitter支持，对特定文件类型使用上下文感知的注释
         if location and (vim.bo.filetype == "typescriptreact" or vim.bo.filetype == "javascriptreact") then
           local node_type = location:type()
@@ -36,39 +36,39 @@ return {
       end,
     },
   },
-  -- 自动保存文件
-  {
-    "Pocco81/auto-save.nvim",
-    opts = {
-      execution_message = {
-        message = function()
-          return "" -- 静默保存，不显示消息
-        end,
-      },
-      trigger_events = { "InsertLeave", "TextChanged" },
-      condition = function(buf)
-        local fn = vim.fn
-        local utils = require("auto-save.utils.data")
-        
-        -- 检查缓冲区是否可修改
-        if fn.getbufvar(buf, "&modifiable") ~= 1 then
-          return false
-        end
-        
-        -- 检查文件是否存在且是否为大文件
-        local filepath = fn.expand("%:p")
-        if filepath ~= "" then
-          if fn.filereadable(filepath) == 1 and fn.getfsize(filepath) > 100000 then
-            return false
-          end
-        end
-        
-        return true
-      end,
-      write_all_buffers = false, -- 只保存当前缓冲区
-      debounce_delay = 135, -- 延迟保存，避免频繁IO
-    },
-  },
+  -- -- 自动保存文件
+  -- {
+  --   "Pocco81/auto-save.nvim",
+  --   opts = {
+  --     execution_message = {
+  --       message = function()
+  --         return "" -- 静默保存，不显示消息
+  --       end,
+  --     },
+  --     trigger_events = { "InsertLeave", "TextChanged" },
+  --     condition = function(buf)
+  --       local fn = vim.fn
+  --       local utils = require("auto-save.utils.data")
+  --
+  --       -- 检查缓冲区是否可修改
+  --       if fn.getbufvar(buf, "&modifiable") ~= 1 then
+  --         return false
+  --       end
+  --
+  --       -- 检查文件是否存在且是否为大文件
+  --       local filepath = fn.expand("%:p")
+  --       if filepath ~= "" then
+  --         if fn.filereadable(filepath) == 1 and fn.getfsize(filepath) > 100000 then
+  --           return false
+  --         end
+  --       end
+  --
+  --       return true
+  --     end,
+  --     write_all_buffers = false, -- 只保存当前缓冲区
+  --     debounce_delay = 135, -- 延迟保存，避免频繁IO
+  --   },
+  -- },
 
   -- 项目范围内的搜索和替换
   {
@@ -88,22 +88,22 @@ return {
       live_update = true,
       find_engine = {
         -- 可根据需要选择rg或fd
-        ['rg'] = {
+        ["rg"] = {
           cmd = "rg",
           args = {
-            '--color=never',
-            '--no-heading',
-            '--with-filename',
-            '--line-number',
-            '--column',
+            "--color=never",
+            "--no-heading",
+            "--with-filename",
+            "--line-number",
+            "--column",
           },
           options = {
-            ['ignore-case'] = {
+            ["ignore-case"] = {
               value = "--ignore-case",
               icon = "[I]",
               desc = "ignore case",
             },
-            ['hidden'] = {
+            ["hidden"] = {
               value = "--hidden",
               desc = "hidden file",
               icon = "[H]",
@@ -141,10 +141,10 @@ return {
       default = {
         find = {
           cmd = "rg",
-          options = {"ignore-case"}
+          options = { "ignore-case" },
         },
         replace = {
-          cmd = "sed"
+          cmd = "sed",
         },
       },
       replace_vim_cmd = "cdo",
