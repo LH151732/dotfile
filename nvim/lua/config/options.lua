@@ -33,5 +33,7 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 vim.opt.splitkeep = "cursor"
 vim.opt.mouse = ""
+vim.opt.number = true
+vim.opt.relativenumber = false
 
 vim.opt.formatoptions:append({ "r" })
