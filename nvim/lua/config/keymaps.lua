@@ -24,6 +24,7 @@
 -- 窗口管理:
 -- sh/sk/sj/sl: 在窗口间移动
 -- Ctrl+Shift+h/l/k/j: 调整窗口大小
+-- Alt+Ctrl+左/右/上/下: 调整窗口大小 (n/i 模式)
 --
 -- 更多键位映射详见下文
 
@@ -206,11 +207,16 @@ keymap.set("n", "sk", "<C-w>k")
 keymap.set("n", "sj", "<C-w>j")
 keymap.set("n", "sl", "<C-w>l")
 
--- 调整窗口大小
-keymap.set("n", "<C-S-h>", "<C-w><")
-keymap.set("n", "<C-S-l>", "<C-w>>")
-keymap.set("n", "<C-S-k>", "<C-w>+")
-keymap.set("n", "<C-S-j>", "<C-w>-")
+-- Alt+Ctrl+方向键调整窗口大小 (normal 和 insert 模式)
+keymap.set("n", "<M-C-Left>", "<C-w>>", opts)
+keymap.set("n", "<M-C-Right>", "<C-w><", opts)
+keymap.set("n", "<M-C-Up>", "<C-w>+", opts)
+keymap.set("n", "<M-C-Down>", "<C-w>-", opts)
+
+keymap.set("i", "<M-C-Left>", "<C-o><C-w>>", opts)
+keymap.set("i", "<M-C-Right>", "<C-o><C-w><", opts)
+keymap.set("i", "<M-C-Up>", "<C-o><C-w>+", opts)
+keymap.set("i", "<M-C-Down>", "<C-o><C-w>-", opts)
 
 --------------------------------------------------------------------------------
 -- 光标移动和编辑
