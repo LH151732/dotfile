@@ -1,9 +1,0 @@
-{
-    "System.out.printf snippet": {
-        "prefix": "sysf",
-        "body": [
-            "System.out.printf($0);"
-        ],
-        "description": "System.out.printf with cursor inside parentheses"
-    }
-}

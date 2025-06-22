@@ -1,0 +1,95 @@
+// Config //
+configuration {
+    modi:                        "dmenu";
+    show-icons:                  false;
+    font:                        "JetBrainsMono Nerd Font 10";
+}
+
+@theme "~/.config/rofi/theme.rasi"
+
+// Main //
+window {
+    enabled:                     true;
+    fullscreen:                  true;
+    transparency:                "real";
+    cursor:                      "default";
+    spacing:                     0em;
+    padding:                     0em;
+    border:                      0em;
+    border-radius:               0em;
+    border-color:                transparent;
+    background-color:            @main-bg;
+}
+
+mainbox {
+    enabled:                     true;
+    orientation:                 vertical;
+    children:                    [ "inputbar", "listview" ];
+    background-color:            transparent;
+}
+
+// Inputbar //
+inputbar {
+    enabled:                     true;
+    spacing:                     1em;
+    padding:                     4em 30%;
+    background-color:            transparent;
+    children:                    [ "prompt", "entry" ];
+}
+
+prompt {
+    enabled:                     true;
+    font:                        "JetBrainsMono Nerd Font 12";
+    background-color:            transparent;
+    text-color:                  @main-fg;
+}
+
+entry {
+    enabled:                     true;
+    expand:                      true;
+    padding:                     0.5em 1em;
+    border-radius:               0.5em;
+    background-color:            @main-ex;
+    text-color:                  @main-fg;
+    cursor:                      text;
+}
+
+// Lists //
+listview {
+    enabled:                     true;
+    spacing:                     1em;
+    padding:                     2em 30%;
+    columns:                     1;
+    lines:                       8;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    fixed-height:                false;
+    fixed-columns:               true;
+    reverse:                     false;
+    cursor:                      "default";
+    background-color:            transparent;
+    text-color:                  @main-fg;
+}
+
+// Elements //
+element {
+    enabled:                     true;
+    spacing:                     0em;
+    padding:                     0.5em 1em;
+    border-radius:               0.5em;
+    cursor:                      pointer;
+    background-color:            transparent;
+    text-color:                  @main-fg;
+}
+
+element selected.normal {
+    background-color:            @select-bg;
+    text-color:                  @select-fg;
+}
+
+element-text {
+    cursor:                      inherit;
+    background-color:            transparent;
+    text-color:                  inherit;
+}

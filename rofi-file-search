@@ -1,0 +1,73 @@
+#!/bin/bash
+while true; do
+  # 主菜单
+  OPTION=$(echo -e "所有文件\n最近文件\n文件夹\n文档\n图片\n视频\n代码文件" |
+    rofi -dmenu -p " " -i -theme ~/.config/rofi/file-search.rasi)
+
+  # 如果按了 Escape 或没有选择，退出
+  [[ -z "$OPTION" ]] && exit 0
+
+  case "$OPTION" in
+  "所有文件")
+    FILE=$(fd . ~ |
+      rofi -dmenu -i -p " " -matching fuzzy -theme ~/.config/rofi/file-search.rasi)
+    if [[ -n "$FILE" ]]; then
+      if [[ -d "$FILE" ]]; then
+        dolphin "$FILE"
+      else
+        dolphin --select "$FILE"
+      fi
+      exit 0
+    fi
+    ;;
+  "文件夹")
+    DIR=$(fd -t d . ~ |
+      rofi -dmenu -i -p " " -matching fuzzy -theme ~/.config/rofi/file-search.rasi)
+    if [[ -n "$DIR" ]]; then
+      dolphin "$DIR"
+      exit 0
+    fi
+    ;;
+  "最近文件")
+    FILE=$(find ~ -type f -mtime -7 -not -path "*/\.*" 2>/dev/null |
+      head -100 |
+      rofi -dmenu -i -p " " -matching fuzzy -theme ~/.config/rofi/file-search.rasi)
+    if [[ -n "$FILE" ]]; then
+      dolphin --select "$FILE"
+      exit 0
+    fi
+    ;;
+  "文档")
+    FILE=$(fd -e pdf -e doc -e docx -e txt -e md -e odt . ~ |
+      rofi -dmenu -i -p " " -matching fuzzy -theme ~/.config/rofi/file-search.rasi)
+    if [[ -n "$FILE" ]]; then
+      dolphin --select "$FILE"
+      exit 0
+    fi
+    ;;
+  "图片")
+    FILE=$(fd -e jpg -e jpeg -e png -e gif -e svg -e webp . ~ |
+      rofi -dmenu -i -p " " -matching fuzzy -theme ~/.config/rofi/file-search.rasi)
+    if [[ -n "$FILE" ]]; then
+      dolphin --select "$FILE"
+      exit 0
+    fi
+    ;;
+  "视频")
+    FILE=$(fd -e mp4 -e avi -e mkv -e mov -e webm . ~ |
+      rofi -dmenu -i -p " " -matching fuzzy -theme ~/.config/rofi/file-search.rasi)
+    if [[ -n "$FILE" ]]; then
+      dolphin --select "$FILE"
+      exit 0
+    fi
+    ;;
+  "代码文件")
+    FILE=$(fd -e py -e js -e rs -e go -e cpp -e c -e java . ~ |
+      rofi -dmenu -i -p " " -matching fuzzy -theme ~/.config/rofi/file-search.rasi)
+    if [[ -n "$FILE" ]]; then
+      dolphin --select "$FILE"
+      exit 0
+    fi
+    ;;
+  esac
+done
