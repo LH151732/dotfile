@@ -31,7 +31,7 @@ return {
         ghost_text = { enabled = true },
       },
 
-      snipppets = {
+      snippets = {
         preset = "luasnip",
       },
       -- ⑤ 补全源
