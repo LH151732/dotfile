@@ -1,11 +1,25 @@
 return {
   {
-    "MeanderingProgrammer/render-markdown.nvim",
-    dependencies = { "nvim-treesitter/nvim-treesitter", "echasnovski/mini.nvim" }, -- if you use the mini.nvim suite
-    -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.icons' }, -- if you use standalone mini plugins
-    -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-tree/nvim-web-devicons' }, -- if you prefer nvim-web-devicons
-    ---@module 'render-markdown'
-    ---@type render.md.UserConfig
-    opts = {},
+    "toppair/peek.nvim",
+    build = "deno task --quiet build:fast",
+    ft = { "markdown" },
+    config = function()
+      require("peek").setup({
+        theme = "dark",
+        -- 先用系统浏览器打开，绕过 webview 依赖
+        app = "browser", -- 等会儿可以改成具体浏览器，比如 "firefox" 或 {"chromium","--new-window"}
+        -- app = "webview", -- 想用嵌入式预览再改回这行
+      })
+      vim.api.nvim_create_user_command("PeekOpen", function()
+        require("peek").open()
+      end, {})
+      vim.api.nvim_create_user_command("PeekClose", function()
+        require("peek").close()
+      end, {})
+    end,
   },
+  -- For `plugins/markview.lua` users.
+  "OXY2DEV/markview.nvim",
+  lazy = false,
+  priority = 49,
 }
