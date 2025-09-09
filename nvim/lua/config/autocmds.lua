@@ -15,3 +15,10 @@ vim.api.nvim_create_autocmd({ "TermOpen", "WinEnter" }, {
     end
   end,
 })
+-- lua/config/autocmds.lua
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "markdown",
+  callback = function()
+    vim.opt_local.spell = false
+  end,
+})

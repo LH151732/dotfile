@@ -33,6 +33,7 @@ return {
       },
     },
     ft = { "markdown", "rmarkdown" }, -- 仅在 Markdown 和 R Markdown 文件中启用 Treesitter
+    priority = 100,
   },
   -- Markdown 支持插件
   {
