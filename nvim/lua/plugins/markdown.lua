@@ -21,5 +21,5 @@ return {
   -- For `plugins/markview.lua` users.
   "OXY2DEV/markview.nvim",
   lazy = false,
-  priority = 49,
+  priority = 101,
 }

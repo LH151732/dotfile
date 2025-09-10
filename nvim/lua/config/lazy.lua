@@ -42,6 +42,9 @@ require("lazy").setup({
     enabled = true, -- check for plugin updates periodically
     notify = false, -- notify on update
   }, -- automatically check for plugin updates
+  experimental = {
+    check_rtp_message = false, -- 隐藏运行时路径检查警告消息
+  },
   performance = {
     rtp = {
       -- disable some rtp plugins
