@@ -22,4 +22,9 @@ return {
   "OXY2DEV/markview.nvim",
   lazy = false,
   priority = 101,
+  opts = {
+    experimental = {
+      check_rtp_message = false,
+    },
+  },
 }

@@ -23,7 +23,6 @@
 --
 -- 窗口管理:
 -- sh/sk/sj/sl: 在窗口间移动
--- Ctrl+Shift+h/l/k/j: 调整窗口大小
 -- Alt+Ctrl+左/右/上/下: 调整窗口大小 (n/i 模式)
 --
 -- 更多键位映射详见下文
@@ -201,12 +200,6 @@ keymap.set("n", "<C-F4>", "<Cmd>tabnew | term<CR>")
 -- 窗口管理
 --------------------------------------------------------------------------------
 
--- 在窗口间移动
-keymap.set("n", "sh", "<C-w>h")
-keymap.set("n", "sk", "<C-w>k")
-keymap.set("n", "sj", "<C-w>j")
-keymap.set("n", "sl", "<C-w>l")
-
 -- Alt+Ctrl+方向键调整窗口大小 (normal 和 insert 模式)
 keymap.set("n", "<M-C-Left>", "<C-w>>", opts)
 keymap.set("n", "<M-C-Right>", "<C-w><", opts)
@@ -244,7 +237,6 @@ keymap.set("n", "x", '"_x')
 keymap.set("n", "<C-a>", "gg<S-v>G")
 
 -- 删除从光标到行尾
-keymap.set("n", "<C-k>", "D", opts)
 keymap.set("i", "<C-k>", "<C-o>D", opts)
 
 -- 增减数字
@@ -297,16 +289,6 @@ keymap.set("i", "<C-t>", "<C-\\><C-o>>>", opts) -- 增加缩进
 -- keymap.set("i", "<C-d>", "<C-\\><C-o><<", opts)   -- 减少缩进(与滚动半页冲突)
 
 --------------------------------------------------------------------------------
--- 终端模式映射
---------------------------------------------------------------------------------
-
--- 在终端模式下的窗口导航
-keymap.set("t", "<C-h>", "<C-\\><C-n><C-w>h", { desc = "Navigate to left window from terminal" })
-keymap.set("t", "<C-j>", "<C-\\><C-n><C-w>j", { desc = "Navigate to window below from terminal" })
-keymap.set("t", "<C-k>", "<C-\\><C-n><C-w>k", { desc = "Navigate to window above from terminal" })
-keymap.set("t", "<C-l>", "<C-\\><C-n><C-w>l", { desc = "Navigate to right window from terminal" })
-
---------------------------------------------------------------------------------
 -- 文件和会话管理
 --------------------------------------------------------------------------------
 
@@ -314,15 +296,6 @@ keymap.set("t", "<C-l>", "<C-\\><C-n><C-w>l", { desc = "Navigate to right window
 keymap.set("n", "<Leader>w", ":update<Return>", opts)
 keymap.set("n", "<Leader>q", ":quit<Return>", opts)
 keymap.set("n", "<Leader>Q", ":qa<Return>", opts)
-
---------------------------------------------------------------------------------
--- 诊断
---------------------------------------------------------------------------------
-
--- 跳转到下一个诊断
-keymap.set("n", "<C-j>", function()
-  vim.diagnostic.goto_next()
-end, opts)
 
 --------------------------------------------------------------------------------
 -- 自动命令
