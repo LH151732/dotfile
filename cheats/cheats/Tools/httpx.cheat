@@ -1,0 +1,55 @@
+% httpx,
+
+httpx.get("<url>")
+# 发送一个 GET 请求（同步）
+
+await httpx.get("<url>")
+# 发送一个 GET 请求（异步）
+
+httpx.post("<url>", json={"key": "value"})
+# 发送一个 POST 请求，包含 JSON 数据
+
+await httpx.post("<url>", data={"field": "value"})
+# 发送一个 POST 请求（异步），包含表单数据
+
+httpx.put("<url>", data="raw data")
+# 发送一个 PUT 请求，包含原始数据
+
+httpx.delete("<url>")
+# 发送一个 DELETE 请求
+
+httpx.get("<url>", headers={"Authorization": "Bearer <token>"})
+# 发送带有自定义头信息的 GET 请求
+
+httpx.get("<url>", params={"key": "value"})
+# 发送带有查询参数的 GET 请求
+
+httpx.get("<url>", timeout=10.0)
+# 设置请求超时时间为 10 秒
+
+httpx.Client()
+# 创建一个同步客户端
+
+httpx.AsyncClient()
+# 创建一个异步客户端
+
+with httpx.Client() as client:
+    client.get("<url>")
+# 使用上下文管理器管理同步客户端
+
+async with httpx.AsyncClient() as client:
+    await client.get("<url>")
+# 使用上下文管理器管理异步客户端
+
+httpx.get("<url>", proxies={"http": "http://proxy.com"})
+# 通过代理发送请求
+
+httpx.get("<url>", verify=False)
+# 忽略 SSL 证书验证
+
+httpx.get("<url>", cookies={"session": "123"})
+# 发送带有 cookies 的 GET 请求
+
+httpx.post("<url>", files={"file": open("file.txt", "rb")})
+# 上传文件
+

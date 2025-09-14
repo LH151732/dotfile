@@ -1,0 +1,4 @@
+% x11
+
+# 设置x11窗口透明
+xprop -f _NET_WM_WINDOW_OPACITY 32c -set _NET_WM_WINDOW_OPACITY 0x7FFFFFFF

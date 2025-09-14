@@ -1,0 +1,5 @@
+% rsync,
+
+# ssh 同步
+alias sync='rsync -az --partial --compress-level=<压缩级别>  --exclude="*.tmp" --delete <user@ip>:<同步源> <被同步>'
+
