@@ -1,4 +1,0 @@
-% intel,
-
-# 修改亮度
-brightnessctl -d intel_backlight set <百分比>%

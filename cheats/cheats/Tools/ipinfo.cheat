@@ -1,4 +1,0 @@
-% curl, api
-
-# 查询目标ip
-curl https://ipinfo.io/<目标ip地址>
