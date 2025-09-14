@@ -1,0 +1,59 @@
+% fd,
+
+# 在当前目录及其子目录中查找匹配的文件或目录
+fd <pattern>
+
+# 在指定目录中查找匹配的文件或目录
+fd <pattern> <directory>
+
+# 只查找文件
+fd -t f <pattern>
+
+# 只查找目录
+fd -t d <pattern>
+
+# 根据文件扩展名查找文件
+fd -e <extension>
+
+# 忽略 .gitignore 文件中的规则
+fd --no-ignore <pattern>
+
+# 忽略大小写的查找
+fd -i <pattern>
+
+# 限制递归深度
+fd -d <depth>
+
+# 对找到的每个文件执行一次命令
+fd -x <command>
+
+# 对所有找到的文件一次性执行命令
+fd -X <command>
+
+# 查找完整路径名包含特定模式的文件
+fd -p <pattern>
+
+# 使用固定字符串查找，而不是正则表达式
+fd -F <string>
+
+# 根据文件大小查找文件
+fd -S <size>
+
+# 强制使用彩色输出
+fd --color=always <pattern>
+
+# 禁用彩色输出
+fd --color=never <pattern>
+
+# 查找隐藏文件或目录
+fd --hidden
+
+# 排除特定的文件或目录
+fd --exclude <pattern>
+
+# 跟随符号链接
+fd --follow
+
+# 等同于 --follow，跟随符号链接
+fd -L
+
