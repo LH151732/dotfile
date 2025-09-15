@@ -21,7 +21,7 @@ return {
   -- For `plugins/markview.lua` users.
   "OXY2DEV/markview.nvim",
   lazy = false,
-  priority = 101,
+  priority = 49,
   opts = {
     experimental = {
       check_rtp_message = false,

@@ -2,6 +2,8 @@ return {
   -- Treesitter 配置，添加对多种语言的支持
   {
     "nvim-treesitter/nvim-treesitter",
+    dependencies = { "OXY2DEV/markview.nvim" },
+    lazy = false,
     tag = "v0.9.1",
     opts = {
       ensure_installed = {
