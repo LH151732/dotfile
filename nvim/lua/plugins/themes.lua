@@ -124,7 +124,7 @@ return {
     priority = 1000,
     config = function()
       vim.opt.termguicolors = true
-      
+
       -- 创建一个函数来设置透明背景
       local function set_melange_transparent()
         vim.api.nvim_set_hl(0, "Normal", { bg = "NONE" })
@@ -140,13 +140,13 @@ return {
         vim.api.nvim_set_hl(0, "Folded", { bg = "NONE" })
         vim.api.nvim_set_hl(0, "FoldColumn", { bg = "NONE" })
       end
-      
+
       -- 在 ColorScheme 事件时设置
       vim.api.nvim_create_autocmd("ColorScheme", {
         pattern = "melange",
         callback = set_melange_transparent,
       })
-      
+
       -- 在 VimEnter 和 BufEnter 时也设置，确保透明效果持续
       vim.api.nvim_create_autocmd({ "VimEnter", "BufEnter" }, {
         callback = function()
@@ -166,7 +166,7 @@ return {
     priority = 1000,
     config = function()
       vim.opt.termguicolors = true
-      
+
       local function set_spaceduck_transparent()
         vim.api.nvim_set_hl(0, "Normal", { bg = "NONE" })
         vim.api.nvim_set_hl(0, "NormalNC", { bg = "NONE" })
@@ -181,12 +181,12 @@ return {
         vim.api.nvim_set_hl(0, "Folded", { bg = "NONE" })
         vim.api.nvim_set_hl(0, "FoldColumn", { bg = "NONE" })
       end
-      
+
       vim.api.nvim_create_autocmd("ColorScheme", {
         pattern = "spaceduck",
         callback = set_spaceduck_transparent,
       })
-      
+
       vim.api.nvim_create_autocmd({ "VimEnter", "BufEnter" }, {
         callback = function()
           if vim.g.colors_name == "spaceduck" then
@@ -209,7 +209,7 @@ return {
     config = function(_, opts)
       vim.opt.termguicolors = true
       require("boo-colorscheme").use(opts)
-      
+
       local function set_boo_transparent()
         vim.api.nvim_set_hl(0, "Normal", { bg = "NONE" })
         vim.api.nvim_set_hl(0, "NormalNC", { bg = "NONE" })
@@ -224,12 +224,12 @@ return {
         vim.api.nvim_set_hl(0, "Folded", { bg = "NONE" })
         vim.api.nvim_set_hl(0, "FoldColumn", { bg = "NONE" })
       end
-      
+
       vim.api.nvim_create_autocmd("ColorScheme", {
         pattern = "boo",
         callback = set_boo_transparent,
       })
-      
+
       vim.api.nvim_create_autocmd({ "VimEnter", "BufEnter" }, {
         callback = function()
           if vim.g.colors_name == "boo" then
@@ -249,7 +249,7 @@ return {
     config = function()
       vim.opt.termguicolors = true
       local themes = {
-        "zenbones", "zenwritten", "neobones", "vimbones", 
+        "zenbones", "zenwritten", "neobones", "vimbones",
         "rosebones", "forestbones", "nordbones", "tokyobones",
         "seoulbones", "duckbones", "zenburned", "kanagawabones", "randombones"
       }

@@ -5,12 +5,9 @@
 -- 功能键映射:
 -- F1: 创建 ctags 并使用 Telescope 打开
 -- Ctrl+F1: 在新标签页中创建 ctags 并使用 Telescope 打开
--- F2: 水平分割执行当前文件 (支持 java/sh/py，md 用 frogmouth)
--- Shift+F2: 垂直分割执行当前文件
--- Ctrl+F2: 在新标签页中执行当前文件
--- F3: 水平分割打开 claude
--- Shift+F3: 垂直分割打开 claude
--- Ctrl+F3: 在新标签页中打开 claude
+-- F2: 水平分割打开 claude
+-- Shift+F2: 垂直分割打开 claude
+-- Ctrl+F2: 在新标签页中打开 claude
 -- F4: 水平分割打开终端
 -- Shift+F4: 垂直分割打开终端
 -- Ctrl+F4: 在新标签页中打开终端
@@ -109,85 +106,11 @@ vim.api.nvim_set_keymap(
   { noremap = true, silent = true }
 )
 
--- F2: 执行当前文件
-keymap.set("n", "<F2>", function()
-  execute_file("horizontal")
-end, opts)
-
-keymap.set("n", "<S-F2>", function()
-  execute_file("vertical")
-end, opts)
-
--- Ctrl+F2: 在新标签页中执行当前文件
-keymap.set("n", "<C-F2>", function()
-  execute_file("tab")
-end, opts)
-
--- F3: 打开 claude
+-- F2: 开始/继续调试 (nvim-dap)
+-- F3: PeekOpen 预览定义
 keymap.set("n", "<F3>", function()
-  -- 计算窗口高度的1/3作为新窗口的高度
-  local height = vim.fn.winheight(0) / 3
-  -- 在下方创建一个新的水平分割窗口并运行 claude
-  vim.cmd(string.format("belowright %d split | terminal claude", height))
-  -- 设置当终端进程退出时自动关闭窗口
-  vim.opt_local.bufhidden = "wipe"
-  -- 使用 TermClose 事件在终端关闭时自动关闭窗口
-  vim.api.nvim_create_autocmd("TermClose", {
-    buffer = 0,
-    callback = function()
-      vim.schedule(function()
-        if vim.api.nvim_buf_is_valid(0) then
-          vim.cmd("close")
-        end
-      end)
-    end,
-  })
-  -- 进入插入模式，让用户可以直接与 claude 交互
-  vim.cmd("startinsert")
-end, { desc = "Open claude in horizontal split" })
-
-keymap.set("n", "<S-F3>", function()
-  -- 计算窗口宽度的1/2作为新窗口的宽度
-  local width = vim.fn.winwidth(0) / 2
-  -- 在右侧创建一个新的垂直分割窗口并运行 claude
-  vim.cmd(string.format("belowright %d vsplit | terminal claude", width))
-  -- 设置当终端进程退出时自动关闭窗口
-  vim.opt_local.bufhidden = "wipe"
-  -- 使用 TermClose 事件在终端关闭时自动关闭窗口
-  vim.api.nvim_create_autocmd("TermClose", {
-    buffer = 0,
-    callback = function()
-      vim.schedule(function()
-        if vim.api.nvim_buf_is_valid(0) then
-          vim.cmd("close")
-        end
-      end)
-    end,
-  })
-  -- 进入插入模式，让用户可以直接与 claude 交互
-  vim.cmd("startinsert")
-end, { desc = "Open claude in vertical split" })
-
--- Ctrl+F3: 在新标签页中打开 claude
-keymap.set("n", "<C-F3>", function()
-  -- 在新标签页中运行 claude
-  vim.cmd("tabnew | terminal claude")
-  -- 设置当终端进程退出时自动关闭窗口
-  vim.opt_local.bufhidden = "wipe"
-  -- 使用 TermClose 事件在终端关闭时自动关闭窗口
-  vim.api.nvim_create_autocmd("TermClose", {
-    buffer = 0,
-    callback = function()
-      vim.schedule(function()
-        if vim.api.nvim_buf_is_valid(0) then
-          vim.cmd("close")
-        end
-      end)
-    end,
-  })
-  -- 进入插入模式，让用户可以直接与 claude 交互
-  vim.cmd("startinsert")
-end, { desc = "Open claude in new tab" })
+  vim.lsp.buf.definition()
+end, { desc = "PeekOpen Definition" })
 
 -- F4: 打开终端
 keymap.set("n", "<F4>", '<Cmd>exe winheight(0)/3 . "split" | term<CR>')
