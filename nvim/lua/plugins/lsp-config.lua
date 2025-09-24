@@ -25,9 +25,42 @@ return {
         },
       })
 
+      -- 获取Python路径的函数（支持uv虚拟环境）
+      local function get_python_path()
+        -- 使用激活的虚拟环境
+        if vim.env.VIRTUAL_ENV then
+          return vim.env.VIRTUAL_ENV .. "/bin/python"
+        end
+
+        -- 查找项目根目录的.venv
+        local root_dir = vim.fn.getcwd()
+        local venv_python = root_dir .. "/.venv/bin/python"
+        if vim.fn.filereadable(venv_python) == 1 then
+          return venv_python
+        end
+
+        -- 尝试使用uv python find
+        local uv_python = vim.fn.system("uv python find 2>/dev/null"):gsub("\n", "")
+        if vim.fn.filereadable(uv_python) == 1 then
+          return uv_python
+        end
+
+        -- 查找pyenv环境
+        local pyenv_path = vim.fn.system("pyenv which python 2>/dev/null"):gsub("\n", "")
+        if vim.fn.filereadable(pyenv_path) == 1 then
+          return pyenv_path
+        end
+
+        -- 默认系统Python
+        return vim.fn.exepath("python3") or vim.fn.exepath("python") or "python"
+      end
+
       -- Python - pyright (用于补全和类型检查)
       lspconfig.pyright.setup({
         capabilities = capabilities,
+        before_init = function(_, config)
+          config.settings.python.pythonPath = get_python_path()
+        end,
         settings = {
           python = {
             analysis = {

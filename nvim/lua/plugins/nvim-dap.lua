@@ -66,22 +66,34 @@ return {
       end
 
       local function get_uv_python_path()
-        -- 优先使用 pyenv common 环境
+        -- 优先使用激活的虚拟环境
+        if vim.env.VIRTUAL_ENV then
+          local venv_python = vim.env.VIRTUAL_ENV .. "/bin/python"
+          if vim.fn.executable(venv_python) == 1 then
+            return venv_python
+          end
+        end
+
+        -- 检查项目根目录的.venv
+        local venv_python = vim.fn.getcwd() .. "/.venv/bin/python"
+        if vim.fn.executable(venv_python) == 1 then
+          return venv_python
+        end
+
+        -- 使用 uv python find 查找
+        local uv_python = vim.fn.system("uv python find 2>/dev/null"):gsub("\n", "")
+        if vim.fn.executable(uv_python) == 1 then
+          return uv_python
+        end
+
+        -- 使用 pyenv common 环境
         local pyenv_common = os.getenv("HOME") .. "/.pyenv/versions/common/bin/python"
         if vim.fn.executable(pyenv_common) == 1 then
           return pyenv_common
         end
 
-        if is_uv_project() then
-          -- 检查 uv 虚拟环境中的 Python 路径
-          local venv_python = ".venv/bin/python"
-          if vim.fn.executable(venv_python) == 1 then
-            return vim.fn.resolve(vim.fn.getcwd() .. "/" .. venv_python)
-          end
-        end
-
-        -- 最后回退到 pyenv 默认或系统 Python
-        return "python"
+        -- 最后回退到系统 Python
+        return vim.fn.exepath("python3") or vim.fn.exepath("python") or "python"
       end
 
       --------------------------------------------------------------------------------
@@ -163,6 +175,21 @@ return {
 
       -- Python - 智能检测 uv 环境
       require("dap-python").setup(get_uv_python_path())
+
+      -- 添加自动更新调试器路径的功能（与 venv-selector 集成）
+      local function update_dap_python_path()
+        local new_python_path = get_uv_python_path()
+        require("dap-python").setup(new_python_path)
+        vim.notify("DAP Python path updated to: " .. new_python_path, vim.log.levels.INFO)
+      end
+
+      -- 监听虚拟环境变化（当VIRTUAL_ENV环境变量改变时）
+      vim.api.nvim_create_autocmd("User", {
+        pattern = "VenvSelecterActivated",
+        callback = function()
+          update_dap_python_path()
+        end,
+      })
 
       -- 清空默认配置，使用自定义配置
       dap.configurations.python = {}
