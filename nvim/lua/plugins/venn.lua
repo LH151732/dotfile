@@ -3,7 +3,7 @@ return {
     "jbyuki/venn.nvim",
     dependencies = {
       "nvim-treesitter/nvim-treesitter",
-      "echasnovski/mini.nvim",
+      "nvim-mini/mini.nvim",
     },
     config = function()
       -- venn.nvim: enable or disable keymappings
