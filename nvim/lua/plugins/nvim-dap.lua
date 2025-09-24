@@ -203,6 +203,12 @@ return {
           name = "Launch file (uv)",
           program = "${file}",
           pythonPath = python_path,
+          stopOnEntry = false,
+          console = "integratedTerminal",
+          -- 程序完成后不自动退出调试会话
+          autoReload = {
+            enable = true
+          },
         })
         table.insert(dap.configurations.python, {
           type = "python",
@@ -210,10 +216,15 @@ return {
           name = "Launch file with arguments (uv)",
           program = "${file}",
           pythonPath = python_path,
+          stopOnEntry = false,
+          console = "integratedTerminal",
           args = function()
             local args_string = vim.fn.input("Arguments: ")
             return vim.split(args_string, " +")
           end,
+          autoReload = {
+            enable = true
+          },
         })
         table.insert(dap.configurations.python, {
           type = "python",
@@ -222,6 +233,11 @@ return {
           module = "pytest",
           pythonPath = python_path,
           args = { "${workspaceFolder}" },
+          stopOnEntry = false,
+          console = "integratedTerminal",
+          autoReload = {
+            enable = true
+          },
         })
       else
         -- 普通 Python 项目配置
@@ -230,16 +246,26 @@ return {
           request = "launch",
           name = "Launch file",
           program = "${file}",
+          stopOnEntry = false,
+          console = "integratedTerminal",
+          autoReload = {
+            enable = true
+          },
         })
         table.insert(dap.configurations.python, {
           type = "python",
           request = "launch",
           name = "Launch file with arguments",
           program = "${file}",
+          stopOnEntry = false,
+          console = "integratedTerminal",
           args = function()
             local args_string = vim.fn.input("Arguments: ")
             return vim.split(args_string, " +")
           end,
+          autoReload = {
+            enable = true
+          },
         })
       end
 
