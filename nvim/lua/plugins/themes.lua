@@ -1,7 +1,7 @@
 return {
   -- 颜色高亮插件
   {
-    "echasnovski/mini.hipatterns",
+    "nvim-mini/mini.hipatterns",
     event = "BufReadPre",
     opts = {},
   },
