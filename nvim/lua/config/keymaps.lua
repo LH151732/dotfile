@@ -34,13 +34,37 @@ local opts = { noremap = true, silent = true }
 -- 辅助函数
 --------------------------------------------------------------------------------
 
+-- 获取Python解释器路径（支持虚拟环境）
+local function get_python_interpreter()
+  -- 使用激活的虚拟环境
+  if vim.env.VIRTUAL_ENV then
+    return vim.env.VIRTUAL_ENV .. "/bin/python"
+  end
+
+  -- 检查项目根目录的.venv
+  local root_dir = vim.fn.getcwd()
+  local venv_python = root_dir .. "/.venv/bin/python"
+  if vim.fn.executable(venv_python) == 1 then
+    return venv_python
+  end
+
+  -- 尝试使用uv python find
+  local uv_python = vim.fn.system("uv python find 2>/dev/null"):gsub("\n", "")
+  if vim.fn.executable(uv_python) == 1 then
+    return uv_python
+  end
+
+  -- 默认系统Python
+  return "python"
+end
+
 -- 执行当前文件
 local function execute_file(split_type)
   local file_extension = vim.fn.expand("%:e")
   local commands = {
     java = "java",
     sh = "bash",
-    py = "python",
+    py = get_python_interpreter(), -- 使用虚拟环境的Python
     md = "frogmouth",
     markdown = "frogmouth", -- 支持 .markdown 扩展名
   }
@@ -110,7 +134,7 @@ vim.api.nvim_set_keymap(
 -- F3: PeekOpen 预览定义
 keymap.set("n", "<F3>", function()
   vim.lsp.buf.definition()
-end, { desc = "PeekOpen Definition" })
+end, { desc = "PeekOpen" })
 
 -- F4: 打开终端
 keymap.set("n", "<F4>", '<Cmd>exe winheight(0)/3 . "split" | term<CR>')
