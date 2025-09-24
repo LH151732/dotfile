@@ -120,20 +120,20 @@ end
 
 -- F1: 创建 ctags 并使用 Telescope 打开标签
 local builtin = require("telescope.builtin")
-vim.api.nvim_set_keymap("n", "<F1>", ":!ctags -R<CR>:Telescope tags<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<F1>", ":!ctags -R --exclude=.venv --exclude=venv --exclude=node_modules --exclude=.git<CR>:Telescope tags<CR>", { noremap = true, silent = true })
 
 -- Ctrl+F1: 在新标签页中创建 ctags 并使用 Telescope 打开
 vim.api.nvim_set_keymap(
   "n",
   "<C-F1>",
-  ":tabnew<CR>:!ctags -R<CR>:Telescope tags<CR>",
+  ":tabnew<CR>:!ctags -R --exclude=.venv --exclude=venv --exclude=node_modules --exclude=.git<CR>:Telescope tags<CR>",
   { noremap = true, silent = true }
 )
 
 -- F2: 开始/继续调试 (nvim-dap)
 -- F3: PeekOpen 预览定义
 keymap.set("n", "<F3>", function()
-  vim.lsp.buf.definition()
+  require("telescope.builtin").lsp_definitions()
 end, { desc = "PeekOpen" })
 
 -- F4: 打开终端
