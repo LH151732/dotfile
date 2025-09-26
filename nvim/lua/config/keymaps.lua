@@ -8,6 +8,7 @@
 -- F2: 水平分割打开 claude
 -- Shift+F2: 垂直分割打开 claude
 -- Ctrl+F2: 在新标签页中打开 claude
+-- F3: 打开 Outline 代码大纲
 -- F4: 水平分割打开终端
 -- Shift+F4: 垂直分割打开终端
 -- Ctrl+F4: 在新标签页中打开终端
@@ -131,10 +132,8 @@ vim.api.nvim_set_keymap(
 )
 
 -- F2: 开始/继续调试 (nvim-dap)
--- F3: PeekOpen 预览定义
-keymap.set("n", "<F3>", function()
-  require("telescope.builtin").lsp_definitions()
-end, { desc = "PeekOpen" })
+-- F3: 打开 Outline 代码大纲
+keymap.set("n", "<F3>", "<cmd>Outline<cr>", { desc = "Open Outline" })
 
 -- F4: 打开终端
 keymap.set("n", "<F4>", '<Cmd>exe winheight(0)/3 . "split" | term<CR>')
