@@ -1,1 +1,1 @@
-yay -S fcitx5-chinese-addons fcitx5-emoji ttf-twemoji ttf-joypixels noto-fonts noto-fonts-cjk noto-fonts-emoji
+yay -S fcitx5-chinese-addons fcitx5-emoji ttf-twemoji ttf-joypixels noto-fonts noto-fonts-cjk noto-fonts-emoji fcitx5-configtool fcitx5 fcitx5-simple-theme
