@@ -226,7 +226,7 @@ keymap.set("i", "<C-a>", "<C-o>^", opts)
 keymap.set("i", "<C-l>", "<C-o>o", opts)
 
 -- 删除操作
-keymap.set("i", "<C-w>", "<C-\\><C-o>db", opts) -- 删除光标前的一个单词
+keymap.set("i", "<C-w>", "<C-\\><C-o>\"_db", opts) -- 删除光标前的一个单词(不进入剪贴板)
 keymap.set("i", "<C-u>", "<C-\\><C-o>d0", opts) -- 删除光标前的整行内容
 keymap.set("i", "<C-h>", "<BS>", opts) -- 删除光标前的一个字符
 
