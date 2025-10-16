@@ -1,1 +1,11 @@
 **/.claude/settings.local.json
+
+# VSCode/Code-OSS 缓存和配置
+Code - OSS/
+
+# 工作空间存储
+**/workspaceStorage/
+
+# 壁纸图片(大文件)
+hyde/themes/*/wallpapers/*.png
+hyde/themes/*/wallpapers/*.jpg
