@@ -3,38 +3,40 @@ return {
   {
     "nvim-treesitter/nvim-treesitter",
     dependencies = { "OXY2DEV/markview.nvim" },
-    lazy = false,
-    tag = "v0.9.1",
+    build = ":TSUpdate",
+    event = { "BufReadPost", "BufNewFile" },
+    main = "nvim-treesitter",
     opts = {
       ensure_installed = {
+        "lua",
+        "python",
+        "java",
         "javascript",
         "typescript",
+        "tsx",
+        "json",
+        "yaml",
+        "html",
         "css",
+        "scss",
+        "bash",
+        "markdown",
+        "markdown_inline",
+        "vim",
+        "vimdoc",
         "gitignore",
         "graphql",
         "http",
-        "json",
-        "scss",
         "sql",
-        "vim",
-        "lua",
-        "markdown", -- 支持 Markdown
-        "markdown_inline", -- 支持内联 Markdown
-        "r", -- 支持 R 语言
-        "java", -- 支持 Java
-        "python", -- 支持 Python
+        "r",
       },
+      auto_install = true,
       highlight = {
         enable = true,
-        additional_vim_regex_highlighting = { "markdown" }, -- 仅在 Markdown 中启用额外的高亮
+        additional_vim_regex_highlighting = { "markdown" },
       },
-      query_linter = {
-        enable = true,
-        use_virtual_text = true,
-        lint_events = { "BufWrite", "CursorHold" },
-      },
+      indent = { enable = true },
     },
-    ft = { "markdown", "rmarkdown" }, -- 仅在 Markdown 和 R Markdown 文件中启用 Treesitter
     priority = 100,
   },
   -- Markdown 支持插件

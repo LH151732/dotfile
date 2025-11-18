@@ -5,9 +5,7 @@ return {
     { "nvim-telescope/telescope.nvim", branch = "0.1.x", dependencies = { "nvim-lua/plenary.nvim" } },
   },
   ft = "python", -- 只在打开Python文件时加载
-  keys = {
-    { "<leader>vs", "<cmd>VenvSelect<cr>", desc = "选择虚拟环境" },
-  },
+  cmd = "VenvSelect", -- 通过命令启动
   opts = {
     search = {
       -- 自定义搜索配置（可选）

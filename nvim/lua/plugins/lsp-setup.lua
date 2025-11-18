@@ -1,36 +1,4 @@
 return {
-  -- 添加一些基本的LSP设置
-  {
-    "nvim-treesitter/nvim-treesitter",
-    build = ":TSUpdate",
-    event = { "BufReadPost", "BufNewFile" },
-    config = function()
-      require("nvim-treesitter.configs").setup({
-        highlight = {
-          enable = true,
-          additional_vim_regex_highlighting = false,
-        },
-        indent = { enable = true },
-        ensure_installed = {
-          "lua",
-          "python",
-          "java",
-          "javascript",
-          "typescript",
-          "json",
-          "yaml",
-          "html",
-          "css",
-          "bash",
-          "markdown",
-          "tsx",
-          "vim",
-          "vimdoc",
-        },
-      })
-    end,
-  },
-
   -- LSP自动命令
   {
     "neovim/nvim-lspconfig",
