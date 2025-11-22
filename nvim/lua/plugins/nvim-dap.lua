@@ -16,7 +16,6 @@
 -- Enter: 切换断点
 -- <leader>B: 设置条件断点
 -- <leader>do: 单步退出
--- <leader>dr: 打开REPL
 -- 更多快捷键详见下文
 
 return {
@@ -107,7 +106,6 @@ return {
           open = "o",
           remove = "d",
           edit = "e",
-          repl = "r",
           toggle = "t",
         },
         -- 使用浮动窗口
@@ -123,20 +121,20 @@ return {
         layouts = {
           {
             elements = {
-              { id = "scopes", size = 0.25 },
-              { id = "breakpoints", size = 0.25 },
-              { id = "stacks", size = 0.25 },
-              { id = "watches", size = 0.25 },
+              { id = "scopes", size = 0.35 }, -- 变量作用域（增大）
+              { id = "breakpoints", size = 0.30 }, -- 断点列表
+              -- { id = "stacks", size = 0.25 },    -- 调用栈（注释掉）
+              { id = "watches", size = 0.35 }, -- 监视表达式（增大）
             },
             size = 40,
             position = "right", -- 改为右侧
           },
           {
             elements = {
-              { id = "repl", size = 0.5 },
-              { id = "console", size = 0.5 },
+              -- 只保留终端输出，移除REPL
+              { id = "console", size = 1.0 }, -- 终端占满整个底部
             },
-            size = 10,
+            size = 18, -- 增大底部面板高度（从10改到18）
             position = "bottom",
           },
         },
@@ -207,7 +205,7 @@ return {
           console = "integratedTerminal",
           -- 程序完成后不自动退出调试会话
           autoReload = {
-            enable = true
+            enable = true,
           },
         })
         table.insert(dap.configurations.python, {
@@ -223,7 +221,7 @@ return {
             return vim.split(args_string, " +")
           end,
           autoReload = {
-            enable = true
+            enable = true,
           },
         })
         table.insert(dap.configurations.python, {
@@ -236,7 +234,7 @@ return {
           stopOnEntry = false,
           console = "integratedTerminal",
           autoReload = {
-            enable = true
+            enable = true,
           },
         })
       else
@@ -249,7 +247,7 @@ return {
           stopOnEntry = false,
           console = "integratedTerminal",
           autoReload = {
-            enable = true
+            enable = true,
           },
         })
         table.insert(dap.configurations.python, {
@@ -264,7 +262,7 @@ return {
             return vim.split(args_string, " +")
           end,
           autoReload = {
-            enable = true
+            enable = true,
           },
         })
       end
@@ -275,7 +273,8 @@ return {
       -- Java - 配置调试适配器
       dap.adapters.java = {
         type = "executable",
-        command = vim.fn.stdpath("data") .. "/mason/packages/java-debug-adapter/extension/server/com.microsoft.java.debug.plugin-*.jar",
+        command = vim.fn.stdpath("data")
+          .. "/mason/packages/java-debug-adapter/extension/server/com.microsoft.java.debug.plugin-*.jar",
         args = {},
       }
 
@@ -404,10 +403,18 @@ return {
         dapui.open()
       end
       dap.listeners.before.event_terminated["dapui_config"] = function()
-        dapui.close()
+        -- 程序终止时，延迟5秒后关闭UI（让用户有时间查看结果）
+        vim.notify("调试结束，5秒后自动关闭面板...", vim.log.levels.INFO)
+        vim.defer_fn(function()
+          dapui.close()
+        end, 5000) -- 5000毫秒 = 5秒
       end
       dap.listeners.before.event_exited["dapui_config"] = function()
-        dapui.close()
+        -- 程序退出时，延迟5秒后关闭UI
+        vim.notify("程序退出，5秒后自动关闭面板...", vim.log.levels.INFO)
+        vim.defer_fn(function()
+          dapui.close()
+        end, 5000) -- 5000毫秒 = 5秒
       end
 
       --------------------------------------------------------------------------------

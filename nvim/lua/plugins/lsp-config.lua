@@ -12,15 +12,26 @@ return {
       -- 获取blink.cmp的LSP能力配置
       local capabilities = require("blink.cmp").get_lsp_capabilities()
 
+      -- 统一position encoding为UTF-16(LSP标准),避免多客户端冲突
+      capabilities.general = capabilities.general or {}
+      capabilities.general.positionEncodings = { "utf-16" }
+
       -- 设置服务器
       local lspconfig = require("lspconfig")
 
-      -- Python - ruff (用于linting)
-      lspconfig.ruff_lsp.setup({
+      -- Python - ruff (用于linting和formatting)
+      lspconfig.ruff.setup({
         capabilities = capabilities,
-        settings = {
-          ruff = {
-            enableCompletion = true,
+        init_options = {
+          settings = {
+            -- 禁用ruff的补全,避免与basedpyright冲突
+            lineLength = 88,
+            lint = {
+              enable = true,
+            },
+            format = {
+              preview = false,
+            },
           },
         },
       })
@@ -55,19 +66,29 @@ return {
         return vim.fn.exepath("python3") or vim.fn.exepath("python") or "python"
       end
 
-      -- Python - pyright (用于补全和类型检查)
-      lspconfig.pyright.setup({
+      -- Python - basedpyright (pyright的增强版,用于补全和类型检查)
+      lspconfig.basedpyright.setup({
         capabilities = capabilities,
         before_init = function(_, config)
+          -- 初始化 python 配置字段
+          config.settings.python = config.settings.python or {}
           config.settings.python.pythonPath = get_python_path()
         end,
         settings = {
-          python = {
+          basedpyright = {
             analysis = {
-              typeCheckingMode = "basic",
+              typeCheckingMode = "standard", -- basedpyright推荐使用standard或all
               autoSearchPaths = true,
               useLibraryCodeForTypes = true,
+              diagnosticMode = "openFilesOnly", -- 只检查打开的文件
+              -- basedpyright特有功能
+              enableTypeIgnoreComments = true,
+              reportingMode = "standard",
             },
+          },
+          -- Python 解释器配置
+          python = {
+            pythonPath = get_python_path(),
           },
         },
       })
@@ -108,7 +129,7 @@ return {
     opts = {
       ensure_installed = {
         "ruff", -- Python linter/formatter
-        "pyright", -- Python LSP for type checking
+        "basedpyright", -- Python LSP for type checking (pyright增强版)
         "jdtls", -- Java
         "lua-language-server", -- Lua
         "typescript-language-server", -- TypeScript
@@ -170,24 +191,24 @@ return {
         pattern = "java",
         callback = function()
           local jdtls = require("jdtls")
-          
+
           -- 查找项目根目录
           local root_markers = { ".git", "mvnw", "gradlew", "pom.xml", "build.gradle" }
           local root_dir = require("jdtls.setup").find_root(root_markers)
-          
+
           -- 如果没有找到项目根目录，使用当前目录
           if not root_dir then
             root_dir = vim.fn.getcwd()
           end
-          
+
           -- 工作空间目录
           local project_name = vim.fn.fnamemodify(root_dir, ":p:h:t")
           local workspace_dir = vim.fn.stdpath("data") .. "/jdtls-workspace/" .. project_name
-          
+
           -- 获取 Mason 安装的 jdtls 路径
           local mason_path = vim.fn.glob(vim.fn.stdpath("data") .. "/mason/packages/jdtls")
           local launcher_jar = vim.fn.glob(mason_path .. "/plugins/org.eclipse.equinox.launcher_*.jar")
-          
+
           -- 配置
           local config = {
             cmd = {
@@ -199,15 +220,20 @@ return {
               "-Dlog.level=ALL",
               "-Xmx1g",
               "--add-modules=ALL-SYSTEM",
-              "--add-opens", "java.base/java.util=ALL-UNNAMED",
-              "--add-opens", "java.base/java.lang=ALL-UNNAMED",
-              "-jar", launcher_jar,
-              "-configuration", mason_path .. "/config_linux",
-              "-data", workspace_dir,
+              "--add-opens",
+              "java.base/java.util=ALL-UNNAMED",
+              "--add-opens",
+              "java.base/java.lang=ALL-UNNAMED",
+              "-jar",
+              launcher_jar,
+              "-configuration",
+              mason_path .. "/config_linux",
+              "-data",
+              workspace_dir,
             },
-            
+
             root_dir = root_dir,
-            
+
             -- 配置设置
             settings = {
               java = {
@@ -240,15 +266,15 @@ return {
                   "org.hamcrest.Matchers.*",
                   "org.hamcrest.CoreMatchers.*",
                   "org.junit.jupiter.api.Assertions.*",
-                  "org.mockito.Mockito.*"
+                  "org.mockito.Mockito.*",
                 },
               },
             },
-            
+
             -- 语言服务器能力
             capabilities = require("blink.cmp").get_lsp_capabilities(),
           }
-          
+
           -- 启动或附加到 jdtls
           jdtls.start_or_attach(config)
         end,
@@ -288,4 +314,3 @@ return {
     end,
   },
 }
-

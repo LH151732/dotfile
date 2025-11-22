@@ -29,11 +29,6 @@ return {
             vim.lsp.buf.format({ async = true })
           end, { buffer = bufnr, desc = "格式化" })
 
-          -- 特殊处理Python文件和ruff_lsp
-          if client.name == "ruff_lsp" and vim.bo[bufnr].filetype == "python" then
-            -- 确保ruff作为补全源
-          end
-
           -- 特殊处理Java文件和jdtls
           if client.name == "jdtls" and vim.bo[bufnr].filetype == "java" then
           end
@@ -42,4 +37,3 @@ return {
     end,
   },
 }
-
