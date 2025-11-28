@@ -403,18 +403,18 @@ return {
         dapui.open()
       end
       dap.listeners.before.event_terminated["dapui_config"] = function()
-        -- 程序终止时，延迟5秒后关闭UI（让用户有时间查看结果）
-        vim.notify("调试结束，5秒后自动关闭面板...", vim.log.levels.INFO)
+        -- 程序终止时，延迟3秒后关闭UI（让用户有时间查看结果）
+        vim.notify("调试结束，3秒后自动关闭面板...", vim.log.levels.INFO)
         vim.defer_fn(function()
           dapui.close()
-        end, 5000) -- 5000毫秒 = 5秒
+        end, 3000) -- 3000毫秒 = 3秒
       end
       dap.listeners.before.event_exited["dapui_config"] = function()
-        -- 程序退出时，延迟5秒后关闭UI
-        vim.notify("程序退出，5秒后自动关闭面板...", vim.log.levels.INFO)
+        -- 程序退出时，延迟3秒后关闭UI
+        vim.notify("程序退出，3秒后自动关闭面板...", vim.log.levels.INFO)
         vim.defer_fn(function()
           dapui.close()
-        end, 5000) -- 5000毫秒 = 5秒
+        end, 3000) -- 3000毫秒 = 3秒
       end
 
       --------------------------------------------------------------------------------

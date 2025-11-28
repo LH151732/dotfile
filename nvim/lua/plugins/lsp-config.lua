@@ -30,7 +30,7 @@ return {
               enable = true,
             },
             format = {
-              preview = false,
+              preview = true,
             },
           },
         },
@@ -107,9 +107,54 @@ return {
 
       -- 其他服务器
       lspconfig.eslint.setup({ capabilities = capabilities })
-      lspconfig.tsserver.setup({ capabilities = capabilities })
+      lspconfig.ts_ls.setup({ capabilities = capabilities }) -- tsserver 已更名为 ts_ls
       lspconfig.tailwindcss.setup({ capabilities = capabilities })
       lspconfig.jsonls.setup({ capabilities = capabilities })
+
+      -- Svelte
+      lspconfig.svelte.setup({
+        capabilities = capabilities,
+        root_dir = function(fname)
+          local util = require("lspconfig.util")
+          return util.root_pattern("package.json", "svelte.config.js", "svelte.config.ts", ".git")(fname)
+            or vim.fn.getcwd()
+        end,
+        on_attach = function(client, bufnr)
+          -- Svelte 文件更新时通知 LSP
+          vim.api.nvim_create_autocmd("BufWritePost", {
+            pattern = { "*.js", "*.ts" },
+            callback = function(ctx)
+              client.notify("$/onDidChangeTsOrJsFile", { uri = ctx.match })
+            end,
+          })
+        end,
+      })
+
+      -- HTML
+      lspconfig.html.setup({
+        capabilities = capabilities,
+        root_dir = function(fname)
+          return vim.fn.getcwd()
+        end,
+      })
+
+      -- Rust
+      lspconfig.rust_analyzer.setup({
+        capabilities = capabilities,
+        settings = {
+          ["rust-analyzer"] = {
+            checkOnSave = {
+              command = "clippy", -- 使用 clippy 检查
+            },
+            cargo = {
+              allFeatures = true,
+            },
+            procMacro = {
+              enable = true,
+            },
+          },
+        },
+      })
     end,
   },
 
@@ -136,6 +181,10 @@ return {
         "eslint-lsp", -- ESLint
         "json-lsp", -- JSON
         "tailwindcss-language-server", -- Tailwind CSS
+        "svelte-language-server", -- Svelte
+        "html-lsp", -- HTML
+        "rust-analyzer", -- Rust LSP
+        "rustfmt", -- Rust formatter
         "stylua", -- Lua formatter
         "shfmt", -- Shell formatter
         "prettier", -- JavaScript/TypeScript formatter

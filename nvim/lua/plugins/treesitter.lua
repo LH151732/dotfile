@@ -29,6 +29,9 @@ return {
         "http",
         "sql",
         "r",
+        "svelte", -- Svelte (包含嵌入的 HTML/CSS/JS)
+        "rust", -- Rust
+        "toml", -- Cargo.toml
       },
       auto_install = true,
       highlight = {
