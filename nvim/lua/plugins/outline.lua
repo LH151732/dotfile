@@ -7,7 +7,7 @@ return {
       -- 大纲窗口设置
       outline_window = {
         position = "right",
-        width = 25,
+        width = 15,
         relative_width = true,
         auto_close = false,
         auto_jump = false,
