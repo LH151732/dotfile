@@ -20,8 +20,9 @@
 -- 0: 跳转到行尾
 --
 -- 窗口管理:
--- sh/sk/sj/sl: 在窗口间移动
+-- Alt+左/右/上/下: 在窗口间切换 (n/i/t 模式)
 -- Alt+Ctrl+左/右/上/下: 调整窗口大小 (n/i 模式)
+-- Esc: 终端模式下退出到普通模式
 --
 -- 更多键位映射详见下文
 
@@ -121,7 +122,12 @@ end
 
 -- F1: 创建 ctags 并使用 Telescope 打开标签
 local builtin = require("telescope.builtin")
-vim.api.nvim_set_keymap("n", "<F1>", ":!ctags -R --exclude=.venv --exclude=venv --exclude=node_modules --exclude=.git<CR>:Telescope tags<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap(
+  "n",
+  "<F1>",
+  ":!ctags -R --exclude=.venv --exclude=venv --exclude=node_modules --exclude=.git<CR>:Telescope tags<CR>",
+  { noremap = true, silent = true }
+)
 
 -- Ctrl+F1: 在新标签页中创建 ctags 并使用 Telescope 打开
 vim.api.nvim_set_keymap(
@@ -145,6 +151,25 @@ keymap.set("n", "<C-F4>", "<Cmd>tabnew | term<CR>")
 --------------------------------------------------------------------------------
 -- 窗口管理
 --------------------------------------------------------------------------------
+
+-- Alt+方向键切换窗口 (normal, insert, terminal 模式)
+keymap.set("n", "<M-Left>", "<C-w>h", opts)
+keymap.set("n", "<M-Right>", "<C-w>l", opts)
+keymap.set("n", "<M-Up>", "<C-w>k", opts)
+keymap.set("n", "<M-Down>", "<C-w>j", opts)
+
+keymap.set("i", "<M-Left>", "<C-o><C-w>h", opts)
+keymap.set("i", "<M-Right>", "<C-o><C-w>l", opts)
+keymap.set("i", "<M-Up>", "<C-o><C-w>k", opts)
+keymap.set("i", "<M-Down>", "<C-o><C-w>j", opts)
+
+keymap.set("t", "<M-Left>", "<C-\\><C-n><C-w>h", opts)
+keymap.set("t", "<M-Right>", "<C-\\><C-n><C-w>l", opts)
+keymap.set("t", "<M-Up>", "<C-\\><C-n><C-w>k", opts)
+keymap.set("t", "<M-Down>", "<C-\\><C-n><C-w>j", opts)
+
+-- 终端模式下按 Esc 退出到普通模式
+keymap.set("t", "<Esc>", "<C-\\><C-n>", opts)
 
 -- Alt+Ctrl+方向键调整窗口大小 (normal 和 insert 模式)
 keymap.set("n", "<M-C-Left>", "<C-w>>", opts)
@@ -226,7 +251,7 @@ keymap.set("i", "<C-a>", "<C-o>^", opts)
 keymap.set("i", "<C-l>", "<C-o>o", opts)
 
 -- 删除操作
-keymap.set("i", "<C-w>", "<C-\\><C-o>\"_db", opts) -- 删除光标前的一个单词(不进入剪贴板)
+keymap.set("i", "<C-w>", '<C-\\><C-o>"_db', opts) -- 删除光标前的一个单词(不进入剪贴板)
 keymap.set("i", "<C-u>", "<C-\\><C-o>d0", opts) -- 删除光标前的整行内容
 keymap.set("i", "<C-h>", "<BS>", opts) -- 删除光标前的一个字符
 
