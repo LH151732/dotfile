@@ -138,6 +138,42 @@ return {
         end,
       })
 
+      -- C/C++ - clangd
+      lspconfig.clangd.setup({
+        capabilities = capabilities,
+        cmd = {
+          "clangd",
+          "--background-index",
+          "--clang-tidy",
+          "--header-insertion=iwyu",
+          "--completion-style=detailed",
+          "--function-arg-placeholders",
+          "--fallback-style=llvm",
+        },
+        init_options = {
+          usePlaceholders = true,
+          completeUnimported = true,
+          clangdFileStatus = true,
+        },
+      })
+
+      -- Go - gopls
+      lspconfig.gopls.setup({
+        capabilities = capabilities,
+        settings = {
+          gopls = {
+            analyses = {
+              unusedparams = true,
+              shadow = true,
+            },
+            staticcheck = true,
+            gofumpt = true,
+            usePlaceholders = true,
+            completeUnimported = true,
+          },
+        },
+      })
+
       -- Rust
       lspconfig.rust_analyzer.setup({
         capabilities = capabilities,
@@ -185,6 +221,10 @@ return {
         "html-lsp", -- HTML
         "rust-analyzer", -- Rust LSP
         "rustfmt", -- Rust formatter
+        "clangd", -- C/C++ LSP
+        "gopls", -- Go LSP
+        "gofumpt", -- Go formatter
+        "goimports", -- Go imports organizer
         "stylua", -- Lua formatter
         "shfmt", -- Shell formatter
         "prettier", -- JavaScript/TypeScript formatter
