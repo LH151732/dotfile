@@ -158,7 +158,7 @@ return {
     cmd = "ZenMode",
     keys = {
       {
-        "<leader>z",
+        "<leader>Z",
         function()
           require("zen-mode").toggle()
         end,
