@@ -19,12 +19,25 @@ return {
     end,
   },
   -- For `plugins/markview.lua` users.
-  "OXY2DEV/markview.nvim",
-  lazy = false,
-  priority = 49,
-  opts = {
-    experimental = {
-      check_rtp_message = false,
+  {
+    "OXY2DEV/markview.nvim",
+    lazy = false,
+    priority = 49,
+    opts = {
+      experimental = {
+        check_rtp_message = false,
+      },
+      preview = {
+        modes = { "n", "no", "c", "i" },
+        hybrid_modes = { "n", "no", "c", "i" },
+        -- false = node-wise 模式，只清除光标下的语法节点
+        -- true = line-wise 模式，清除整行
+        linewise_hybrid_mode = false,
+      },
+    },
+    keys = {
+      { "<leader>mh", "<CMD>Markview HybridToggle<CR>", desc = "Toggle Hybrid Mode" },
+      { "<leader>ml", "<CMD>Markview linewiseToggle<CR>", desc = "Toggle Line-wise Hybrid" },
     },
   },
 }

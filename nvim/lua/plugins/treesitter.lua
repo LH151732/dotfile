@@ -32,6 +32,13 @@ return {
         "svelte", -- Svelte (包含嵌入的 HTML/CSS/JS)
         "rust", -- Rust
         "toml", -- Cargo.toml
+        "go", -- Go
+        "gomod", -- go.mod
+        "gosum", -- go.sum
+        "gowork", -- go.work
+        "cpp", -- C++
+        "c", -- C
+        "cmake", -- CMakeLists.txt
       },
       auto_install = true,
       highlight = {
