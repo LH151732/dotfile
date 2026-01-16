@@ -37,3 +37,18 @@ vim.opt.number = true
 vim.opt.relativenumber = false
 
 vim.opt.formatoptions:append({ "r" })
+
+-- SSH 远程剪贴板支持 (OSC 52)
+if vim.env.SSH_TTY then
+  vim.g.clipboard = {
+    name = 'OSC 52',
+    copy = {
+      ['+'] = require('vim.ui.clipboard.osc52').copy('+'),
+      ['*'] = require('vim.ui.clipboard.osc52').copy('*'),
+    },
+    paste = {
+      ['+'] = require('vim.ui.clipboard.osc52').paste('+'),
+      ['*'] = require('vim.ui.clipboard.osc52').paste('*'),
+    },
+  }
+end
